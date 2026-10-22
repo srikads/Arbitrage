@@ -7,8 +7,12 @@ export type PositionView = {
   snap: InstrumentSnapshot | null;
   price: number | null;
   currency: string;
-  /** Market value; falls back to cost basis when no price is known. */
+  /** Market value in the instrument's currency; falls back to cost basis when no price is known. */
   value: number;
+  /** EUR per unit of `currency` (from the feed), or null when no rate is known yet. */
+  fx: number | null;
+  /** `value` converted to the base currency, or null without a rate. */
+  valueBase: number | null;
   cost: number;
   pnl: number | null;
   pnlPct: number | null;
@@ -27,13 +31,25 @@ export type PortfolioTotals = {
   dayPct: number | null;
   pricedCount: number;
   count: number;
-  /** Positions not in the base currency; excluded from totals (the feed carries no FX rates). */
+  /** Positions whose currency has no exchange rate yet; excluded from totals. */
   excluded: PositionView[];
 };
 
 export const BASE_CURRENCY = 'EUR';
 
-export function positionView(pos: Position, snap: InstrumentSnapshot | null | undefined, settings: Settings): PositionView {
+/** EUR value of one unit of `currency`; minor units such as GBp are already divided in the feed's rates. */
+export function rateFor(currency: string, fx: Record<string, number> | undefined, base = BASE_CURRENCY): number | null {
+  if (currency === base) return 1;
+  const r = fx?.[currency];
+  return typeof r === 'number' && Number.isFinite(r) && r > 0 ? r : null;
+}
+
+export function positionView(
+  pos: Position,
+  snap: InstrumentSnapshot | null | undefined,
+  settings: Settings,
+  fxRates?: Record<string, number>,
+): PositionView {
   const s = snap ?? null;
   const price = s?.price ?? null;
   const cost = pos.quantity * pos.buyPrice;
@@ -44,12 +60,16 @@ export function positionView(pos: Position, snap: InstrumentSnapshot | null | un
   const dayChange = price != null && chg != null ? value - value / (1 + chg / 100) : null;
   const sl = pos.stopLossPct ?? settings.defaultStopLossPct;
   const tp = pos.takeProfitPct ?? settings.defaultTakeProfitPct;
+  const currency = s?.currency || pos.currency || BASE_CURRENCY;
+  const fx = rateFor(currency, fxRates);
   return {
     pos,
     snap: s,
     price,
-    currency: s?.currency || pos.currency || BASE_CURRENCY,
+    currency,
     value,
+    fx,
+    valueBase: fx != null ? value * fx : null,
     cost,
     pnl,
     pnlPct,
@@ -60,23 +80,28 @@ export function positionView(pos: Position, snap: InstrumentSnapshot | null | un
   };
 }
 
-export function portfolioTotals(all: PositionView[], base = BASE_CURRENCY): PortfolioTotals {
-  const views = all.filter((v) => v.currency === base);
-  const excluded = all.filter((v) => v.currency !== base);
+/**
+ * Totals in the base currency. Foreign positions are converted at the latest
+ * rate (cost basis included, so P&L ignores historical FX moves).
+ */
+export function portfolioTotals(all: PositionView[]): PortfolioTotals {
+  const views = all.filter((v) => v.fx != null);
+  const excluded = all.filter((v) => v.fx == null);
   let value = 0;
   let cost = 0;
   let dayChange = 0;
   let prevValue = 0;
   let pricedCount = 0;
   for (const v of views) {
-    value += v.value;
-    cost += v.cost;
+    const fx = v.fx as number;
+    value += v.value * fx;
+    cost += v.cost * fx;
     if (v.price != null) pricedCount++;
     if (v.dayChange != null) {
-      dayChange += v.dayChange;
-      prevValue += v.value - v.dayChange;
+      dayChange += v.dayChange * fx;
+      prevValue += (v.value - v.dayChange) * fx;
     } else {
-      prevValue += v.value;
+      prevValue += v.value * fx;
     }
   }
   const pnl = value - cost;
@@ -98,7 +123,7 @@ export function snapshotFor(feed: Feed | null, id: string): InstrumentSnapshot |
 }
 
 export function portfolio(holdings: Position[], feed: Feed | null, settings: Settings) {
-  const views = holdings.map((h) => positionView(h, snapshotFor(feed, h.id), settings));
+  const views = holdings.map((h) => positionView(h, snapshotFor(feed, h.id), settings, feed?.fx));
   return { views, totals: portfolioTotals(views) };
 }
 
@@ -142,12 +167,14 @@ export function combineSeries(series: { qty: number; points: Point[] }[]): Point
   return out;
 }
 
-export function portfolioHistory(holdings: Position[], feed: Feed | null, kind: 'daily' | 'intraday', base = BASE_CURRENCY): Point[] {
+/** Value history in the base currency; foreign series use the latest rate throughout. */
+export function portfolioHistory(holdings: Position[], feed: Feed | null, kind: 'daily' | 'intraday'): Point[] {
   if (!feed) return [];
   return combineSeries(
     holdings
-      .filter((h) => (feed.instruments[h.id]?.currency || h.currency || base) === base)
-      .map((h) => ({ qty: h.quantity, points: normaliseSeries(feed.instruments[h.id]?.history[kind] ?? [], kind) })),
+      .map((h) => ({ h, fx: rateFor(feed.instruments[h.id]?.currency || h.currency || BASE_CURRENCY, feed.fx) }))
+      .filter((x): x is { h: Position; fx: number } => x.fx != null)
+      .map(({ h, fx }) => ({ qty: h.quantity * fx, points: normaliseSeries(feed.instruments[h.id]?.history[kind] ?? [], kind) })),
   );
 }
 

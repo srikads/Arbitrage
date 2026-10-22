@@ -146,6 +146,8 @@ export type Feed = {
   alerts: Alert[];
   digests: Digest[];
   resolved: Record<string, { symbol: string; name: string; currency: string }>;
+  /** EUR value of one unit of each holding currency (GBp already in pounds/100). Absent in older feeds. */
+  fx?: Record<string, number>;
 };
 
 export type PushPayload = {

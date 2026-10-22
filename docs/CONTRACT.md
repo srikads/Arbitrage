@@ -135,6 +135,8 @@ type Feed = {
   alerts: Alert[];                   // newest first, max 200
   digests: Digest[];                 // newest first, max 30
   resolved: Record<string, { symbol: string; name: string; currency: string }>; // id -> resolved data for user-added ISINs
+  fx: Record<string, number>;        // EUR value of ONE unit of each holding currency, e.g. {"EUR":1,"USD":0.92,"GBp":0.0116}
+                                     // (minor units like GBp already divided by 100). Prices in `instruments` stay in their own currency.
 };
 
 type InstrumentSnapshot = {

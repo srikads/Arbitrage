@@ -93,6 +93,7 @@ def test_full_run_writes_valid_feed(repo, caplog, capsys):
     assert validate(feed) == []
     assert set(feed["instruments"]) == {"DE0007236101", "DE000A0Z2ZZ5", "IE000BI8OT95"}
     assert feed["resolved"]["DE000A0Z2ZZ5"]["symbol"] == "ABC.DE"
+    assert feed["fx"]["EUR"] == 1.0
     sie = feed["instruments"]["DE0007236101"]
     assert sie["price"] is not None and len(sie["history"]["daily"]) >= 250 and sie["history"]["intraday"]
     titles = [e["title"] for e in sie["events"]]

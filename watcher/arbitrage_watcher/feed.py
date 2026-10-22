@@ -13,7 +13,8 @@ MAX_EVENTS = 50
 
 def assemble(*, generated_at: str, mode: str, llm: str | None, duration: float, market_open: bool,
              market_note: str, instruments: dict[str, dict[str, Any]], alerts: Sequence[dict[str, Any]],
-             digests: Sequence[dict[str, Any]], resolved: dict[str, dict[str, str]]) -> dict[str, Any]:
+             digests: Sequence[dict[str, Any]], resolved: dict[str, dict[str, str]],
+             fx_rates: dict[str, float] | None = None) -> dict[str, Any]:
     for snap in instruments.values():
         snap["events"] = list(snap.get("events") or [])[:MAX_EVENTS]
     return {
@@ -25,6 +26,7 @@ def assemble(*, generated_at: str, mode: str, llm: str | None, duration: float, 
         "alerts": list(alerts)[:MAX_ALERTS],
         "digests": list(digests)[:MAX_DIGESTS],
         "resolved": resolved,
+        "fx": {c: round(r, 8) for c, r in (fx_rates or {"EUR": 1.0}).items()},
     }
 
 
@@ -61,7 +63,7 @@ def _check_signal(sig: Any, where: str, errors: list[str]) -> None:
 def validate(feed: dict[str, Any]) -> list[str]:
     """Return a list of schema problems (empty list = valid)."""
     errors: list[str] = []
-    _check_keys(feed, {"version", "generatedAt", "run", "market", "instruments", "alerts", "digests", "resolved"},
+    _check_keys(feed, {"version", "generatedAt", "run", "market", "instruments", "alerts", "digests", "resolved", "fx"},
                 "feed", errors)
     if errors:
         return errors

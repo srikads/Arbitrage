@@ -56,7 +56,7 @@ export function PortfolioHero({ totals, holdings, feed }: { totals: PortfolioTot
         {totals.excluded.length ? (
           <div className="hero-excluded">
             Total excludes {totals.excluded.map((v) => v.pos.name).join(', ')} ({[...new Set(totals.excluded.map((v) => v.currency))].join(', ')}), as no
-            exchange rates are available.
+            exchange rate is available for them yet.
           </div>
         ) : null}
         <div className="hero-meta">

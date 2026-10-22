@@ -123,16 +123,17 @@ def build_instruments(ctx: Context, news: list[NewsItem], crowd: list[NewsItem],
     return out, candidates
 
 
+def _rates(ctx: Context, instruments: dict[str, Any]) -> dict[str, float]:
+    currencies = {(instruments.get(t.id) or {}).get("currency") or t.currency for t in ctx.tracked if t.is_holding}
+    return fx.fetch_rates(currencies)
+
+
 def _digests(ctx: Context, instruments: dict[str, Any], now: datetime, llm: Ollama | None,
-             forced: bool) -> list[dict[str, Any]]:
+             forced: bool, rates: dict[str, float]) -> list[dict[str, Any]]:
     made = []
     local = now.astimezone(market.BERLIN)
     want_daily = market.daily_digest_due(now, ctx.state, ctx.settings) or (forced and local.weekday() < 5)
     want_weekly = market.weekly_digest_due(now, ctx.state, ctx.settings) or (forced and local.weekday() >= 5)
-    rates = {"EUR": 1.0}
-    if want_daily or want_weekly:
-        currencies = {(instruments.get(t.id) or {}).get("currency") or t.currency for t in ctx.tracked if t.is_holding}
-        rates = fx.fetch_rates(currencies)
     if want_daily:
         made.append(dg.build("daily", ctx.tracked, instruments, now, llm, rates))
         ctx.state["last"]["digestDaily"] = local.date().isoformat()
@@ -170,7 +171,9 @@ def run(opts: Options) -> int:
         snaps = run_prices(ctx, now)
     instruments, candidates = build_instruments(ctx, news, crowd, snaps, llm, now)
     new_alerts = al.apply_cooldown(candidates, ctx.state, now)
-    digests_new = _digests(ctx, instruments, now, llm, forced=opts.mode == "digest") if mode == "digest" else []
+    with log.timed("fx"):
+        rates = _rates(ctx, instruments)
+    digests_new = _digests(ctx, instruments, now, llm, opts.mode == "digest", rates) if mode == "digest" else []
     force_ids = []
     for d in digests_new:
         _, a = al.make_alert(f"digest_{d['kind']}", now, None, "info", d["title"], "Your digest is ready.")
@@ -191,7 +194,7 @@ def run(opts: Options) -> int:
     feed = fd.assemble(
         generated_at=iso(now), mode=mode, llm=opts.model if llm else None, duration=time.monotonic() - t0,
         market_open=market.is_open(now), market_note=market.market_note(now), instruments=instruments,
-        alerts=all_alerts, digests=digests, resolved=ctx.resolved,
+        alerts=all_alerts, digests=digests, resolved=ctx.resolved, fx_rates=rates,
     )
     problems = fd.validate(feed)
     if problems:

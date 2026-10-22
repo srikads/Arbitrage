@@ -77,11 +77,20 @@ describe('portfolio value and P&L', () => {
     expect(totals.pricedCount).toBe(2);
   });
 
-  it('excludes positions in other currencies from totals', () => {
+  it('excludes positions in other currencies from totals when no rate is known', () => {
     const f = feed([snap('A', 110, 0), { ...snap('U', 50, 0), currency: 'USD' }]);
     const { totals } = portfolio([pos('A', 1, 100), pos('U', 1, 40, { currency: 'USD' })], f, DEFAULT_SETTINGS);
     expect(totals.value).toBe(110);
     expect(totals.excluded.map((v) => v.pos.id)).toEqual(['U']);
+  });
+
+  it('converts foreign positions with the feed rates', () => {
+    const f = { ...feed([snap('A', 110, 0), { ...snap('L', 500, 0), currency: 'GBp' }]), fx: { GBp: 0.0115 } };
+    const { totals, views } = portfolio([pos('A', 1, 100), pos('L', 10, 400, { currency: 'GBp' })], f, DEFAULT_SETTINGS);
+    expect(views[1].valueBase).toBeCloseTo(57.5);
+    expect(totals.value).toBeCloseTo(167.5);
+    expect(totals.cost).toBeCloseTo(146);
+    expect(totals.excluded).toEqual([]);
   });
 
   it('computes distance to target', () => {

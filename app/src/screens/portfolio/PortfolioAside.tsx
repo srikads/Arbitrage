@@ -14,8 +14,8 @@ export function PortfolioAside() {
   const { views, totals } = useMemo(() => portfolio(cfg.holdings, feed, cfg.settings), [cfg, feed]);
   const nameOf = (id: string | null) => (id ? ([...cfg.holdings, ...cfg.candidates].find((i) => i.id === id)?.name ?? null) : null);
 
-  const alloc = views.filter((v) => !totals.excluded.includes(v)).sort((a, b) => b.value - a.value);
-  const etf = views.filter((v) => v.pos.type === 'etf').reduce((s, v) => s + v.value, 0);
+  const alloc = views.filter((v) => v.valueBase != null).sort((a, b) => (b.valueBase ?? 0) - (a.valueBase ?? 0));
+  const etf = views.filter((v) => v.pos.type === 'etf').reduce((s, v) => s + (v.valueBase ?? 0), 0);
   const actionable = [...cfg.holdings, ...cfg.candidates]
     .map((i) => ({ i, s: feed?.instruments[i.id]?.signal }))
     .filter((x) => x.s && x.s.action !== 'hold')
@@ -67,7 +67,7 @@ export function PortfolioAside() {
       <Section title="Allocation" aside={totals.value ? <span className="num">{pct((etf / totals.value) * 100, 0, false)} in ETFs</span> : null}>
         <ul className="alloc">
           {alloc.map((v) => {
-            const share = totals.value ? (v.value / totals.value) * 100 : 0;
+            const share = totals.value ? ((v.valueBase ?? 0) / totals.value) * 100 : 0;
             return (
               <li key={v.pos.id}>
                 <span className="alloc-name">{v.pos.name}</span>
