@@ -1,0 +1,111 @@
+/* ---------- Markdown ---------- */
+.md {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #dcdce0;
+  max-width: 70ch;
+}
+
+.md h2,
+.md h3,
+.md h4,
+.md h5 {
+  color: var(--text);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 1.4em 0 0.4em;
+}
+
+.md h2 {
+  font-size: 18px;
+}
+.md h3 {
+  font-size: 16px;
+}
+.md h4,
+.md h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-2);
+}
+
+.md > :first-child {
+  margin-top: 0;
+}
+
+.md p,
+.md ul,
+.md ol,
+.md blockquote {
+  margin: 0.6em 0;
+}
+
+.md ul,
+.md ol {
+  padding-left: 1.2em;
+}
+
+.md li {
+  margin: 0.25em 0;
+}
+
+.md li::marker {
+  color: var(--text-3);
+}
+
+.md strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.md blockquote {
+  padding-left: 12px;
+  border-left: 2px solid var(--line-strong);
+  color: var(--text-2);
+}
+
+.md hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 1.4em 0;
+}
+
+.md code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.md-table {
+  overflow-x: auto;
+  margin: 0.8em 0;
+}
+
+.md table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.md th,
+.md td {
+  text-align: left;
+  padding: 8px 12px 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.md th {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.digest-body {
+  padding-top: 8px;
+}

@@ -12,9 +12,9 @@ export function PortfolioAside() {
   const { feed } = useApp();
   const cfg = local.config;
   const { views, totals } = useMemo(() => portfolio(cfg.holdings, feed, cfg.settings), [cfg, feed]);
-  const nameOf = (id: string | null) => (id ? [...cfg.holdings, ...cfg.candidates].find((i) => i.id === id)?.name ?? null : null);
+  const nameOf = (id: string | null) => (id ? ([...cfg.holdings, ...cfg.candidates].find((i) => i.id === id)?.name ?? null) : null);
 
-  const alloc = [...views].sort((a, b) => b.value - a.value);
+  const alloc = views.filter((v) => !totals.excluded.includes(v)).sort((a, b) => b.value - a.value);
   const etf = views.filter((v) => v.pos.type === 'etf').reduce((s, v) => s + v.value, 0);
   const actionable = [...cfg.holdings, ...cfg.candidates]
     .map((i) => ({ i, s: feed?.instruments[i.id]?.signal }))

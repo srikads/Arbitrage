@@ -88,7 +88,11 @@ export function parseBlocks(md: string): Block[] {
     } else if (trimmed.startsWith('|')) {
       const rows: string[][] = [];
       while (i < lines.length && lines[i].trim().startsWith('|')) {
-        const row = lines[i++].trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim());
+        const row = lines[i++]
+          .trim()
+          .replace(/^\||\|$/g, '')
+          .split('|')
+          .map((c) => c.trim());
         if (!row.every((c) => /^:?-{2,}:?$/.test(c))) rows.push(row);
       }
       blocks.push({ t: 'table', rows });
@@ -112,7 +116,7 @@ export function Markdown({ source, className }: { source: string; className?: st
         const key = `b${n}`;
         switch (b.t) {
           case 'h': {
-            const Tag = (`h${Math.min(b.level + 1, 5)}`) as 'h2' | 'h3' | 'h4' | 'h5';
+            const Tag = `h${Math.min(b.level + 1, 5)}` as 'h2' | 'h3' | 'h4' | 'h5';
             return <Tag key={key}>{inline(b.text, key)}</Tag>;
           }
           case 'p':
@@ -138,9 +142,7 @@ export function Markdown({ source, className }: { source: string; className?: st
                 <table>
                   <tbody>
                     {b.rows.map((r, j) => (
-                      <tr key={j}>
-                        {r.map((c, ci) => (j === 0 ? <th key={ci}>{inline(c)}</th> : <td key={ci}>{inline(c)}</td>))}
-                      </tr>
+                      <tr key={j}>{r.map((c, ci) => (j === 0 ? <th key={ci}>{inline(c)}</th> : <td key={ci}>{inline(c)}</td>))}</tr>
                     ))}
                   </tbody>
                 </table>

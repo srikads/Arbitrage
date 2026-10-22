@@ -77,6 +77,13 @@ describe('portfolio value and P&L', () => {
     expect(totals.pricedCount).toBe(2);
   });
 
+  it('excludes positions in other currencies from totals', () => {
+    const f = feed([snap('A', 110, 0), { ...snap('U', 50, 0), currency: 'USD' }]);
+    const { totals } = portfolio([pos('A', 1, 100), pos('U', 1, 40, { currency: 'USD' })], f, DEFAULT_SETTINGS);
+    expect(totals.value).toBe(110);
+    expect(totals.excluded.map((v) => v.pos.id)).toEqual(['U']);
+  });
+
   it('computes distance to target', () => {
     const c = { ...inst, id: 'C', symbol: 'C', name: 'C', targetPrice: 90, note: '' };
     expect(distanceToTarget(c, 100)).toBeCloseTo(-10);
@@ -87,8 +94,21 @@ describe('portfolio value and P&L', () => {
 describe('portfolio history', () => {
   it('sums quantity × price with forward fill, starting when all series have data', () => {
     const out = combineSeries([
-      { qty: 2, points: [['2026-01-01', 10], ['2026-01-02', 11], ['2026-01-05', 12]] },
-      { qty: 1, points: [['2026-01-02', 100], ['2026-01-03', 101]] },
+      {
+        qty: 2,
+        points: [
+          ['2026-01-01', 10],
+          ['2026-01-02', 11],
+          ['2026-01-05', 12],
+        ],
+      },
+      {
+        qty: 1,
+        points: [
+          ['2026-01-02', 100],
+          ['2026-01-03', 101],
+        ],
+      },
     ]);
     expect(out).toEqual([
       ['2026-01-02', 122],
@@ -99,8 +119,26 @@ describe('portfolio history', () => {
 
   it('skips instruments without history and normalises intraday times', () => {
     const f = feed([
-      snap('A', 1, 0, [], [['2026-10-22T09:00:00+02:00', 10], ['2026-10-22T09:15:00+02:00', 11]]),
-      snap('B', 1, 0, [], [['2026-10-22T07:00:00Z', 5], ['2026-10-22T07:15:00Z', 6]]),
+      snap(
+        'A',
+        1,
+        0,
+        [],
+        [
+          ['2026-10-22T09:00:00+02:00', 10],
+          ['2026-10-22T09:15:00+02:00', 11],
+        ],
+      ),
+      snap(
+        'B',
+        1,
+        0,
+        [],
+        [
+          ['2026-10-22T07:00:00Z', 5],
+          ['2026-10-22T07:15:00Z', 6],
+        ],
+      ),
       snap('C', 1, 0, [], []),
     ]);
     const h = portfolioHistory([pos('A', 1, 1), pos('B', 2, 1), pos('C', 5, 1)], f, 'intraday');
@@ -119,7 +157,11 @@ describe('portfolio history', () => {
     expect(sliceRange(daily, [], 'Max').points.length).toBe(400);
     const ch = rangeChange(m1.points)!;
     expect(ch.abs).toBe(31);
-    const intr: [string, number][] = [['2026-10-21T08:00:00.000Z', 1], ['2026-10-22T08:00:00.000Z', 2], ['2026-10-22T08:15:00.000Z', 3]];
+    const intr: [string, number][] = [
+      ['2026-10-21T08:00:00.000Z', 1],
+      ['2026-10-22T08:00:00.000Z', 2],
+      ['2026-10-22T08:15:00.000Z', 3],
+    ];
     expect(sliceRange(daily, intr, '1D').points).toHaveLength(2);
     expect(sliceRange(daily, intr, '1W').points).toHaveLength(3);
   });

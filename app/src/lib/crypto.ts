@@ -19,16 +19,11 @@ export function randomBytes(n: number): Uint8Array<ArrayBuffer> {
 }
 
 export async function deriveKey(passphrase: string, salt: Uint8Array, iter = KDF_ITERATIONS): Promise<CryptoKey> {
-  const base = await subtle().importKey('raw', buf(new TextEncoder().encode(passphrase)), 'PBKDF2', false, [
-    'deriveKey',
+  const base = await subtle().importKey('raw', buf(new TextEncoder().encode(passphrase)), 'PBKDF2', false, ['deriveKey']);
+  return subtle().deriveKey({ name: 'PBKDF2', hash: 'SHA-256', salt: buf(salt), iterations: iter }, base, { name: 'AES-GCM', length: 256 }, false, [
+    'encrypt',
+    'decrypt',
   ]);
-  return subtle().deriveKey(
-    { name: 'PBKDF2', hash: 'SHA-256', salt: buf(salt), iterations: iter },
-    base,
-    { name: 'AES-GCM', length: 256 },
-    false,
-    ['encrypt', 'decrypt'],
-  );
 }
 
 export function isEnvelope(x: unknown): x is Envelope {
@@ -46,16 +41,9 @@ export function isEnvelope(x: unknown): x is Envelope {
 }
 
 /** Encrypt with an already-derived key (the salt is recorded for later derivation). */
-export async function encryptWithKey(
-  key: CryptoKey,
-  salt: Uint8Array,
-  plaintext: string,
-  iter = KDF_ITERATIONS,
-): Promise<Envelope> {
+export async function encryptWithKey(key: CryptoKey, salt: Uint8Array, plaintext: string, iter = KDF_ITERATIONS): Promise<Envelope> {
   const iv = randomBytes(12);
-  const ct = new Uint8Array(
-    await subtle().encrypt({ name: 'AES-GCM', iv }, key, buf(new TextEncoder().encode(plaintext))),
-  );
+  const ct = new Uint8Array(await subtle().encrypt({ name: 'AES-GCM', iv }, key, buf(new TextEncoder().encode(plaintext))));
   return { v: 1, alg: 'AES-256-GCM', kdf: 'PBKDF2-SHA256', iter, salt: bytesToB64(salt), iv: bytesToB64(iv), ct: bytesToB64(ct) };
 }
 

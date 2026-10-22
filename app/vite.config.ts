@@ -57,7 +57,7 @@ const CSP = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob:",
   "font-src 'self'",
-  "connect-src 'self' https://api.github.com http://localhost:* http://127.0.0.1:* http://[::1]:*",
+  "connect-src 'self' https://api.github.com http://localhost:* http://127.0.0.1:*",
   "worker-src 'self'",
   "manifest-src 'self'",
   "object-src 'none'",

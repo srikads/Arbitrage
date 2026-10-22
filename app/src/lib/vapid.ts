@@ -5,10 +5,7 @@ import { b64urlToBytes, bytesToB64url } from './b64';
 export type VapidKeys = { publicKey: string; privateKey: string };
 
 export async function generateVapidKeys(): Promise<VapidKeys> {
-  const pair = (await globalThis.crypto.subtle.generateKey({ name: 'ECDSA', namedCurve: 'P-256' }, true, [
-    'sign',
-    'verify',
-  ])) as CryptoKeyPair;
+  const pair = (await globalThis.crypto.subtle.generateKey({ name: 'ECDSA', namedCurve: 'P-256' }, true, ['sign', 'verify'])) as CryptoKeyPair;
   const raw = new Uint8Array(await globalThis.crypto.subtle.exportKey('raw', pair.publicKey));
   const jwk = await globalThis.crypto.subtle.exportKey('jwk', pair.privateKey);
   if (!jwk.d) throw new Error('Private key export failed');

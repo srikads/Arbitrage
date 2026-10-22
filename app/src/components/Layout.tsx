@@ -81,12 +81,7 @@ export function TopBar({
   return (
     <header className={`topbar${line ? ' has-line' : ''}${back ? ' with-back' : ''}`}>
       {back ? (
-        <button
-          type="button"
-          className="icon-btn back-btn"
-          aria-label="Back"
-          onClick={() => (typeof back === 'string' ? nav(back) : nav(-1))}
-        >
+        <button type="button" className="icon-btn back-btn" aria-label="Back" onClick={() => (typeof back === 'string' ? nav(back) : nav(-1))}>
           <IconBack />
         </button>
       ) : null}

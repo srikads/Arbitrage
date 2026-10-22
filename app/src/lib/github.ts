@@ -27,8 +27,7 @@ function headers(conn: GitHubConn, accept = 'application/vnd.github+json'): Head
 }
 
 const enc = encodeURIComponent;
-const contentsUrl = (c: GitHubConn, path: string) =>
-  `${API}/repos/${enc(c.owner)}/${enc(c.repo)}/contents/${path.split('/').map(enc).join('/')}`;
+const contentsUrl = (c: GitHubConn, path: string) => `${API}/repos/${enc(c.owner)}/${enc(c.repo)}/contents/${path.split('/').map(enc).join('/')}`;
 
 async function fail(res: Response): Promise<never> {
   let msg = res.statusText || `HTTP ${res.status}`;
@@ -69,11 +68,7 @@ export async function readRaw(conn: GitHubConn, path: string, fetchImpl: typeof 
 }
 
 /** Read a small file with its sha (needed for updates). Returns null on 404. */
-export async function readWithSha(
-  conn: GitHubConn,
-  path: string,
-  fetchImpl: typeof fetch = fetch,
-): Promise<{ sha: string; text: string } | null> {
+export async function readWithSha(conn: GitHubConn, path: string, fetchImpl: typeof fetch = fetch): Promise<{ sha: string; text: string } | null> {
   const res = await fetchImpl(contentsUrl(conn, path), { headers: headers(conn), cache: 'no-store' });
   if (res.status === 404) return null;
   if (!res.ok) await fail(res);

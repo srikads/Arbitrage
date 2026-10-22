@@ -26,7 +26,20 @@ describe('Config serialisation (CONTRACT §4)', () => {
         ...({ selected: true } as object),
       },
     ],
-    candidates: [{ id: 'IE00B4L5Y983', isin: 'IE00B4L5Y983', symbol: 'EUNL.DE', name: 'MSCI World', type: 'etf', currency: 'EUR', aliases: [], wikipedia: null, targetPrice: null, note: '' }],
+    candidates: [
+      {
+        id: 'IE00B4L5Y983',
+        isin: 'IE00B4L5Y983',
+        symbol: 'EUNL.DE',
+        name: 'MSCI World',
+        type: 'etf',
+        currency: 'EUR',
+        aliases: [],
+        wikipedia: null,
+        targetPrice: null,
+        note: '',
+      },
+    ],
     push: {
       subscription: { endpoint: 'https://push.example/abc', keys: { p256dh: 'p', auth: 'a' } },
       vapidPublicKey: 'pub',

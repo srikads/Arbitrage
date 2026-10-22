@@ -53,6 +53,12 @@ export function PortfolioHero({ totals, holdings, feed }: { totals: PortfolioTot
             </div>
           </div>
         )}
+        {totals.excluded.length ? (
+          <div className="hero-excluded">
+            Total excludes {totals.excluded.map((v) => v.pos.name).join(', ')} ({[...new Set(totals.excluded.map((v) => v.currency))].join(', ')}), as no
+            exchange rates are available.
+          </div>
+        ) : null}
         <div className="hero-meta">
           <span className={`mkt ${open ? 'open' : ''}`}>
             <span className="dot" aria-hidden="true" />
@@ -73,11 +79,7 @@ export function PortfolioHero({ totals, holdings, feed }: { totals: PortfolioTot
           />
           <div className="chart-foot">
             <RangeChips value={range} onChange={setRange} />
-            {ch ? (
-              <span className={`range-change num ${tone(ch.abs)}`}>
-                {pct(ch.pct)}
-              </span>
-            ) : null}
+            {ch ? <span className={`range-change num ${tone(ch.abs)}`}>{pct(ch.pct)}</span> : null}
           </div>
           <p className="chart-note">Value of your current holdings over time (quantities as of today).</p>
         </>

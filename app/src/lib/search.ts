@@ -75,8 +75,12 @@ function scoreToken(t: string, e: Indexed): number {
   if (t.length >= 3 && e.symbolBase.startsWith(t)) return 500;
   if (t.length >= 4 && e.isin.startsWith(t)) return 480;
   if (t.length >= 3 && e.name.includes(t)) return 400;
-  if (t.length >= 4 && e.words.some((w) => editDistance(t, w.slice(0, t.length + 1), 1) <= 1)) return 250;
-  if (t.length >= 3 && subsequence(t, e.name)) return 100;
+  if (t.length >= 4) {
+    const maxD = t.length >= 7 ? 2 : 1;
+    if (e.words.some((w) => editDistance(t, w.slice(0, t.length), maxD) <= maxD || editDistance(t, w, maxD) <= maxD)) return 250;
+  }
+  // Weak fallback: abbreviation-like subsequence within a single word (e.g. "rhmtl").
+  if (t.length >= 4 && e.words.some((w) => w.length <= t.length + 4 && w[0] === t[0] && subsequence(t, w))) return 100;
   return 0;
 }
 

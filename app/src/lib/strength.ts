@@ -10,7 +10,10 @@ export function passphraseStrength(p: string): Strength {
   if (/[^A-Za-z0-9]/.test(p)) pool += 33;
   const unique = new Set(p).size;
   let bits = Math.log2(Math.max(pool, 2)) * Math.min(p.length, unique * 2.5);
-  const words = p.trim().split(/[\s\-_.]+/).filter((w) => w.length >= 3);
+  const words = p
+    .trim()
+    .split(/[\s\-_.]+/)
+    .filter((w) => w.length >= 3);
   if (words.length >= 4) bits = Math.max(bits, words.length * 11);
   if (/^(.)\1+$/.test(p) || /^(?:0123|1234|abcd|qwer|pass)/i.test(p)) bits = Math.min(bits, 10);
   const score = (bits < 35 ? 0 : bits < 50 ? 1 : bits < 65 ? 2 : bits < 80 ? 3 : 4) as Strength['score'];

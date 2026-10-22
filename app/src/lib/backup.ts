@@ -25,7 +25,14 @@ export function makeBackup(local: LocalData): Backup {
 export function parseBackup(x: unknown): Backup {
   const b = x as Partial<Backup>;
   if (!b || b.kind !== 'arbitrage-backup' || !b.config) throw new Error('This file is not an Arbitrage backup.');
-  return { kind: 'arbitrage-backup', version: 1, exportedAt: b.exportedAt ?? '', config: normaliseConfig(b.config), prefs: b.prefs as LocalPrefs, repo: b.repo ?? null };
+  return {
+    kind: 'arbitrage-backup',
+    version: 1,
+    exportedAt: b.exportedAt ?? '',
+    config: normaliseConfig(b.config),
+    prefs: b.prefs as LocalPrefs,
+    repo: b.repo ?? null,
+  };
 }
 
 export function downloadJson(filename: string, data: Envelope): void {

@@ -5,7 +5,7 @@ import { AlertRow, EventRow } from '../../components/Rows';
 import { Empty, Meter, RiskMeter, Section, SignalTag } from '../../components/ui';
 import { markAlertsSeen } from '../../components/useUnseen';
 import { useIsDesktop } from '../../components/useNow';
-import { dateTime, money, pct, SEVERITY_LABEL, tone } from '../../lib/format';
+import { ACTION_TONE, dateTime, money, pct, SEVERITY_LABEL, tone } from '../../lib/format';
 import type { Alert, FeedEvent, Instrument, Severity } from '../../lib/types';
 import { useApp, useLocal } from '../../state/AppContext';
 
@@ -83,7 +83,7 @@ export function AlertDetail({ id }: { id?: string }) {
 
   return (
     <article className="detail fade-in" key={alert.id}>
-      <TopBar title={SEVERITY_LABEL[alert.severity]} back={desktop ? undefined : '/signals'} />
+      <TopBar title={inst?.name ?? 'Portfolio alert'} sub={inst?.symbol} back={desktop ? undefined : '/signals'} />
       <div className="page alert-detail">
         <div className={`sev-line tone-${sevTone}`}>
           <span className="dot" /> {SEVERITY_LABEL[alert.severity]} · {dateTime(alert.time)}
@@ -101,7 +101,14 @@ export function AlertDetail({ id }: { id?: string }) {
                 <SignalTag action={alert.action} strong />
               </div>
             ) : null}
-            {alert.confidence != null ? <Meter label="Confidence" value={alert.confidence} text={`${Math.round(alert.confidence * 100)} %`} /> : null}
+            {alert.confidence != null ? (
+              <Meter
+                label="Confidence"
+                value={alert.confidence}
+                text={`${Math.round(alert.confidence * 100)} %`}
+                tone={alert.action ? ACTION_TONE[alert.action] : 'neutral'}
+              />
+            ) : null}
             {snap ? <RiskMeter risk={snap.signal.risk} /> : null}
           </div>
         ) : null}
@@ -159,13 +166,7 @@ export function SignalsScreen({ detail }: { detail?: boolean }) {
       <div className="pane pane-list">
         <SignalsList selectedId={sel ?? first} />
       </div>
-      <div className="pane pane-detail">
-        {sel ?? first ? (
-          <AlertDetail id={sel ?? first} />
-        ) : (
-          <Empty title="No alert selected" />
-        )}
-      </div>
+      <div className="pane pane-detail">{(sel ?? first) ? <AlertDetail id={sel ?? first} /> : <Empty title="No alert selected" />}</div>
     </div>
   );
 }

@@ -62,13 +62,7 @@ export type Config = {
   push: PushTarget | null;
 };
 
-export type SignalAction =
-  | 'hold'
-  | 'watch'
-  | 'consider_trim'
-  | 'consider_sell'
-  | 'consider_buy'
-  | 'consider_add';
+export type SignalAction = 'hold' | 'watch' | 'consider_trim' | 'consider_sell' | 'consider_buy' | 'consider_add';
 
 export type Factor = { name: string; value: number; weight: number; note: string };
 

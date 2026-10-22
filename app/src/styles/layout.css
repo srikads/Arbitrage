@@ -52,7 +52,9 @@
   height: 36px;
   border-radius: var(--r-md);
   color: var(--text-2);
-  transition: color var(--dur) var(--ease), background var(--dur) var(--ease);
+  transition:
+    color var(--dur) var(--ease),
+    background var(--dur) var(--ease);
 }
 
 .icon-btn:hover {
@@ -174,7 +176,9 @@
     color: var(--text-2);
     font-size: 14px;
     font-weight: 500;
-    transition: color var(--dur) var(--ease), background var(--dur) var(--ease);
+    transition:
+      color var(--dur) var(--ease),
+      background var(--dur) var(--ease);
   }
 
   .sidebar nav a svg {
@@ -308,6 +312,23 @@
   background: var(--warn);
 }
 
-.demo-banner + .shell .topbar {
-  top: 26px;
+@media (max-width: 1023.98px) {
+  .demo-banner + .shell .topbar {
+    top: 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .demo-banner {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 16px;
+    bottom: 16px;
+    height: 24px;
+    padding: 0 10px;
+    border-radius: 4px;
+    font-size: 10.5px;
+    z-index: 60;
+  }
 }

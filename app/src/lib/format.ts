@@ -5,6 +5,8 @@ const LOCALE = undefined; // user's locale
 const moneyFmt = new Map<string, Intl.NumberFormat>();
 export function money(v: number | null | undefined, currency = 'EUR', digits = 2): string {
   if (v == null || !Number.isFinite(v)) return '–';
+  // London quotes in pence (GBp / GBX) — not the same as GBP.
+  if (currency === 'GBp' || currency === 'GBX') return `${fixed(v, digits)} p`;
   const k = `${currency}:${digits}`;
   let f = moneyFmt.get(k);
   if (!f) {

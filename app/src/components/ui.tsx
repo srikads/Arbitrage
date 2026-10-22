@@ -20,7 +20,7 @@ export function SentimentDot({ value, title }: { value: number; title?: string }
 
 export function Section({ title, aside, children, id }: { title: string; aside?: ReactNode; children: ReactNode; id?: string }) {
   return (
-    <section className="section" aria-labelledby={id ? `${id}-h` : undefined}>
+    <section className="section" id={id} aria-labelledby={id ? `${id}-h` : undefined}>
       <div className="section-head">
         <h2 id={id ? `${id}-h` : undefined}>{title}</h2>
         {aside ? <div className="aside">{aside}</div> : null}

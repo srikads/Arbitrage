@@ -95,7 +95,12 @@ export function PositionBlock({ v, settings, onSave }: { v: PositionView; settin
               <input inputMode="decimal" value={f.sl} placeholder={String(settings.defaultStopLossPct)} onChange={(e) => setF({ ...f, sl: e.target.value })} />
             </Field>
             <Field label="Take-profit %" hint={`Empty = default ${settings.defaultTakeProfitPct} %`}>
-              <input inputMode="decimal" value={f.tp} placeholder={String(settings.defaultTakeProfitPct)} onChange={(e) => setF({ ...f, tp: e.target.value })} />
+              <input
+                inputMode="decimal"
+                value={f.tp}
+                placeholder={String(settings.defaultTakeProfitPct)}
+                onChange={(e) => setF({ ...f, tp: e.target.value })}
+              />
             </Field>
           </div>
           <Field label="Buy date (optional)">
@@ -129,7 +134,14 @@ export function WatchBlock({ c, snap, onSave }: { c: Candidate; snap: Instrument
   const [note, setNote] = useState(c.note);
   const dist = distanceToTarget(c, snap?.price ?? null);
   return (
-    <Section title="Watching" aside={<button type="button" className="link" onClick={() => setEdit(!edit)}>{edit ? 'Cancel' : 'Edit'}</button>}>
+    <Section
+      title="Watching"
+      aside={
+        <button type="button" className="link" onClick={() => setEdit(!edit)}>
+          {edit ? 'Cancel' : 'Edit'}
+        </button>
+      }
+    >
       {!edit ? (
         <dl className="kv-grid">
           <div>

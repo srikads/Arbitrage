@@ -36,6 +36,17 @@ function toTime(t: string, intraday: boolean): Time {
   return (intraday ? Math.floor(Date.parse(t) / 1000) : t.slice(0, 10)) as Time;
 }
 
+/** navigator.language can be a non-BCP-47 tag in some environments; Intl would throw. */
+function safeLocale(): string {
+  const l = typeof navigator !== 'undefined' ? navigator.language : 'en-US';
+  try {
+    new Intl.NumberFormat(l);
+    return l;
+  } catch {
+    return 'en-US';
+  }
+}
+
 function hexA(hex: string, a: number): string {
   const n = parseInt(hex.slice(1), 16);
   return `rgba(${(n >> 16) & 255}, ${(n >> 8) & 255}, ${n & 255}, ${a})`;
@@ -100,7 +111,7 @@ export function PriceChart({ points, intraday, height, markers, axes = false, on
       },
       handleScroll: false,
       handleScale: false,
-      localization: { priceFormatter: (p: number) => p.toLocaleString(undefined, { maximumFractionDigits: 2 }) },
+      localization: { locale: safeLocale(), priceFormatter: (p: number) => p.toLocaleString(undefined, { maximumFractionDigits: 2 }) },
     });
     const s = c.addSeries(AreaSeries, {
       lineWidth: 2,
@@ -154,7 +165,14 @@ export function PriceChart({ points, intraday, height, markers, axes = false, on
     if (baseLine.current) s.removePriceLine(baseLine.current);
     baseLine.current =
       points.length > 1
-        ? s.createPriceLine({ price: points[0][1], color: 'rgba(255,255,255,0.18)', lineWidth: 1, lineStyle: LineStyle.Dotted, axisLabelVisible: false, title: '' })
+        ? s.createPriceLine({
+            price: points[0][1],
+            color: 'rgba(255,255,255,0.18)',
+            lineWidth: 1,
+            lineStyle: LineStyle.Dotted,
+            axisLabelVisible: false,
+            title: '',
+          })
         : null;
     markerApi.current?.setMarkers(markers ? snapMarkers(points, markers, intraday) : []);
     c.applyOptions({

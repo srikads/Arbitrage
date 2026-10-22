@@ -12,7 +12,15 @@ import { parseNum } from './parse';
 
 export type AddKind = 'holding' | 'watch';
 
-export function AddInstrumentForm({ initialKind = 'holding', onAdded, autoFocus }: { initialKind?: AddKind; onAdded?: (i: Instrument, kind: AddKind) => void; autoFocus?: boolean }) {
+export function AddInstrumentForm({
+  initialKind = 'holding',
+  onAdded,
+  autoFocus,
+}: {
+  initialKind?: AddKind;
+  onAdded?: (i: Instrument, kind: AddKind) => void;
+  autoFocus?: boolean;
+}) {
   const local = useLocal();
   const { updateConfig } = useApp();
   const [kind, setKind] = useState<AddKind>(initialKind);
@@ -88,7 +96,12 @@ export function AddInstrumentForm({ initialKind = 'holding', onAdded, autoFocus 
       </div>
 
       {!chosen && !manual ? (
-        <InstrumentSearch exclude={exclude} autoFocus={autoFocus} onPick={(i) => (setPicked(i), setErr(null))} onManual={(isin) => setManual({ isin, name: '', symbol: '', type: 'stock' })} />
+        <InstrumentSearch
+          exclude={exclude}
+          autoFocus={autoFocus}
+          onPick={(i) => (setPicked(i), setErr(null))}
+          onManual={(isin) => setManual({ isin, name: '', symbol: '', type: 'stock' })}
+        />
       ) : null}
 
       {chosen ? (
@@ -117,7 +130,14 @@ export function AddInstrumentForm({ initialKind = 'holding', onAdded, autoFocus 
           <fieldset className="plain">
             <legend className="sublabel">Instrument not in the list</legend>
             <Field label="ISIN" error={manual.isin && !isValidIsin(manual.isin) ? 'Invalid ISIN (12 characters, check digit must match)' : null}>
-              <input value={manual.isin} onChange={(e) => setManual({ ...manual, isin: e.target.value.toUpperCase() })} aria-invalid={!!manual.isin && !isValidIsin(manual.isin)} maxLength={14} autoFocus spellCheck={false} />
+              <input
+                value={manual.isin}
+                onChange={(e) => setManual({ ...manual, isin: e.target.value.toUpperCase() })}
+                aria-invalid={!!manual.isin && !isValidIsin(manual.isin)}
+                maxLength={14}
+                autoFocus
+                spellCheck={false}
+              />
             </Field>
             <Field label="Name">
               <input value={manual.name} onChange={(e) => setManual({ ...manual, name: e.target.value })} />
@@ -145,16 +165,26 @@ export function AddInstrumentForm({ initialKind = 'holding', onAdded, autoFocus 
               <Field label="Quantity">
                 <input inputMode="decimal" value={f.quantity} onChange={(e) => setF({ ...f, quantity: e.target.value })} required autoFocus={!manual} />
               </Field>
-              <Field label="Avg. buy price (EUR)">
+              <Field label={`Avg. buy price (${picked?.currency ?? 'EUR'})`}>
                 <input inputMode="decimal" value={f.buyPrice} onChange={(e) => setF({ ...f, buyPrice: e.target.value })} required />
               </Field>
             </div>
             <div className="field-row">
               <Field label="Stop-loss %" hint={`Optional · default ${settings.defaultStopLossPct} %`}>
-                <input inputMode="decimal" value={f.sl} placeholder={String(settings.defaultStopLossPct)} onChange={(e) => setF({ ...f, sl: e.target.value })} />
+                <input
+                  inputMode="decimal"
+                  value={f.sl}
+                  placeholder={String(settings.defaultStopLossPct)}
+                  onChange={(e) => setF({ ...f, sl: e.target.value })}
+                />
               </Field>
               <Field label="Take-profit %" hint={`Optional · default ${settings.defaultTakeProfitPct} %`}>
-                <input inputMode="decimal" value={f.tp} placeholder={String(settings.defaultTakeProfitPct)} onChange={(e) => setF({ ...f, tp: e.target.value })} />
+                <input
+                  inputMode="decimal"
+                  value={f.tp}
+                  placeholder={String(settings.defaultTakeProfitPct)}
+                  onChange={(e) => setF({ ...f, tp: e.target.value })}
+                />
               </Field>
             </div>
             <Field label="Buy date (optional)">
@@ -190,11 +220,7 @@ export function AddInstrumentScreen() {
     <div className="add-screen fade-in">
       <TopBar title="Add instrument" back={desktop ? undefined : '/'} line />
       <div className="page">
-        <AddInstrumentForm
-          autoFocus
-          initialKind={params.get('as') === 'watch' ? 'watch' : 'holding'}
-          onAdded={(i) => nav(`/i/${encodeURIComponent(i.id)}`)}
-        />
+        <AddInstrumentForm autoFocus initialKind={params.get('as') === 'watch' ? 'watch' : 'holding'} onAdded={(i) => nav(`/i/${encodeURIComponent(i.id)}`)} />
       </div>
     </div>
   );

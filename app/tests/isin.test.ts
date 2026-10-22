@@ -2,9 +2,12 @@ import { describe, expect, it } from 'vitest';
 import { isValidIsin, isinCheckDigit, looksLikeIsin, normaliseIsin } from '../src/lib/isin';
 
 describe('ISIN validation', () => {
-  it.each(['US0378331005', 'DE0007164600', 'IE00B4L5Y983', 'DE000BASF111', 'NL0010273215', 'DK0062498333', 'US67066G1040', 'DE000A1EWWW0'])('accepts %s', (s) => {
-    expect(isValidIsin(s)).toBe(true);
-  });
+  it.each(['US0378331005', 'DE0007164600', 'IE00B4L5Y983', 'DE000BASF111', 'NL0010273215', 'DK0062498333', 'US67066G1040', 'DE000A1EWWW0'])(
+    'accepts %s',
+    (s) => {
+      expect(isValidIsin(s)).toBe(true);
+    },
+  );
 
   it('rejects a wrong check digit', () => {
     expect(isValidIsin('US0378331006')).toBe(false);

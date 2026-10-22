@@ -41,3 +41,10 @@ describe('instrument search ranking', () => {
     expect(search(index, 'zzzzqqq')).toEqual([]);
   });
 });
+
+describe('search precision', () => {
+  it('does not match unrelated instruments by loose subsequence', () => {
+    const res = search(index, 'siemens', 10).map((i) => i.name);
+    expect(res.every((n) => n.toLowerCase().includes('siemens'))).toBe(true);
+  });
+});

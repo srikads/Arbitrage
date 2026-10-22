@@ -14,8 +14,21 @@ const FG = [243, 243, 244];
 const ACCENT = [60, 207, 126];
 
 // Glyph in a 64×64 design grid (same geometry as the in-app monogram).
-const OUTER = [[17, 46], [29.5, 17], [34.5, 17], [47, 46], [40.8, 46], [38, 39], [26, 39], [23.2, 46]];
-const HOLE = [[28, 33.4], [36, 33.4], [32, 23.2]];
+const OUTER = [
+  [17, 46],
+  [29.5, 17],
+  [34.5, 17],
+  [47, 46],
+  [40.8, 46],
+  [38, 39],
+  [26, 39],
+  [23.2, 46],
+];
+const HOLE = [
+  [28, 33.4],
+  [36, 33.4],
+  [32, 23.2],
+];
 
 function inPoly(x, y, poly) {
   let inside = false;

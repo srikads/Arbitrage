@@ -30,7 +30,21 @@ describe('helpers', () => {
 
   it('applies Feed.resolved to manually added ISINs', () => {
     const cfg = emptyConfig();
-    cfg.holdings.push({ id: 'DE0007164600', isin: 'DE0007164600', symbol: '', name: 'DE0007164600', type: 'stock', currency: 'EUR', aliases: [], wikipedia: null, quantity: 1, buyPrice: 1, buyDate: null, stopLossPct: null, takeProfitPct: null });
+    cfg.holdings.push({
+      id: 'DE0007164600',
+      isin: 'DE0007164600',
+      symbol: '',
+      name: 'DE0007164600',
+      type: 'stock',
+      currency: 'EUR',
+      aliases: [],
+      wikipedia: null,
+      quantity: 1,
+      buyPrice: 1,
+      buyDate: null,
+      stopLossPct: null,
+      takeProfitPct: null,
+    });
     const feed = { resolved: { DE0007164600: { symbol: 'SAP.DE', name: 'SAP', currency: 'EUR' } } } as unknown as Feed;
     const out = applyResolved(cfg, feed);
     expect(out.holdings[0]).toMatchObject({ symbol: 'SAP.DE', name: 'SAP' });

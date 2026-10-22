@@ -8,7 +8,12 @@ import { useApp, useLocal } from '../state/AppContext';
 
 type Status = { kind: 'checking' } | { kind: 'ok'; models: string[] } | { kind: 'offline'; reason: string };
 
-const SUGGESTIONS = ['Why did my biggest loser drop this week?', 'Which holdings need my attention?', 'Summarise the news for my ETFs', 'Is my portfolio too concentrated?'];
+const SUGGESTIONS = [
+  'Why did my biggest loser drop this week?',
+  'Which holdings need my attention?',
+  'Summarise the news for my ETFs',
+  'Is my portfolio too concentrated?',
+];
 
 export function AskScreen() {
   const local = useLocal();
@@ -92,20 +97,24 @@ export function AskScreen() {
           <div className="ask-offline fade-in">
             <h2>Ollama is not reachable</h2>
             <p className="muted">
-              Ask runs entirely on this device with <strong>Ollama</strong> — your questions and portfolio never leave it. It works only on a computer where Ollama runs and
-              allows this app’s origin.
+              Ask runs entirely on this device with <strong>Ollama</strong> — your questions and portfolio never leave it. It works only on a computer where
+              Ollama runs and allows this app’s origin.
             </p>
             <ol className="steps">
               <li>
                 Install Ollama and pull a model: <code className="code">ollama pull {ollamaModel}</code>
               </li>
               <li>
-                Allow this app’s origin, then restart Ollama:
-                <pre className="code-block">OLLAMA_ORIGINS={origin}</pre>
-                <span className="faint">
-                  macOS: <code className="code">launchctl setenv OLLAMA_ORIGINS "{origin}"</code> · Linux (systemd): add{' '}
-                  <code className="code">Environment="OLLAMA_ORIGINS={origin}"</code> to the service · Windows: set it as a user environment variable.
-                </span>
+                Allow this app’s origin by setting <code className="code">OLLAMA_ORIGINS={origin}</code>, then restart Ollama:
+                <pre className="code-block">{`# macOS
+launchctl setenv OLLAMA_ORIGINS "${origin}"
+
+# Linux (systemd): systemctl edit ollama
+[Service]
+Environment="OLLAMA_ORIGINS=${origin}"
+
+# Windows (PowerShell)
+setx OLLAMA_ORIGINS "${origin}"`}</pre>
               </li>
               <li>
                 Keep the default URL <code className="code">{ollamaUrl}</code> or change it in Settings.
@@ -130,7 +139,15 @@ export function AskScreen() {
             <div className="chat" aria-live="polite">
               {msgs.map((m, i) => (
                 <div key={i} className={`msg ${m.role}`}>
-                  {m.role === 'assistant' ? m.content ? <Markdown source={m.content} /> : <span className="typing" aria-label="Thinking" /> : <p>{m.content}</p>}
+                  {m.role === 'assistant' ? (
+                    m.content ? (
+                      <Markdown source={m.content} />
+                    ) : (
+                      <span className="typing" aria-label="Thinking" />
+                    )
+                  ) : (
+                    <p>{m.content}</p>
+                  )}
                 </div>
               ))}
               <div ref={endRef} />
@@ -154,7 +171,13 @@ export function AskScreen() {
               ))}
             </select>
           ) : null}
-          <input aria-label="Your question" placeholder="Why did … drop today?" value={input} onChange={(e) => setInput(e.target.value)} disabled={status.kind !== 'ok'} />
+          <input
+            aria-label="Your question"
+            placeholder="Why did … drop today?"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            disabled={status.kind !== 'ok'}
+          />
           {busy ? (
             <button type="button" className="btn secondary small" onClick={() => abort.current?.abort()}>
               Stop

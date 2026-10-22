@@ -12,8 +12,8 @@ export function FeedNotice() {
     case 'no-repo':
       body = (
         <>
-          <strong>Not connected.</strong> Your data stays on this device until you <Link to="/settings#github">connect your GitHub repository</Link>. The watcher needs it to
-          follow prices and send signals.
+          <strong>Not connected.</strong> Your data stays on this device until you <Link to="/settings#github">connect your GitHub repository</Link>. The
+          watcher needs it to follow prices and send signals.
         </>
       );
       break;
@@ -30,8 +30,8 @@ export function FeedNotice() {
       cls += ' error';
       body = (
         <>
-          <strong>The feed could not be decrypted.</strong> The repository secret <code>ARB_PASSPHRASE</code> probably does not match your passphrase. Update the
-          secret, then wait for the next watcher run.
+          <strong>The feed could not be decrypted.</strong> The repository secret <code>ARB_PASSPHRASE</code> probably does not match your passphrase. Update
+          the secret, then wait for the next watcher run.
         </>
       );
       break;

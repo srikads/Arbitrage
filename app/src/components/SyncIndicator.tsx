@@ -15,14 +15,7 @@ export function SyncIndicator({ compact }: { compact?: boolean }) {
     error: 'Sync failed',
     'local-only': 'Local only',
   };
-  const feedText =
-    feedStatus === 'loading'
-      ? 'Updating…'
-      : feedStatus === 'offline'
-        ? 'Offline'
-        : feed
-          ? `Updated ${timeAgo(feed.generatedAt)}`
-          : '';
+  const feedText = feedStatus === 'loading' ? 'Updating…' : feedStatus === 'offline' ? 'Offline' : feed ? `Updated ${timeAgo(feed.generatedAt)}` : '';
   const tone = sync === 'error' ? 'down' : sync === 'pending' || sync === 'saving' ? 'warn' : '';
   return (
     <span className="sync-ind" title={syncError ?? undefined}>

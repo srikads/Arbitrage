@@ -7,7 +7,8 @@ import { safeHref } from '../lib/markdown';
 import { Avatar, SentimentDot, SignalTag } from './ui';
 import { IconExternal } from './Icons';
 
-const shortLabel = (a: InstrumentSnapshot['signal']['action']) => ACTION_LABEL[a].replace('Consider ', '').replace(/^./, (c) => c.toUpperCase());
+const shortLabel = (a: InstrumentSnapshot['signal']['action']) =>
+  (a === 'watch' ? 'Watch' : ACTION_LABEL[a]).replace('Consider ', '').replace(/^./, (c) => c.toUpperCase());
 
 export function HoldingRow({ v, selected, share, metric = 'total' }: { v: PositionView; selected?: boolean; share?: number; metric?: 'total' | 'day' }) {
   const m = metric === 'day' ? v.dayPct : v.pnlPct;
@@ -20,7 +21,9 @@ export function HoldingRow({ v, selected, share, metric = 'total' }: { v: Positi
         <div className="left">
           <div className="title">{p.name}</div>
           <div className="sub">
-            <span className="num">{num(p.quantity, 4)} · {p.symbol || p.isin}</span>
+            <span className="num">
+              {num(p.quantity, 4)} · {p.symbol || p.isin}
+            </span>
             {sig && sig.action !== 'hold' ? (
               <>
                 <span className="sep">·</span>
@@ -35,9 +38,7 @@ export function HoldingRow({ v, selected, share, metric = 'total' }: { v: Positi
         </div>
         <div className="right">
           <div className="v">{money(v.value, p.currency)}</div>
-          <div className={`c ${tone(m)}`}>
-            {v.price == null ? <span className="faint">no price yet</span> : pct(m)}
-          </div>
+          <div className={`c ${tone(m)}`}>{v.price == null ? <span className="faint">no price yet</span> : pct(m)}</div>
         </div>
       </Link>
     </li>
@@ -125,8 +126,12 @@ export function EventRow({ e, highlight }: { e: FeedEvent; highlight?: boolean }
         <div className="ev-title">{e.title}</div>
         <div className="sub">
           <span>{e.source}</span>
-          <span className="sep">·</span>
-          <span>{KIND_LABEL[e.kind]}</span>
+          {KIND_LABEL[e.kind].toLowerCase() !== e.source.toLowerCase() ? (
+            <>
+              <span className="sep">·</span>
+              <span>{KIND_LABEL[e.kind]}</span>
+            </>
+          ) : null}
           <span className="sep">·</span>
           <time dateTime={e.time} title={dateTime(e.time)}>
             {timeAgo(e.time)}

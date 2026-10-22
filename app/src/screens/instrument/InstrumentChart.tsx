@@ -12,15 +12,7 @@ export function eventColor(e: FeedEvent): string {
   return e.sentiment >= 0.2 ? MARKER_COLOR.pos : e.sentiment <= -0.2 ? MARKER_COLOR.neg : MARKER_COLOR.neutral;
 }
 
-export function InstrumentChart({
-  snap,
-  currency,
-  onEvent,
-}: {
-  snap: InstrumentSnapshot;
-  currency: string;
-  onEvent: (id: string) => void;
-}) {
+export function InstrumentChart({ snap, currency, onEvent }: { snap: InstrumentSnapshot; currency: string; onEvent: (id: string) => void }) {
   const [range, setRange] = useState<Range>('6M');
   const [hover, setHover] = useState<HoverPoint>(null);
   const desktop = useIsDesktop();

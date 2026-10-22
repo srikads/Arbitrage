@@ -12,13 +12,7 @@ export async function ollamaModels(url: string, signal?: AbortSignal): Promise<s
 }
 
 /** Stream a chat completion; calls onToken for each chunk. Resolves with the full text. */
-export async function ollamaChat(
-  url: string,
-  model: string,
-  messages: ChatMessage[],
-  onToken: (t: string) => void,
-  signal?: AbortSignal,
-): Promise<string> {
+export async function ollamaChat(url: string, model: string, messages: ChatMessage[], onToken: (t: string) => void, signal?: AbortSignal): Promise<string> {
   const res = await fetch(`${trimUrl(url)}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

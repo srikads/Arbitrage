@@ -1,7 +1,8 @@
 // DEMO DATA — fictional portfolio and feed for `?demo=1` (development only).
 // Prices, events and signals are synthetic and do not describe real markets.
 import { emptyConfig } from '../lib/config';
-import type { Alert, Candidate, Config, Digest, Feed, FeedEvent, InstrumentSnapshot, Position, Signal, SignalAction } from '../lib/types';
+import type { Alert, Candidate, Config, Digest, Feed, FeedEvent, InstrumentSnapshot, Position, Signal } from '../lib/types';
+import { SPECS, type Spec } from './specs';
 import fixture from '../../fixtures/instruments.dev.json';
 import type { Instrument } from '../lib/types';
 
@@ -26,37 +27,6 @@ function rng(seed: number) {
 function gauss(r: () => number) {
   return Math.sqrt(-2 * Math.log(r() + 1e-12)) * Math.cos(2 * Math.PI * r());
 }
-
-type Spec = {
-  sym: string;
-  price: number;
-  chg: number;
-  vol: number;
-  drift: number;
-  action: SignalAction;
-  conf: number;
-  risk: Signal['risk'];
-  score: number;
-  headline: string;
-  reasoning: string;
-  rsi: number;
-  dd: number;
-  earnings: string | null;
-};
-
-const SPECS: Spec[] = [
-  { sym: 'SAP.DE', price: 231.85, chg: 1.42, vol: 0.017, drift: 0.0007, action: 'hold', conf: 0.72, risk: 'low', score: 0.34, headline: 'Cloud backlog keeps growing; trend intact', reasoning: 'Price sits comfortably above the 50- and 200-day averages and news flow after the quarterly update was constructive. Crowd chatter is upbeat but not euphoric. Nothing here argues for acting on a long-term position.', rsi: 61, dd: -6.8, earnings: '2027-01-27' },
-  { sym: 'SIE.DE', price: 228.4, chg: -0.62, vol: 0.015, drift: 0.0005, action: 'hold', conf: 0.66, risk: 'low', score: 0.18, headline: 'Steady orders, mild profit-taking today', reasoning: 'A small pullback on a quiet news day. Industrial order intake commentary remains positive and the stock is well inside its normal range. Holding is consistent with your conservative profile.', rsi: 54, dd: -4.1, earnings: '2026-11-13' },
-  { sym: 'ALV.DE', price: 352.1, chg: 0.31, vol: 0.011, drift: 0.0004, action: 'hold', conf: 0.7, risk: 'low', score: 0.22, headline: 'Defensive compounder, dividend outlook unchanged', reasoning: 'Low volatility and stable sentiment. No unusual attention or news. The position is already up strongly from your entry; a trailing review in a few months is enough.', rsi: 58, dd: -2.3, earnings: '2026-11-07' },
-  { sym: 'EUNL.DE', price: 104.62, chg: 0.48, vol: 0.009, drift: 0.0004, action: 'hold', conf: 0.8, risk: 'low', score: 0.2, headline: 'Broad market drift higher', reasoning: 'Diversified core holding tracking global equities. No action needed; keep regular contributions if that is your plan.', rsi: 57, dd: -1.9, earnings: null },
-  { sym: 'VWCE.DE', price: 139.08, chg: 0.41, vol: 0.009, drift: 0.0004, action: 'hold', conf: 0.8, risk: 'low', score: 0.19, headline: 'Broad market drift higher', reasoning: 'Global all-cap exposure moving with the market. Nothing specific to react to.', rsi: 56, dd: -2.0, earnings: null },
-  { sym: 'RHM.DE', price: 1718.5, chg: -4.85, vol: 0.028, drift: 0.0016, action: 'consider_trim', conf: 0.61, risk: 'high', score: -0.28, headline: 'Sharp drop on defence-budget headlines after a huge run', reasoning: 'The position has more than doubled and now makes up an outsized share of your portfolio. Today’s drop came with a spike in attention and negative crowd sentiment. Trimming part of the gain would bring risk back in line with a conservative profile; the long-term thesis is not broken.', rsi: 38, dd: -17.4, earnings: '2026-11-06' },
-  { sym: 'ASME.DE', price: 781.2, chg: 2.35, vol: 0.022, drift: 0.0006, action: 'watch', conf: 0.55, risk: 'medium', score: 0.12, headline: 'Rebound after export-rule worries; volatile', reasoning: 'Shares recovered part of last week’s loss as export restriction fears eased. Sentiment is mixed and attention is elevated, so expect swings. Worth watching, no action suggested.', rsi: 49, dd: -15.2, earnings: '2027-01-21' },
-  { sym: 'NOVC.DE', price: 45.92, chg: -2.1, vol: 0.024, drift: -0.0009, action: 'consider_sell', conf: 0.58, risk: 'high', score: -0.52, headline: 'Below your stop-loss level; downtrend persists', reasoning: 'The price is now about 50% below your average buy price and well under the 200-day average. News on competition in weight-loss drugs keeps sentiment negative. Your stop-loss rule has triggered — review whether the original thesis still holds before deciding.', rsi: 33, dd: -58.6, earnings: '2026-11-05' },
-  { sym: 'IFX.DE', price: 35.84, chg: 1.12, vol: 0.022, drift: 0.0003, action: 'consider_buy', conf: 0.57, risk: 'medium', score: 0.31, headline: 'Approaching your target; sentiment improving', reasoning: 'The price is about 11% above your target. Chip demand commentary turned more positive this week and attention is rising. If it reaches your target, buying in steps would fit a conservative approach.', rsi: 52, dd: -12.5, earnings: '2026-11-11' },
-  { sym: 'AIR.DE', price: 198.36, chg: 0.74, vol: 0.016, drift: 0.0005, action: 'watch', conf: 0.5, risk: 'medium', score: 0.1, headline: 'Delivery targets reiterated', reasoning: 'Stable. Still well above your target price, so nothing to do yet.', rsi: 55, dd: -5.3, earnings: '2027-02-19' },
-  { sym: 'MOH.DE', price: 612.4, chg: -1.36, vol: 0.019, drift: -0.0001, action: 'watch', conf: 0.48, risk: 'medium', score: -0.08, headline: 'Luxury demand soft, near your target', reasoning: 'Weak demand commentary from Asia keeps pressure on the sector. The price is within 10% of your target; watching for stabilisation.', rsi: 44, dd: -21.7, earnings: '2027-01-28' },
-];
 
 const HOLD: [string, number, number, string][] = [
   ['SAP.DE', 25, 168.4, '2023-03-14'],
@@ -125,7 +95,7 @@ function intradayHistory(spec: Spec, seed: number, daily: [string, number][]): [
   return out;
 }
 
-const SOURCES = ['tagesschau.de', 'Handelsblatt', 'Bluesky', 'wallstreet-online', 'Wikipedia', 'finanzen.net', 'Reuters'];
+const NEWS_SOURCES = ['tagesschau.de', 'Handelsblatt', 'finanzen.net', 'Reuters'];
 
 function eventsFor(spec: Spec, name: string, seed: number, now: number): FeedEvent[] {
   const r = rng(seed + 7);
@@ -144,8 +114,19 @@ function eventsFor(spec: Spec, name: string, seed: number, now: number): FeedEve
   let t = now - 40 * 60_000;
   for (let i = 0; i < titles.length; i++) {
     const [kind, title, s] = titles[i];
-    t -= (6 + r() * 120) * 3_600_000 * (i < 3 ? 0.15 : 1.4);
-    const source = kind === 'bluesky' ? 'Bluesky' : kind === 'attention' ? 'Wikipedia' : kind === 'forum' ? 'wallstreet-online' : kind === 'price' ? 'Market data' : SOURCES[Math.floor(r() * 3) * 2 % SOURCES.length];
+    t -= i < 3 ? (2 + r() * 14) * 3_600_000 : (4 + r() * 22) * 86_400_000;
+    const source =
+      kind === 'bluesky'
+        ? 'Bluesky'
+        : kind === 'attention'
+          ? 'Wikipedia'
+          : kind === 'forum'
+            ? 'wallstreet-online'
+            : kind === 'price'
+              ? 'Market data'
+              : kind === 'earnings'
+                ? 'Company release'
+                : NEWS_SOURCES[Math.floor(r() * NEWS_SOURCES.length)];
     out.push({
       id: `ev-${spec.sym}-${i}`,
       time: new Date(t).toISOString(),
@@ -221,12 +202,78 @@ export function demoData(now = new Date()): { config: Config; feed: Feed } {
   const ago = (min: number) => new Date(nowMs - min * 60_000).toISOString();
   const evIds = (s: string, k = 2) => instruments[id(s)].events.slice(0, k).map((e) => e.id);
   const alerts: Alert[] = [
-    { id: 'al-1', time: ago(38), instrumentId: id('RHM.DE'), severity: 'critical', title: 'Rheinmetall −4.9% · consider trimming', body: 'Sharp drop on defence-budget headlines with a spike in attention. Position is oversized after a large gain.', action: 'consider_trim', confidence: 0.61, eventIds: evIds('RHM.DE', 3), pushed: true },
-    { id: 'al-2', time: ago(95), instrumentId: id('NOVC.DE'), severity: 'important', title: 'Novo Nordisk below stop-loss', body: 'Price is under your −15% stop level. Downtrend and negative news flow persist.', action: 'consider_sell', confidence: 0.58, eventIds: evIds('NOVC.DE'), pushed: true },
-    { id: 'al-3', time: ago(60 * 5), instrumentId: id('IFX.DE'), severity: 'info', title: 'Infineon nearing your target', body: 'Now about 11% above your €32 target; sentiment improving.', action: 'consider_buy', confidence: 0.57, eventIds: evIds('IFX.DE'), pushed: false },
-    { id: 'al-4', time: ago(60 * 26), instrumentId: id('ASME.DE'), severity: 'important', title: 'ASML rebounds +2.4% after export-rule worries', body: 'Attention elevated, sentiment mixed. No action suggested.', action: 'watch', confidence: 0.55, eventIds: evIds('ASME.DE'), pushed: true },
-    { id: 'al-5', time: ago(60 * 50), instrumentId: null, severity: 'info', title: 'Portfolio up 2.1% this week', body: 'Gains led by SAP and ASML; Rheinmetall and Novo Nordisk lagged.', action: null, confidence: null, eventIds: [], pushed: false },
-    { id: 'al-6', time: ago(60 * 75), instrumentId: id('MOH.DE'), severity: 'info', title: 'LVMH within 10% of target', body: 'Luxury demand commentary remains soft.', action: 'watch', confidence: 0.48, eventIds: evIds('MOH.DE'), pushed: false },
+    {
+      id: 'al-1',
+      time: ago(38),
+      instrumentId: id('RHM.DE'),
+      severity: 'critical',
+      title: 'Rheinmetall −4.9% · consider trimming',
+      body: 'Sharp drop on defence-budget headlines with a spike in attention. Position is oversized after a large gain.',
+      action: 'consider_trim',
+      confidence: 0.61,
+      eventIds: evIds('RHM.DE', 3),
+      pushed: true,
+    },
+    {
+      id: 'al-2',
+      time: ago(95),
+      instrumentId: id('NOVC.DE'),
+      severity: 'important',
+      title: 'Novo Nordisk below stop-loss',
+      body: 'Price is under your −15% stop level. Downtrend and negative news flow persist.',
+      action: 'consider_sell',
+      confidence: 0.58,
+      eventIds: evIds('NOVC.DE'),
+      pushed: true,
+    },
+    {
+      id: 'al-3',
+      time: ago(60 * 5),
+      instrumentId: id('IFX.DE'),
+      severity: 'info',
+      title: 'Infineon nearing your target',
+      body: 'Now about 11% above your €32 target; sentiment improving.',
+      action: 'consider_buy',
+      confidence: 0.57,
+      eventIds: evIds('IFX.DE'),
+      pushed: false,
+    },
+    {
+      id: 'al-4',
+      time: ago(60 * 26),
+      instrumentId: id('ASME.DE'),
+      severity: 'important',
+      title: 'ASML rebounds +2.4% after export-rule worries',
+      body: 'Attention elevated, sentiment mixed. No action suggested.',
+      action: 'watch',
+      confidence: 0.55,
+      eventIds: evIds('ASME.DE'),
+      pushed: true,
+    },
+    {
+      id: 'al-5',
+      time: ago(60 * 50),
+      instrumentId: null,
+      severity: 'info',
+      title: 'Portfolio up 2.1% this week',
+      body: 'Gains led by SAP and ASML; Rheinmetall and Novo Nordisk lagged.',
+      action: null,
+      confidence: null,
+      eventIds: [],
+      pushed: false,
+    },
+    {
+      id: 'al-6',
+      time: ago(60 * 75),
+      instrumentId: id('MOH.DE'),
+      severity: 'info',
+      title: 'LVMH within 10% of target',
+      body: 'Luxury demand commentary remains soft.',
+      action: 'watch',
+      confidence: 0.48,
+      eventIds: evIds('MOH.DE'),
+      pushed: false,
+    },
   ];
 
   const digests: Digest[] = [

@@ -56,7 +56,13 @@ export function PortfolioList({ selectedId }: { selectedId?: string }) {
         {sorted.length ? (
           <ul className="rows wide">
             {sorted.map((v) => (
-              <HoldingRow key={v.pos.id} v={v} metric={metric} selected={v.pos.id === selectedId} share={totals.value ? (v.value / totals.value) * 100 : undefined} />
+              <HoldingRow
+                key={v.pos.id}
+                v={v}
+                metric={metric}
+                selected={v.pos.id === selectedId}
+                share={totals.value && !totals.excluded.includes(v) ? (v.value / totals.value) * 100 : undefined}
+              />
             ))}
           </ul>
         ) : (

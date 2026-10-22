@@ -54,9 +54,7 @@ function StepPassphrase() {
       }}
     >
       <h1>Choose a passphrase</h1>
-      <p className="lead">
-        It encrypts everything — on this device and in your repository. Nothing is stored in plain text anywhere.
-      </p>
+      <p className="lead">It encrypts everything — on this device and in your repository. Nothing is stored in plain text anywhere.</p>
       <PassphraseInput autoFocus onChange={(v, ok) => setPass({ v, ok })} />
       <div className="notice warn ob-note">
         <strong>It cannot be recovered.</strong> If you forget it, your encrypted data is lost. Store it in a password manager.
@@ -82,10 +80,13 @@ function StepGitHub({ onNext }: { onNext: () => void }) {
     <div>
       <h1>Connect your repository</h1>
       <p className="lead">
-        The watcher runs in your own private GitHub repository. The app stores your encrypted configuration there and reads the encrypted feed the watcher writes.
+        The watcher runs in your own private GitHub repository. The app stores your encrypted configuration there and reads the encrypted feed the watcher
+        writes.
       </p>
       <ul className="ob-facts">
-        <li>Create a fine-grained token limited to <strong>only this repository</strong>.</li>
+        <li>
+          Create a fine-grained token limited to <strong>only this repository</strong>.
+        </li>
         <li>
           Grant exactly one permission: <strong>Contents → Read and write</strong>.
         </li>

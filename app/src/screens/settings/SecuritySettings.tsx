@@ -48,7 +48,12 @@ export function SecuritySettings() {
     try {
       const text = passphrase == null ? await ring().decrypt(env) : await decrypt(passphrase, env);
       const b = parseBackup(JSON.parse(text));
-      if (!window.confirm(`Replace your current holdings and settings with this backup (${b.config.holdings.length} holdings, ${b.config.candidates.length} watched)?`)) return;
+      if (
+        !window.confirm(
+          `Replace your current holdings and settings with this backup (${b.config.holdings.length} holdings, ${b.config.candidates.length} watched)?`,
+        )
+      )
+        return;
       await replaceLocal({ ...local, config: b.config, prefs: { ...local.prefs, ...b.prefs } });
       setImportEnv(null);
       setImportPass('');
@@ -58,7 +63,10 @@ export function SecuritySettings() {
         setImportEnv(env);
         setBkMsg({ tone: 'error', text: 'This backup uses a different passphrase. Enter it below.' });
       } else
-        setBkMsg({ tone: 'error', text: e instanceof Error && e.name !== 'DecryptError' && !(e instanceof SyntaxError) ? e.message : 'Wrong passphrase or damaged backup.' });
+        setBkMsg({
+          tone: 'error',
+          text: e instanceof Error && e.name !== 'DecryptError' && !(e instanceof SyntaxError) ? e.message : 'Wrong passphrase or damaged backup.',
+        });
     }
   };
 
@@ -78,7 +86,7 @@ export function SecuritySettings() {
 
   return (
     <>
-      <Section title="Security">
+      <Section title="Security" id="security">
         <SettingRow label="Auto-lock" hint="Lock after this much inactivity; the key is then removed from memory" htmlFor="autolock">
           <select
             id="autolock"
@@ -110,7 +118,9 @@ export function SecuritySettings() {
               <input type="password" value={pw.cur} onChange={(e) => setPw({ ...pw, cur: e.target.value })} autoComplete="current-password" />
             </Field>
             <PassphraseInput onChange={(next, ok) => setPw((p) => ({ ...p, next, ok }))} />
-            <p className="notice warn">After changing it, set the repository secret <code>ARB_PASSPHRASE</code> to the new passphrase.</p>
+            <p className="notice warn">
+              After changing it, set the repository secret <code>ARB_PASSPHRASE</code> to the new passphrase.
+            </p>
             {pwMsg ? <p className={`notice ${pwMsg.tone}`}>{pwMsg.text}</p> : null}
             <div className="btn-row">
               <button type="submit" className="btn" disabled={busy || !pw.ok || !pw.cur || demo}>
@@ -121,7 +131,7 @@ export function SecuritySettings() {
         </details>
       </Section>
 
-      <Section title="Backup">
+      <Section title="Backup" id="backup">
         <SettingRow label="Export encrypted backup" hint="Holdings, watch list and settings as an encrypted file">
           <button type="button" className="btn secondary small" onClick={() => void exportBackup()} disabled={demo}>
             Export
@@ -154,7 +164,7 @@ export function SecuritySettings() {
         {bkMsg ? <p className={`notice ${bkMsg.tone}`}>{bkMsg.text}</p> : null}
       </Section>
 
-      <Section title="Danger zone">
+      <Section title="Danger zone" id="danger">
         <SettingRow label="Wipe all local data" hint="Deletes everything stored on this device. Your repository is not touched.">
           <button
             type="button"

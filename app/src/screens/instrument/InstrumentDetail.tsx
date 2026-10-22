@@ -71,7 +71,8 @@ export function InstrumentDetail({ id }: { id?: string }) {
       ) : (
         <div className="feed-notice">
           <p className="notice">
-            No market data for this instrument yet. {inst.symbol ? 'It will appear after the next watcher run.' : 'The watcher will try to resolve the ISIN on its next run.'}
+            No market data for this instrument yet.{' '}
+            {inst.symbol ? 'It will appear after the next watcher run.' : 'The watcher will try to resolve the ISIN on its next run.'}
           </p>
         </div>
       )}

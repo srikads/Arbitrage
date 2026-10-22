@@ -32,7 +32,11 @@ export function SignalBlock({ signal }: { signal: Signal }) {
         {signal.factors.length ? (
           <div className="factors-wrap">
             <div className="sublabel">
-              What drives this signal <span className="faint">· score {signal.score > 0 ? '+' : ''}{fixed(signal.score, 2)}</span>
+              What drives this signal{' '}
+              <span className="faint">
+                · score {signal.score > 0 ? '+' : ''}
+                {fixed(signal.score, 2)}
+              </span>
             </div>
             <FactorBars factors={signal.factors} />
           </div>
@@ -47,7 +51,11 @@ export function TechnicalsRow({ snap, currency }: { snap: InstrumentSnapshot; cu
   const price = snap.price;
   const vs = (sma: number | null) => (sma != null && price != null ? ((price - sma) / sma) * 100 : null);
   const items: [string, string, string?][] = [
-    ['RSI 14', t.rsi14 != null ? fixed(t.rsi14, 0) : '–', t.rsi14 != null ? (t.rsi14 >= 70 ? 'overbought' : t.rsi14 <= 30 ? 'oversold' : 'neutral') : undefined],
+    [
+      'RSI 14',
+      t.rsi14 != null ? fixed(t.rsi14, 0) : '–',
+      t.rsi14 != null ? (t.rsi14 >= 70 ? 'overbought' : t.rsi14 <= 30 ? 'oversold' : 'neutral') : undefined,
+    ],
     ['SMA 50', money(t.sma50, currency), vs(t.sma50) != null ? `price ${pct(vs(t.sma50), 1)}` : undefined],
     ['SMA 200', money(t.sma200, currency), vs(t.sma200) != null ? `price ${pct(vs(t.sma200), 1)}` : undefined],
     ['From 52w high', pct(t.drawdownFrom52wHighPct, 1), undefined],

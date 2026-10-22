@@ -33,7 +33,10 @@ export function GitHubForm({ initial, onDone, submitLabel = 'Connect' }: { initi
         updateLocal((l) => ({ ...l, github: conn, configSha: remote?.sha ?? null, dirty: true }));
         if (remote && !remote.config) note += ' An existing config in the repo could not be decrypted with this passphrase; it will be overwritten.';
       }
-      setMsg({ tone: info.private ? 'ok' : 'warn', text: info.private ? note : `${note} Warning: this repository is public. Data stays encrypted, but a private repository is strongly recommended.` });
+      setMsg({
+        tone: info.private ? 'ok' : 'warn',
+        text: info.private ? note : `${note} Warning: this repository is public. Data stays encrypted, but a private repository is strongly recommended.`,
+      });
       void refresh();
       onDone?.(note);
     } catch (e) {
@@ -52,7 +55,14 @@ export function GitHubForm({ initial, onDone, submitLabel = 'Connect' }: { initi
       }}
     >
       <Field label="Repository" hint="The private repository that runs the watcher, e.g. jane/arbitrage">
-        <input value={repo} onChange={(e) => setRepo(e.target.value)} placeholder="owner/repository" autoComplete="off" spellCheck={false} autoCapitalize="none" />
+        <input
+          value={repo}
+          onChange={(e) => setRepo(e.target.value)}
+          placeholder="owner/repository"
+          autoComplete="off"
+          spellCheck={false}
+          autoCapitalize="none"
+        />
       </Field>
       <Field
         label="Fine-grained access token"

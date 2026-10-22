@@ -75,7 +75,13 @@ export function InstrumentSearch({ onPick, onManual, exclude, autoFocus }: Props
             const taken = exclude.has(r.id);
             return (
               <li key={r.id} role="option" id={`sr-${i}`} aria-selected={i === active} data-i={i}>
-                <button type="button" className={`row${i === active ? ' selected' : ''}`} disabled={taken} onClick={() => onPick(r)} onMouseEnter={() => setActive(i)}>
+                <button
+                  type="button"
+                  className={`row${i === active ? ' selected' : ''}`}
+                  disabled={taken}
+                  onClick={() => onPick(r)}
+                  onMouseEnter={() => setActive(i)}
+                >
                   <Avatar symbol={r.symbol} name={r.name} />
                   <div className="left">
                     <div className="title">{r.name}</div>

@@ -6,6 +6,7 @@ export type PositionView = {
   pos: Position;
   snap: InstrumentSnapshot | null;
   price: number | null;
+  currency: string;
   /** Market value; falls back to cost basis when no price is known. */
   value: number;
   cost: number;
@@ -26,7 +27,11 @@ export type PortfolioTotals = {
   dayPct: number | null;
   pricedCount: number;
   count: number;
+  /** Positions not in the base currency; excluded from totals (the feed carries no FX rates). */
+  excluded: PositionView[];
 };
+
+export const BASE_CURRENCY = 'EUR';
 
 export function positionView(pos: Position, snap: InstrumentSnapshot | null | undefined, settings: Settings): PositionView {
   const s = snap ?? null;
@@ -43,6 +48,7 @@ export function positionView(pos: Position, snap: InstrumentSnapshot | null | un
     pos,
     snap: s,
     price,
+    currency: s?.currency || pos.currency || BASE_CURRENCY,
     value,
     cost,
     pnl,
@@ -54,7 +60,9 @@ export function positionView(pos: Position, snap: InstrumentSnapshot | null | un
   };
 }
 
-export function portfolioTotals(views: PositionView[]): PortfolioTotals {
+export function portfolioTotals(all: PositionView[], base = BASE_CURRENCY): PortfolioTotals {
+  const views = all.filter((v) => v.currency === base);
+  const excluded = all.filter((v) => v.currency !== base);
   let value = 0;
   let cost = 0;
   let dayChange = 0;
@@ -81,6 +89,7 @@ export function portfolioTotals(views: PositionView[]): PortfolioTotals {
     dayPct: prevValue > 0 ? (dayChange / prevValue) * 100 : null,
     pricedCount,
     count: views.length,
+    excluded,
   };
 }
 
@@ -133,10 +142,12 @@ export function combineSeries(series: { qty: number; points: Point[] }[]): Point
   return out;
 }
 
-export function portfolioHistory(holdings: Position[], feed: Feed | null, kind: 'daily' | 'intraday'): Point[] {
+export function portfolioHistory(holdings: Position[], feed: Feed | null, kind: 'daily' | 'intraday', base = BASE_CURRENCY): Point[] {
   if (!feed) return [];
   return combineSeries(
-    holdings.map((h) => ({ qty: h.quantity, points: normaliseSeries(feed.instruments[h.id]?.history[kind] ?? [], kind) })),
+    holdings
+      .filter((h) => (feed.instruments[h.id]?.currency || h.currency || base) === base)
+      .map((h) => ({ qty: h.quantity, points: normaliseSeries(feed.instruments[h.id]?.history[kind] ?? [], kind) })),
   );
 }
 

@@ -24,11 +24,7 @@ export async function pullConfig(conn: GitHubConn): Promise<RemoteConfig | null>
   }
 }
 
-export type FeedResult =
-  | { kind: 'ok'; feed: Feed }
-  | { kind: 'missing' }
-  | { kind: 'wrong-passphrase' }
-  | { kind: 'invalid'; message: string };
+export type FeedResult = { kind: 'ok'; feed: Feed } | { kind: 'missing' } | { kind: 'wrong-passphrase' } | { kind: 'invalid'; message: string };
 
 export function validFeed(x: unknown): x is Feed {
   const f = x as Feed;
