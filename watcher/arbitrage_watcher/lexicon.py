@@ -58,14 +58,21 @@ def tokenize(text: str) -> list[str]:
     return [t.strip("'’-") for t in _TOKEN_RE.findall(text.lower())]
 
 
+def _negate(weight: float) -> float:
+    """Flip and damp: "no profit warning" is only mildly positive."""
+    return max(-NEGATION_CAP, min(NEGATION_CAP, weight * NEGATION_FACTOR))
+
+
 def _phrase_pass(lower: str) -> tuple[float, int, str]:
     total, hits = 0.0, 0
     for phrase, weight in PHRASES.items():
-        count = lower.count(phrase)
-        if count:
-            total += weight * count
-            hits += count
-            lower = lower.replace(phrase, " ")
+        start = lower.find(phrase)
+        while start != -1:
+            before = tokenize(lower[:start])[-NEGATION_WINDOW:]
+            total += _negate(weight) if any(_is_negator(b) for b in before) else weight
+            hits += 1
+            lower = lower[:start] + " " * len(phrase) + lower[start + len(phrase):]
+            start = lower.find(phrase)
     return total, hits, lower
 
 
@@ -84,8 +91,8 @@ def _token_pass(tokens: list[str]) -> tuple[float, int]:
         # German verb-final negation: "steigt nicht"
         if not negated and i + 1 < len(tokens) and tokens[i + 1] == "nicht":
             negated = True
-        if negated:  # flipped and damped: "no profit warning" is only mildly positive
-            weight = max(-NEGATION_CAP, min(NEGATION_CAP, weight * NEGATION_FACTOR))
+        if negated:
+            weight = _negate(weight)
         total += weight
         hits += 1
     return total, hits
