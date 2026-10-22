@@ -12,7 +12,6 @@ import {
   type ISeriesMarkersPluginApi,
   type SeriesMarker,
   type Time,
-  type UTCTimestamp,
 } from 'lightweight-charts';
 import type { Point } from '../lib/portfolio';
 
@@ -117,12 +116,13 @@ export function PriceChart({ points, intraday, height, markers, axes = false, on
       const cb = hoverRef.current;
       if (!cb) return;
       const d = param.time !== undefined ? param.seriesData.get(s) : undefined;
-      if (!d || !('value' in d)) {
+      const value = d && 'value' in d ? (d.value as number) : null;
+      if (!d || value == null) {
         cb(null);
         return;
       }
       const t = typeof d.time === 'number' ? new Date(d.time * 1000).toISOString() : String(d.time);
-      cb({ time: t, value: d.value });
+      cb({ time: t, value });
     });
     c.subscribeClick((param) => {
       if (param.hoveredObjectId != null && clickRef.current) clickRef.current(String(param.hoveredObjectId));

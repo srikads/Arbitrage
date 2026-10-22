@@ -44,11 +44,44 @@ function instrumentsPlugin(): Plugin {
   };
 }
 
+const pkg = JSON.parse(readFileSync(resolve(here, 'package.json'), 'utf8')) as { version: string };
+
+/**
+ * Strict Content-Security-Policy for the production build: the app may only
+ * talk to itself, api.github.com and a local Ollama. (Not applied in dev,
+ * where the HMR client needs inline scripts.)
+ */
+const CSP = [
+  "default-src 'self'",
+  "script-src 'self'",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob:",
+  "font-src 'self'",
+  "connect-src 'self' https://api.github.com http://localhost:* http://127.0.0.1:* http://[::1]:*",
+  "worker-src 'self'",
+  "manifest-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'none'",
+].join('; ');
+
+function cspPlugin(): Plugin {
+  return {
+    name: 'arbitrage-csp',
+    apply: 'build',
+    transformIndexHtml(html) {
+      return html.replace('<meta charset="UTF-8" />', `<meta charset="UTF-8" />\n    <meta http-equiv="Content-Security-Policy" content="${CSP}" />`);
+    },
+  };
+}
+
 export default defineConfig({
   base: './',
+  define: { __APP_VERSION__: JSON.stringify(pkg.version) },
   plugins: [
     react(),
     instrumentsPlugin(),
+    cspPlugin(),
     VitePWA({
       strategies: 'injectManifest',
       srcDir: 'src/sw',

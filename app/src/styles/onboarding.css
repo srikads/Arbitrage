@@ -1,0 +1,170 @@
+/* ---------- Onboarding ---------- */
+.onboarding {
+  min-height: 100dvh;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top) + 20px) var(--gutter) 48px;
+}
+
+.ob-head {
+  margin-bottom: 30px;
+}
+
+.ob-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.ob-progress {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin: 28px 0 0;
+  padding: 0;
+}
+
+.ob-progress .bar {
+  display: block;
+  height: 2px;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background var(--dur) var(--ease);
+}
+
+.ob-progress .done .bar,
+.ob-progress .current .bar {
+  background: var(--text);
+}
+
+.ob-progress .lbl {
+  display: block;
+  margin-top: 8px;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-3);
+}
+
+.ob-progress .current .lbl {
+  color: var(--text);
+}
+
+.ob-progress .done .lbl {
+  color: var(--text-2);
+}
+
+.ob-body h1 {
+  font-size: 26px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.ob-body .lead {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-2);
+}
+
+.ob-note {
+  margin-top: 20px;
+}
+
+.ob-facts {
+  list-style: none;
+  margin: 20px 0 6px;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.ob-facts li {
+  padding: 11px 0 11px 18px;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-2);
+  position: relative;
+}
+
+.ob-facts li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 19px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text-3);
+}
+
+.ob-facts strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.skip {
+  margin-top: 14px;
+  padding: 0;
+  font-size: 13.5px;
+}
+
+.ob-added {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-size: 13.5px;
+  color: var(--text-2);
+}
+
+.ob-added li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ob-finish {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.strength {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: var(--text-2);
+}
+
+.strength-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 22px);
+  gap: 3px;
+}
+
+.strength-bar > span {
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.strength.s0 .on,
+.strength.s1 .on {
+  background: var(--down);
+}
+.strength.s2 .on {
+  background: var(--warn);
+}
+.strength.s3 .on,
+.strength.s4 .on {
+  background: var(--up);
+}

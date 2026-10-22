@@ -118,8 +118,9 @@ export const IconSend = (p: P) => (
 export function Monogram({ size = 26 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
-      <rect width="64" height="64" rx="14" fill="#f3f3f4" />
-      <path d="M17 46 29.5 17h5L47 46h-6.2l-2.8-7H26l-2.8 7Zm11-12.6h8L32 23.2Z" fill="#0b0b0c" fillRule="evenodd" />
+      <rect width="64" height="64" rx="14" fill="#1d1d20" />
+      <path d="M17 46 29.5 17h5L47 46h-6.2l-2.8-7H26l-2.8 7Zm11-12.6h8L32 23.2Z" fill="#f3f3f4" fillRule="evenodd" />
+      <rect x="17" y="49.5" width="30" height="2" fill="#3ccf7e" />
     </svg>
   );
 }
