@@ -1,0 +1,13 @@
+{
+  "passphrase": "correct horse battery staple",
+  "plaintext": "{\"hello\":\"world\",\"n\":42}",
+  "envelope": {
+    "v": 1,
+    "alg": "AES-256-GCM",
+    "kdf": "PBKDF2-SHA256",
+    "iter": 600000,
+    "salt": "AAECAwQFBgcICQoLDA0ODw==",
+    "iv": "ZGVmZ2hpamtsbW5v",
+    "ct": "8cLn59Bnl0e7+2qKAX/Y+ui026c3CAY3jA/XO1qBPHvPo1lpFyFn+A=="
+  }
+}
