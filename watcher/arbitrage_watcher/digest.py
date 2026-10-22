@@ -37,34 +37,51 @@ def _period_change(snap: dict[str, Any], kind: str) -> float | None:
     return (price / base - 1) * 100 if base else None
 
 
-def portfolio_section(holdings: Sequence[Tracked], snaps: dict[str, dict[str, Any]], kind: str) -> list[str]:
+def _holding_row(t: Tracked, s: dict[str, Any], kind: str) -> tuple[str, float, float, float] | None:
+    """(currency, value, period change, cost) in the instrument's own currency."""
+    price = s.get("price")
+    if not price or not t.quantity:
+        return None
+    value = price * t.quantity
+    chg = _period_change(s, kind)
+    delta = value - value / (1 + chg / 100) if chg is not None else 0.0
+    return s.get("currency") or t.currency, value, delta, (t.buy_price or 0) * t.quantity
+
+
+def portfolio_section(holdings: Sequence[Tracked], snaps: dict[str, dict[str, Any]], kind: str,
+                      rates: dict[str, float] | None = None) -> list[str]:
+    """Totals in EUR (converted with FX where needed); unconvertible currencies listed separately."""
+    rates = rates or {"EUR": 1.0}
     totals: dict[str, list[float]] = defaultdict(lambda: [0.0, 0.0, 0.0])   # value, period change, cost
     rows = []
     for t in holdings:
         s = snaps.get(t.id) or {}
-        price = s.get("price")
-        if not price or not t.quantity:
+        row = _holding_row(t, s, kind)
+        if row is None:
             continue
-        value = price * t.quantity
-        chg = _period_change(s, kind)
-        delta = value - value / (1 + chg / 100) if chg is not None else 0.0
-        cost = (t.buy_price or 0) * t.quantity
-        cur = s.get("currency") or t.currency
-        tot = totals[cur]
-        tot[0] += value
-        tot[1] += delta
-        tot[2] += cost
-        pnl = f"{(price / t.buy_price - 1) * 100:+.1f}%" if t.buy_price else "n/a"
-        rows.append(f"| {t.name} | {_fmt_money(value, cur)} | {_pct(chg)} | {pnl} |")
+        cur, value, delta, cost = row
+        rate = rates.get(cur)
+        key, factor = ("EUR", rate) if rate is not None else (cur, 1.0)
+        tot = totals[key]
+        tot[0] += value * factor
+        tot[1] += delta * factor
+        tot[2] += cost * factor
+        pnl = f"{(s['price'] / t.buy_price - 1) * 100:+.1f}%" if t.buy_price else "n/a"
+        shown = _fmt_money(value * rate, "EUR") if rate is not None else _fmt_money(value, cur)
+        rows.append(f"| {t.name} | {shown} | {_pct(_period_change(s, kind))} | {pnl} |")
     if not rows:
         return ["_No priced holdings._"]
     period = "today" if kind == "daily" else "this week"
     lines = []
-    for cur, (value, delta, cost) in totals.items():
+    for cur, (value, delta, cost) in sorted(totals.items(), key=lambda kv: kv[0] != "EUR"):
         prev = value - delta
         pct = delta / prev * 100 if prev else 0.0
         pl = f", total P&L {_fmt_money(value - cost, cur)}" if cost else ""
         lines.append(f"**Value:** {_fmt_money(value, cur)} ({delta:+,.2f} {cur} / {pct:+.2f}% {period}{pl})")
+    if any(cur != "EUR" for cur in totals):
+        lines.append("_Some positions could not be converted to EUR (FX rate unavailable) and are shown separately._")
+    elif any((snaps.get(t.id) or {}).get("currency", "EUR") != "EUR" for t in holdings):
+        lines.append("_Non-EUR positions converted at the latest FX rate; changes exclude currency moves._")
     lines += ["", f"| Holding | Value | {period.capitalize()} | Since buy |", "|---|---:|---:|---:|", *rows]
     return lines
 
@@ -112,13 +129,13 @@ def calendar_section(tracked: Sequence[Tracked], snaps: dict[str, dict[str, Any]
 
 
 def build(kind: str, tracked: Sequence[Tracked], snaps: dict[str, dict[str, Any]], now: datetime,
-          llm: Ollama | None = None) -> Digest:
+          llm: Ollama | None = None, rates: dict[str, float] | None = None) -> Digest:
     local = now.astimezone(BERLIN)
     holdings = [t for t in tracked if t.is_holding]
     since = now - (timedelta(days=1) if kind == "daily" else timedelta(days=7))
     horizon = 7 if kind == "daily" else 14
     sections = {
-        "Portfolio": portfolio_section(holdings, snaps, kind),
+        "Portfolio": portfolio_section(holdings, snaps, kind, rates),
         "Top movers": movers_section(tracked, snaps, kind),
         "Suggestions": signals_section(tracked, snaps),
         "Notable news & events": events_section(tracked, snaps, since),

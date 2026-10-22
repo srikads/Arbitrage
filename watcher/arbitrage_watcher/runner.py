@@ -13,7 +13,7 @@ from arbitrage_watcher import alerts as al
 from arbitrage_watcher import digest as dg
 from arbitrage_watcher import events as ev
 from arbitrage_watcher import feed as fd
-from arbitrage_watcher import log, market, narrative, notify
+from arbitrage_watcher import fx, log, market, narrative, notify
 from arbitrage_watcher.context import ConfigMissing, Context, load, padding_ok, prepare_instruments
 from arbitrage_watcher.crowd.collect import collect, crowd_evidence, top_items
 from arbitrage_watcher.crypto import write_encrypted
@@ -127,11 +127,17 @@ def _digests(ctx: Context, instruments: dict[str, Any], now: datetime, llm: Olla
              forced: bool) -> list[dict[str, Any]]:
     made = []
     local = now.astimezone(market.BERLIN)
-    if market.daily_digest_due(now, ctx.state, ctx.settings) or (forced and local.weekday() < 5):
-        made.append(dg.build("daily", ctx.tracked, instruments, now, llm))
+    want_daily = market.daily_digest_due(now, ctx.state, ctx.settings) or (forced and local.weekday() < 5)
+    want_weekly = market.weekly_digest_due(now, ctx.state, ctx.settings) or (forced and local.weekday() >= 5)
+    rates = {"EUR": 1.0}
+    if want_daily or want_weekly:
+        currencies = {(instruments.get(t.id) or {}).get("currency") or t.currency for t in ctx.tracked if t.is_holding}
+        rates = fx.fetch_rates(currencies)
+    if want_daily:
+        made.append(dg.build("daily", ctx.tracked, instruments, now, llm, rates))
         ctx.state["last"]["digestDaily"] = local.date().isoformat()
-    if market.weekly_digest_due(now, ctx.state, ctx.settings) or (forced and local.weekday() >= 5):
-        made.append(dg.build("weekly", ctx.tracked, instruments, now, llm))
+    if want_weekly:
+        made.append(dg.build("weekly", ctx.tracked, instruments, now, llm, rates))
         ctx.state["last"]["digestWeekly"] = market.iso_week(local.date())
     return made
 

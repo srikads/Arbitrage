@@ -1,4 +1,4 @@
-"""German investor forums: broad board / latest-post pages only (contract §6.3).
+"""German-language investor forums: broad board / latest-post pages only (contract §6.3).
 
 Pages are parsed generically (thread links with titles) and matched locally.
 Everything fails soft; Playwright is used only if installed and the static

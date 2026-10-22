@@ -1,0 +1,110 @@
+name: watch
+
+on:
+  schedule:
+    # Every 30 min during the European trading day (07:00–17:00 UTC, Mon–Fri)
+    - cron: "*/30 7-16 * * 1-5"
+    - cron: "0 17 * * 1-5"
+    # Every 3 hours outside of it (weekday nights + weekends)
+    - cron: "0 20,23,2,5 * * 1-5"
+    - cron: "0 */3 * * 0,6"
+    # After the XETRA close for the daily digest: 15:50 UTC = 17:50 Berlin in summer,
+    # 16:50 UTC = 17:50 Berlin in winter (the digest is generated once per day either way)
+    - cron: "50 15,16 * * 1-5"
+    # Sunday evening for the weekly digest (~18:00–19:00 Berlin)
+    - cron: "5 17 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        type: choice
+        options: [auto, light, deep, digest]
+        default: auto
+
+concurrency:
+  group: arbitrage-watcher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ARB_PASSPHRASE: ${{ secrets.ARB_PASSPHRASE }}
+      ARB_MODEL: ${{ vars.ARB_MODEL || 'qwen2.5:3b' }}
+      ARB_DEEP_INTERVAL_MIN: ${{ vars.ARB_DEEP_INTERVAL_MIN || '180' }}
+      ARB_LLM_BUDGET_SEC: ${{ vars.ARB_LLM_BUDGET_SEC || '420' }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: watcher/pyproject.toml
+
+      - name: Install watcher
+        run: pip install --disable-pip-version-check -q ./watcher
+
+      - name: Plan
+        id: plan
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" != "auto" ]; then
+            mode="${{ inputs.mode }}"
+            if [ "$mode" = "light" ]; then needs=false; else needs=true; fi
+            echo "needs_llm=$needs" >> "$GITHUB_OUTPUT"
+            echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          else
+            python -m arbitrage_watcher plan --repo-dir .
+          fi
+
+      - name: Cache Ollama models
+        if: steps.plan.outputs.needs_llm == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ runner.os }}-${{ env.ARB_MODEL }}
+
+      - name: Install Ollama and pull model
+        id: ollama
+        if: steps.plan.outputs.needs_llm == 'true'
+        continue-on-error: true
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # The installer may start a system service; make sure a server runs as this user (uses ~/.ollama).
+          sudo systemctl stop ollama 2>/dev/null || true
+          OLLAMA_MODELS="$HOME/.ollama/models" nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf http://127.0.0.1:11434/api/tags > /dev/null && break; sleep 1; done
+          ollama pull "$ARB_MODEL"
+
+      - name: Run watcher
+        run: |
+          mode="${{ steps.plan.outputs.mode }}"
+          if [ "${{ steps.ollama.outcome }}" != "success" ] && [ "$mode" = "deep" ]; then mode=light; fi
+          python -m arbitrage_watcher run --repo-dir . --mode "${mode:-light}" --model "$ARB_MODEL"
+
+      - name: Commit encrypted data
+        run: |
+          git add data/*.enc 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "arbitrage-watcher"
+          git config user.email "watcher@users.noreply.github.com"
+          git commit -q -m "chore: update feed"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "Push failed after retries" >&2
+          exit 1

@@ -35,7 +35,8 @@ def load_state(raw: Any) -> dict[str, Any]:
     state = new_state()
     if isinstance(raw, dict) and raw.get("version") == STATE_VERSION:
         for key, value in raw.items():
-            if key in state and type(value) is type(state[key]) or state.get(key) is None:
+            default = state.get(key)
+            if default is None or type(value) is type(default):
                 state[key] = value
     return state
 

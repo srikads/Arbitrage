@@ -54,7 +54,7 @@ def _position_alerts(ctx: AlertContext, now: datetime) -> list[tuple[str, Alert]
     if fx.stop_loss_hit(inp) and pnl is not None:
         out.append(make_alert("stop_loss", now, t.id, "critical", f"{t.name}: stop-loss reached",
                               f"{pnl:+.1f}% vs your buy price (limit -{inp.stop_loss_pct:g}%). "
-                              f"{ACTION_TEXT[sig['action']].split(' —')[0]} — {sig['headline']}",
+                              f"Suggestion: {ACTION_TEXT[sig['action']].split(' —')[0].lower()}; review your plan.",
                               sig["action"], sig["confidence"]))
     elif fx.take_profit_hit(inp) and pnl is not None:
         out.append(make_alert("take_profit", now, t.id, "important", f"{t.name}: take-profit reached",
@@ -107,7 +107,7 @@ def _event_alerts(ctx: AlertContext, now: datetime) -> list[tuple[str, Alert]]:
 
 def instrument_alerts(ctx: AlertContext, now: datetime, risk_setting: float) -> list[tuple[str, Alert]]:
     out = _position_alerts(ctx, now)
-    if not any(k.endswith("|stop_loss") for k, _ in out):
+    if not out:  # a position alert already carries the suggested action
         out += _signal_alert(ctx, now, risk_setting)
     return out + _event_alerts(ctx, now)
 
