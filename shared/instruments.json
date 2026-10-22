@@ -1,0 +1,10020 @@
+[
+ {
+  "id": "DE0005545503",
+  "isin": "DE0005545503",
+  "symbol": "1U1.DE",
+  "name": "1&1",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "1&1 AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB00B1YW4409",
+  "isin": "GB00B1YW4409",
+  "symbol": "III.L",
+  "name": "3i Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "3i Group plc"
+  ],
+  "wikipedia": "3i"
+ },
+ {
+  "id": "US88579Y1010",
+  "isin": "US88579Y1010",
+  "symbol": "MMM.DE",
+  "name": "3M",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "3M Company"
+  ],
+  "wikipedia": "3M"
+ },
+ {
+  "id": "DK0010244508",
+  "isin": "DK0010244508",
+  "symbol": "DP4B.DE",
+  "name": "A.P. Møller-Mærsk (B)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Maersk",
+   "Møller-Maersk",
+   "A.P. Møller - Mærsk A/S"
+  ],
+  "wikipedia": "Maersk"
+ },
+ {
+  "id": "BE0974293251",
+  "isin": "BE0974293251",
+  "symbol": "1NBA.DE",
+  "name": "AB InBev",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Anheuser-Busch InBev",
+   "Anheuser-Busch",
+   "Budweiser",
+   "Anheuser Busch Inbev SA NV"
+  ],
+  "wikipedia": "Anheuser-Busch InBev"
+ },
+ {
+  "id": "CH0012221716",
+  "isin": "CH0012221716",
+  "symbol": "ABBN.SW",
+  "name": "ABB",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "ABB Ltd"
+  ],
+  "wikipedia": "Asea Brown Boveri"
+ },
+ {
+  "id": "US0028241000",
+  "isin": "US0028241000",
+  "symbol": "ABL.DE",
+  "name": "Abbott Laboratories",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "Abbott Laboratories"
+ },
+ {
+  "id": "US00287Y1091",
+  "isin": "US00287Y1091",
+  "symbol": "4AB.DE",
+  "name": "AbbVie",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "AbbVie Inc."
+  ],
+  "wikipedia": "AbbVie"
+ },
+ {
+  "id": "NL0011540547",
+  "isin": "NL0011540547",
+  "symbol": "ABN.AS",
+  "name": "ABN AMRO",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ABN AMRO Bank N.V."
+  ],
+  "wikipedia": "ABN AMRO"
+ },
+ {
+  "id": "IE00B4BNMY34",
+  "isin": "IE00B4BNMY34",
+  "symbol": "ACN",
+  "name": "Accenture",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Accenture Plc"
+  ],
+  "wikipedia": "Accenture"
+ },
+ {
+  "id": "ES0125220311",
+  "isin": "ES0125220311",
+  "symbol": "ANA.MC",
+  "name": "Acciona",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Acciona, S.A."
+  ],
+  "wikipedia": "Acciona"
+ },
+ {
+  "id": "FR0000120404",
+  "isin": "FR0000120404",
+  "symbol": "AC.PA",
+  "name": "Accor",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Accor SA"
+  ],
+  "wikipedia": "Accor"
+ },
+ {
+  "id": "ES0167050915",
+  "isin": "ES0167050915",
+  "symbol": "ACS.MC",
+  "name": "ACS",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ACS, Actividades de Construccion y Servicios, S.A.",
+   "ACS Group"
+  ],
+  "wikipedia": "ACS Group"
+ },
+ {
+  "id": "DE000A0Z23Q5",
+  "isin": "DE000A0Z23Q5",
+  "symbol": "ADN1.DE",
+  "name": "adesso",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "adesso SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A1EWWW0",
+  "isin": "DE000A1EWWW0",
+  "symbol": "ADS.DE",
+  "name": "Adidas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "adidas AG"
+  ],
+  "wikipedia": "Adidas"
+ },
+ {
+  "id": "GB00B02J6398",
+  "isin": "GB00B02J6398",
+  "symbol": "ADM.L",
+  "name": "Admiral Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Admiral Group plc"
+  ],
+  "wikipedia": "Admiral Group"
+ },
+ {
+  "id": "US00724F1012",
+  "isin": "US00724F1012",
+  "symbol": "ADB.DE",
+  "name": "Adobe",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Adobe Inc."
+  ],
+  "wikipedia": "Adobe Inc."
+ },
+ {
+  "id": "US0530151036",
+  "isin": "US0530151036",
+  "symbol": "ADP.DE",
+  "name": "ADP",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Automatic Data Processing, Inc."
+  ],
+  "wikipedia": "ADP (company)"
+ },
+ {
+  "id": "DE0005103006",
+  "isin": "DE0005103006",
+  "symbol": "ADV.DE",
+  "name": "Adtran Networks",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ADVA Optical",
+   "Adtran Networks SE",
+   "ADVA Optical Networking"
+  ],
+  "wikipedia": "ADVA Optical Networking"
+ },
+ {
+  "id": "NL0012969182",
+  "isin": "NL0012969182",
+  "symbol": "1N8.DE",
+  "name": "Adyen",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Adyen N.V."
+  ],
+  "wikipedia": "Adyen"
+ },
+ {
+  "id": "BMG0112X1056",
+  "isin": "BMG0112X1056",
+  "symbol": "AGN.AS",
+  "name": "Aegon",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Aegon Ltd.",
+   "Aegon N.V."
+  ],
+  "wikipedia": "Aegon N.V."
+ },
+ {
+  "id": "ES0105046017",
+  "isin": "ES0105046017",
+  "symbol": "AENA.MC",
+  "name": "Aena",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Aena S.M.E., S.A."
+  ],
+  "wikipedia": "AENA"
+ },
+ {
+  "id": "BE0974264930",
+  "isin": "BE0974264930",
+  "symbol": "AGS.BR",
+  "name": "Ageas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ageas SA/NV"
+  ],
+  "wikipedia": "Ageas"
+ },
+ {
+  "id": "NL0011794037",
+  "isin": "NL0011794037",
+  "symbol": "AHOG.DE",
+  "name": "Ahold Delhaize",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Koninklijke Ahold Delhaize N.V."
+  ],
+  "wikipedia": "Ahold Delhaize"
+ },
+ {
+  "id": "IE00BF0L3536",
+  "isin": "IE00BF0L3536",
+  "symbol": "A5G.IR",
+  "name": "AIB Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "AIB Group plc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US0268747849",
+  "isin": "US0268747849",
+  "symbol": "AIG",
+  "name": "AIG",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "American International Group",
+   "American International Group, Inc."
+  ],
+  "wikipedia": "American International Group"
+ },
+ {
+  "id": "FR0000120073",
+  "isin": "FR0000120073",
+  "symbol": "AIL.DE",
+  "name": "Air Liquide",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "L'Air Liquide S.A."
+  ],
+  "wikipedia": "Air Liquide"
+ },
+ {
+  "id": "US0090661010",
+  "isin": "US0090661010",
+  "symbol": "6Z1.DE",
+  "name": "Airbnb",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Airbnb, Inc."
+  ],
+  "wikipedia": "Airbnb"
+ },
+ {
+  "id": "NL0000235190",
+  "isin": "NL0000235190",
+  "symbol": "AIR.DE",
+  "name": "Airbus",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Airbus SE",
+   "Airbus Group"
+  ],
+  "wikipedia": "Airbus"
+ },
+ {
+  "id": "GB00BKDRYJ47",
+  "isin": "GB00BKDRYJ47",
+  "symbol": "AAF.L",
+  "name": "Airtel Africa",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Airtel Africa Plc"
+  ],
+  "wikipedia": "Airtel Africa"
+ },
+ {
+  "id": "DE000A0WMPJ6",
+  "isin": "DE000A0WMPJ6",
+  "symbol": "AIXA.DE",
+  "name": "Aixtron",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Aixtron Se"
+  ],
+  "wikipedia": "Aixtron"
+ },
+ {
+  "id": "NO0010345853",
+  "isin": "NO0010345853",
+  "symbol": "AKRBP.OL",
+  "name": "Aker BP",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Aker BP ASA"
+  ],
+  "wikipedia": "Aker BP"
+ },
+ {
+  "id": "NL0013267909",
+  "isin": "NL0013267909",
+  "symbol": "AKZA.AS",
+  "name": "Akzo Nobel",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Akzo Nobel N.V."
+  ],
+  "wikipedia": "AkzoNobel"
+ },
+ {
+  "id": "CH0432492467",
+  "isin": "CH0432492467",
+  "symbol": "ALC.SW",
+  "name": "Alcon",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Alcon AG"
+  ],
+  "wikipedia": "Alcon"
+ },
+ {
+  "id": "SE0000695876",
+  "isin": "SE0000695876",
+  "symbol": "ALFA.ST",
+  "name": "Alfa Laval",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Alfa Laval"
+ },
+ {
+  "id": "US01609W1027",
+  "isin": "US01609W1027",
+  "symbol": "AHLA.DE",
+  "name": "Alibaba (ADR)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Alibaba Group",
+   "Alibaba Group Holding Limited"
+  ],
+  "wikipedia": "Alibaba Group"
+ },
+ {
+  "id": "DE0008404005",
+  "isin": "DE0008404005",
+  "symbol": "ALV.DE",
+  "name": "Allianz",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Allianz SE"
+  ],
+  "wikipedia": "Allianz"
+ },
+ {
+  "id": "US02043Q1076",
+  "isin": "US02043Q1076",
+  "symbol": "DUL.DE",
+  "name": "Alnylam Pharmaceuticals",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Alnylam Pharmaceuticals, Inc."
+  ],
+  "wikipedia": "Alnylam Pharmaceuticals"
+ },
+ {
+  "id": "US02079K3059",
+  "isin": "US02079K3059",
+  "symbol": "ABEA.DE",
+  "name": "Alphabet (A)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Alphabet Inc",
+   "Google",
+   "YouTube",
+   "Waymo"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US02079K1079",
+  "isin": "US02079K1079",
+  "symbol": "ABEC.DE",
+  "name": "Alphabet (C)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Alphabet Inc",
+   "Google",
+   "YouTube",
+   "Waymo"
+  ],
+  "wikipedia": "Alphabet Inc."
+ },
+ {
+  "id": "US02209S1033",
+  "isin": "US02209S1033",
+  "symbol": "PHM7.DE",
+  "name": "Altria",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Altria Group, Inc."
+  ],
+  "wikipedia": "Altria"
+ },
+ {
+  "id": "DE0005093108",
+  "isin": "DE0005093108",
+  "symbol": "AAD.DE",
+  "name": "Amadeus Fire",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Amadeus FiRe AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "ES0109067019",
+  "isin": "ES0109067019",
+  "symbol": "AMS.MC",
+  "name": "Amadeus IT Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Amadeus IT Group, S.A."
+  ],
+  "wikipedia": "Amadeus IT Group"
+ },
+ {
+  "id": "US0231351067",
+  "isin": "US0231351067",
+  "symbol": "AMZ.DE",
+  "name": "Amazon",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Amazon.com",
+   "Amazon Web Services",
+   "Amazon.com, Inc."
+  ],
+  "wikipedia": "Amazon (company)"
+ },
+ {
+  "id": "US0079031078",
+  "isin": "US0079031078",
+  "symbol": "AMD.DE",
+  "name": "AMD",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Advanced Micro Devices",
+   "Advanced Micro Devices, Inc."
+  ],
+  "wikipedia": "AMD"
+ },
+ {
+  "id": "US0255371017",
+  "isin": "US0255371017",
+  "symbol": "AEP.DE",
+  "name": "American Electric Power",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "American Electric Power Company, Inc."
+  ],
+  "wikipedia": "American Electric Power"
+ },
+ {
+  "id": "US0258161092",
+  "isin": "US0258161092",
+  "symbol": "AEC1.DE",
+  "name": "American Express",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "American Express Company"
+  ],
+  "wikipedia": "American Express"
+ },
+ {
+  "id": "US03027X1000",
+  "isin": "US03027X1000",
+  "symbol": "AMT",
+  "name": "American Tower",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "American Tower Corporation"
+  ],
+  "wikipedia": "American Tower"
+ },
+ {
+  "id": "US0311621009",
+  "isin": "US0311621009",
+  "symbol": "AMG.DE",
+  "name": "Amgen",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Amgen Inc."
+  ],
+  "wikipedia": "Amgen"
+ },
+ {
+  "id": "FR0004125920",
+  "isin": "FR0004125920",
+  "symbol": "AMUN.PA",
+  "name": "Amundi",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Amundi SA"
+  ],
+  "wikipedia": "Amundi"
+ },
+ {
+  "id": "IE000BI8OT95",
+  "isin": "IE000BI8OT95",
+  "symbol": "MWRD.DE",
+  "name": "Amundi Core MSCI World",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Amundi Index MSCI World",
+   "Amundi Core MSCI World UCITS ETF Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0908500753",
+  "isin": "LU0908500753",
+  "symbol": "LYP6.DE",
+  "name": "Amundi Core STOXX Europe 600 (ex Lyxor)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor Core STOXX Europe 600",
+   "Lyxor Core STOXX Europe 600 - UCITS ETF Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0252633754",
+  "isin": "LU0252633754",
+  "symbol": "LYY7.DE",
+  "name": "Amundi DAX (ex Lyxor)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor DAX",
+   "Lyxor DAX UCITS ETF - Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU1829219390",
+  "isin": "LU1829219390",
+  "symbol": "LYBK.DE",
+  "name": "Amundi EURO STOXX Banks (ex Lyxor)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor EURO STOXX Banks",
+   "Lyxor EURO STOXX Banks UCITS ETF P Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU1681045370",
+  "isin": "LU1681045370",
+  "symbol": "AMEM.DE",
+  "name": "Amundi MSCI Emerging Markets",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Amundi MSCI Emerging Markets UCITS ETF-C EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0010524777",
+  "isin": "FR0010524777",
+  "symbol": "LYM9.DE",
+  "name": "Amundi MSCI New Energy (ex Lyxor New Energy)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor New Energy",
+   "Lyxor New Energy UCITS ETF Dist"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0010527275",
+  "isin": "FR0010527275",
+  "symbol": "LYM8.DE",
+  "name": "Amundi MSCI Water (ex Lyxor World Water)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor World Water",
+   "Multi Units France - Lyxor World Water UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU1681043599",
+  "isin": "LU1681043599",
+  "symbol": "AMEW.DE",
+  "name": "Amundi MSCI World",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Amundi MSCI World UCITS ETF C EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0010315770",
+  "isin": "FR0010315770",
+  "symbol": "LYYA.DE",
+  "name": "Amundi MSCI World (ex Lyxor, Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor MSCI World",
+   "Lyxor MSCI World UCITS ETF Dist"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0533033667",
+  "isin": "LU0533033667",
+  "symbol": "LYPG.DE",
+  "name": "Amundi MSCI World Information Technology (ex Lyxor)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor MSCI World Information Technology",
+   "Lyxor MSCI World Information Technology TR UCITS ETF - C-EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU1829221024",
+  "isin": "LU1829221024",
+  "symbol": "LYMS.DE",
+  "name": "Amundi Nasdaq-100 (ex Lyxor, Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor Nasdaq-100",
+   "Lyxor Nasdaq-100 Ucits ETF Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0013416716",
+  "isin": "FR0013416716",
+  "symbol": "GLDA.DE",
+  "name": "Amundi Physical Gold ETC",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Amundi Physical Gold ETC C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0496786574",
+  "isin": "LU0496786574",
+  "symbol": "LYPS.DE",
+  "name": "Amundi S&P 500 (ex Lyxor, Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor S&P 500",
+   "Lyxor S&P 500 UCITS ETF - D-EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU1834988518",
+  "isin": "LU1834988518",
+  "symbol": "LTUG.DE",
+  "name": "Amundi STOXX Europe 600 Technology (ex Lyxor)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Lyxor STOXX Europe 600 Technology",
+   "Lyxor Stoxx Europe 600 Technology UCITS ETF Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US0326541051",
+  "isin": "US0326541051",
+  "symbol": "ANL.DE",
+  "name": "Analog Devices",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Analog Devices, Inc."
+  ],
+  "wikipedia": "Analog Devices"
+ },
+ {
+  "id": "GB00BTK05J60",
+  "isin": "GB00BTK05J60",
+  "symbol": "NGL0.DE",
+  "name": "Anglo American",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Anglo American plc"
+  ],
+  "wikipedia": "Anglo American plc"
+ },
+ {
+  "id": "GB0000456144",
+  "isin": "GB0000456144",
+  "symbol": "ANTO.L",
+  "name": "Antofagasta",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Antofagasta plc"
+  ],
+  "wikipedia": "Antofagasta plc"
+ },
+ {
+  "id": "US0378331005",
+  "isin": "US0378331005",
+  "symbol": "APC.DE",
+  "name": "Apple",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Apple Inc",
+   "iPhone"
+  ],
+  "wikipedia": "Apple Inc."
+ },
+ {
+  "id": "US0382221051",
+  "isin": "US0382221051",
+  "symbol": "AP2.DE",
+  "name": "Applied Materials",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Applied Materials, Inc."
+  ],
+  "wikipedia": "Applied Materials"
+ },
+ {
+  "id": "US03831W1080",
+  "isin": "US03831W1080",
+  "symbol": "APP",
+  "name": "AppLovin",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "AppLovin Corp."
+  ],
+  "wikipedia": "AppLovin"
+ },
+ {
+  "id": "LU1598757687",
+  "isin": "LU1598757687",
+  "symbol": "ARRD.DE",
+  "name": "ArcelorMittal",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "ArcelorMittal"
+ },
+ {
+  "id": "NL0010832176",
+  "isin": "NL0010832176",
+  "symbol": "ARGX.BR",
+  "name": "argenx",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "argenx SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US0404132054",
+  "isin": "US0404132054",
+  "symbol": "ANET",
+  "name": "Arista Networks",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Arista Networks, Inc."
+  ],
+  "wikipedia": "Arista Networks"
+ },
+ {
+  "id": "US0420682058",
+  "isin": "US0420682058",
+  "symbol": "ARM",
+  "name": "Arm Holdings (ADR)",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Arm Holdings plc",
+   "Arm Holdings"
+  ],
+  "wikipedia": "Arm Holdings"
+ },
+ {
+  "id": "LU1673108939",
+  "isin": "LU1673108939",
+  "symbol": "AT1.DE",
+  "name": "Aroundtown",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Aroundtown SA"
+  ],
+  "wikipedia": "Aroundtown SA"
+ },
+ {
+  "id": "NL0000334118",
+  "isin": "NL0000334118",
+  "symbol": "ASM.AS",
+  "name": "ASM International",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ASM International N.V."
+  ],
+  "wikipedia": "ASM International"
+ },
+ {
+  "id": "NL0010273215",
+  "isin": "NL0010273215",
+  "symbol": "ASME.DE",
+  "name": "ASML",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ASML Holding",
+   "ASML Holding N.V."
+  ],
+  "wikipedia": "ASML Holding"
+ },
+ {
+  "id": "NL0011872643",
+  "isin": "NL0011872643",
+  "symbol": "ASRNL.AS",
+  "name": "ASR Nederland",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ASR Nederland N.V."
+  ],
+  "wikipedia": "ASR Nederland"
+ },
+ {
+  "id": "SE0007100581",
+  "isin": "SE0007100581",
+  "symbol": "ASSA-B.ST",
+  "name": "Assa Abloy",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Assa Abloy"
+ },
+ {
+  "id": "GB0006731235",
+  "isin": "GB0006731235",
+  "symbol": "ABF.L",
+  "name": "Associated British Foods",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Associated British Foods plc"
+  ],
+  "wikipedia": "Associated British Foods"
+ },
+ {
+  "id": "GB0009895292",
+  "isin": "GB0009895292",
+  "symbol": "AZN.L",
+  "name": "AstraZeneca",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "AstraZeneca PLC"
+  ],
+  "wikipedia": "AstraZeneca"
+ },
+ {
+  "id": "US00206R1023",
+  "isin": "US00206R1023",
+  "symbol": "SOBA.DE",
+  "name": "AT&T",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "AT&T Inc."
+  ],
+  "wikipedia": "AT&T"
+ },
+ {
+  "id": "SE0017486889",
+  "isin": "SE0017486889",
+  "symbol": "ATCO-A.ST",
+  "name": "Atlas Copco (A)",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Atlas Copco AB",
+   "Atlas Copco"
+  ],
+  "wikipedia": "Atlas Copco"
+ },
+ {
+  "id": "US0494681010",
+  "isin": "US0494681010",
+  "symbol": "TEAM",
+  "name": "Atlassian",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Atlassian Corporation Plc"
+  ],
+  "wikipedia": "Atlassian"
+ },
+ {
+  "id": "DE0005104400",
+  "isin": "DE0005104400",
+  "symbol": "AOF.DE",
+  "name": "Atoss Software",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ATOSS Software AG",
+   "Atoss"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000AUM0V10",
+  "isin": "DE000AUM0V10",
+  "symbol": "AMV0.DE",
+  "name": "Aumovio",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Aumovio SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0006766504",
+  "isin": "DE0006766504",
+  "symbol": "NDA.DE",
+  "name": "Aurubis",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Aurubis AG"
+  ],
+  "wikipedia": "Aurubis"
+ },
+ {
+  "id": "DE000A2LQ884",
+  "isin": "DE000A2LQ884",
+  "symbol": "AG1.DE",
+  "name": "Auto1",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "AUTO1 Group",
+   "AUTO1 Group SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US0527691069",
+  "isin": "US0527691069",
+  "symbol": "AUD.DE",
+  "name": "Autodesk",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Autodesk, Inc."
+  ],
+  "wikipedia": "Autodesk"
+ },
+ {
+  "id": "GB00BPQY8M80",
+  "isin": "GB00BPQY8M80",
+  "symbol": "AV.L",
+  "name": "Aviva",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Aviva plc"
+  ],
+  "wikipedia": "Aviva"
+ },
+ {
+  "id": "FR0000120628",
+  "isin": "FR0000120628",
+  "symbol": "AXA.DE",
+  "name": "AXA",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "AXA SA"
+  ],
+  "wikipedia": "Axa"
+ },
+ {
+  "id": "US05464C1018",
+  "isin": "US05464C1018",
+  "symbol": "AXON",
+  "name": "Axon Enterprise",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Axon Enterprise Inc"
+  ],
+  "wikipedia": "Axon Enterprise"
+ },
+ {
+  "id": "GB0002634946",
+  "isin": "GB0002634946",
+  "symbol": "BSP.DE",
+  "name": "BAE Systems",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BAE Systems plc"
+  ],
+  "wikipedia": "BAE Systems"
+ },
+ {
+  "id": "US05722G1004",
+  "isin": "US05722G1004",
+  "symbol": "BKR",
+  "name": "Baker Hughes",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Baker Hughes Company"
+  ],
+  "wikipedia": "Baker Hughes"
+ },
+ {
+  "id": "IT0004776628",
+  "isin": "IT0004776628",
+  "symbol": "BMED.MI",
+  "name": "Banca Mediolanum",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Banca Mediolanum SpA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IT0005218380",
+  "isin": "IT0005218380",
+  "symbol": "BAMI.MI",
+  "name": "Banco BPM",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Banco BPM SpA"
+  ],
+  "wikipedia": "Banco BPM"
+ },
+ {
+  "id": "ES0113860A34",
+  "isin": "ES0113860A34",
+  "symbol": "SAB.MC",
+  "name": "Banco Sabadell",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Banco de Sabadell, S.A."
+  ],
+  "wikipedia": "Banco Sabadell"
+ },
+ {
+  "id": "ES0113900J37",
+  "isin": "ES0113900J37",
+  "symbol": "BSD2.DE",
+  "name": "Banco Santander",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Banco Santander, S.A."
+  ],
+  "wikipedia": "Banco Santander"
+ },
+ {
+  "id": "US0605051046",
+  "isin": "US0605051046",
+  "symbol": "NCB.DE",
+  "name": "Bank of America",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bank of America Corporation"
+  ],
+  "wikipedia": "Bank of America"
+ },
+ {
+  "id": "IE00BD1RP616",
+  "isin": "IE00BD1RP616",
+  "symbol": "BIRG.IR",
+  "name": "Bank of Ireland",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bank of Ireland Group plc"
+  ],
+  "wikipedia": "Bank of Ireland"
+ },
+ {
+  "id": "ES0113679I37",
+  "isin": "ES0113679I37",
+  "symbol": "BKT.MC",
+  "name": "Bankinter",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bankinter, S.A."
+  ],
+  "wikipedia": "Bankinter"
+ },
+ {
+  "id": "GB0031348658",
+  "isin": "GB0031348658",
+  "symbol": "BCY.DE",
+  "name": "Barclays",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Barclays PLC"
+  ],
+  "wikipedia": "Barclays"
+ },
+ {
+  "id": "DE000BASF111",
+  "isin": "DE000BASF111",
+  "symbol": "BAS.DE",
+  "name": "BASF",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BASF SE"
+  ],
+  "wikipedia": "BASF"
+ },
+ {
+  "id": "AT0000BAWAG2",
+  "isin": "AT0000BAWAG2",
+  "symbol": "BG.VI",
+  "name": "BAWAG",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BAWAG Group AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000BAY0017",
+  "isin": "DE000BAY0017",
+  "symbol": "BAYN.DE",
+  "name": "Bayer",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bayer Aktiengesellschaft"
+  ],
+  "wikipedia": "Bayer"
+ },
+ {
+  "id": "ES0113211835",
+  "isin": "ES0113211835",
+  "symbol": "BOY.DE",
+  "name": "BBVA",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Banco Bilbao Vizcaya Argentaria, S.A.",
+   "Banco Bilbao Vizcaya Argentaria"
+  ],
+  "wikipedia": "BBVA"
+ },
+ {
+  "id": "NL0012866412",
+  "isin": "NL0012866412",
+  "symbol": "BESI.AS",
+  "name": "BE Semiconductor (Besi)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BE Semiconductor Industries N.V.",
+   "Besi"
+  ],
+  "wikipedia": "Besi"
+ },
+ {
+  "id": "GB00BYQ0JC66",
+  "isin": "GB00BYQ0JC66",
+  "symbol": "BEZ.L",
+  "name": "Beazley",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Beazley plc"
+  ],
+  "wikipedia": "Beazley plc"
+ },
+ {
+  "id": "DE0005158703",
+  "isin": "DE0005158703",
+  "symbol": "BC8.DE",
+  "name": "Bechtle",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bechtle AG"
+  ],
+  "wikipedia": "Bechtle"
+ },
+ {
+  "id": "LU1704650164",
+  "isin": "LU1704650164",
+  "symbol": "BFSA.DE",
+  "name": "Befesa",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Befesa S.A."
+  ],
+  "wikipedia": "Befesa"
+ },
+ {
+  "id": "DE0005200000",
+  "isin": "DE0005200000",
+  "symbol": "BEI.DE",
+  "name": "Beiersdorf",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nivea",
+   "Beiersdorf AG",
+   "Beiersdorf Aktiengesellschaft"
+  ],
+  "wikipedia": "Beiersdorf"
+ },
+ {
+  "id": "CH1101098163",
+  "isin": "CH1101098163",
+  "symbol": "BEAN.SW",
+  "name": "Belimo",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "BELIMO Holding AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US0846707026",
+  "isin": "US0846707026",
+  "symbol": "BRYN.DE",
+  "name": "Berkshire Hathaway (B)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Berkshire Hathaway Inc.",
+   "Berkshire Hathaway"
+  ],
+  "wikipedia": "Berkshire Hathaway"
+ },
+ {
+  "id": "DE0005909006",
+  "isin": "DE0005909006",
+  "symbol": "GBF.DE",
+  "name": "Bilfinger",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bilfinger SE"
+  ],
+  "wikipedia": "Bilfinger SE"
+ },
+ {
+  "id": "FR0013280286",
+  "isin": "FR0013280286",
+  "symbol": "BIM.PA",
+  "name": "bioMérieux",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "bioMerieux S.A."
+  ],
+  "wikipedia": "BioMérieux"
+ },
+ {
+  "id": "US09290D1019",
+  "isin": "US09290D1019",
+  "symbol": "UU2.DE",
+  "name": "BlackRock",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BlackRock, Inc."
+  ],
+  "wikipedia": "BlackRock"
+ },
+ {
+  "id": "US09260D1072",
+  "isin": "US09260D1072",
+  "symbol": "BX",
+  "name": "Blackstone",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Blackstone Inc."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US8522341036",
+  "isin": "US8522341036",
+  "symbol": "SQ3.DE",
+  "name": "Block",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Block Inc",
+   "Cash App"
+  ],
+  "wikipedia": "Block, Inc."
+ },
+ {
+  "id": "DE0005190003",
+  "isin": "DE0005190003",
+  "symbol": "BMW.DE",
+  "name": "BMW",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bayerische Motoren Werke",
+   "BMW Group",
+   "BMW AG",
+   "Bayerische Motoren Werke AG"
+  ],
+  "wikipedia": "BMW"
+ },
+ {
+  "id": "FR0000131104",
+  "isin": "FR0000131104",
+  "symbol": "BNP.DE",
+  "name": "BNP Paribas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "BNP Paribas"
+ },
+ {
+  "id": "US0640581007",
+  "isin": "US0640581007",
+  "symbol": "BN9.DE",
+  "name": "BNY",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bank of New York Mellon",
+   "BNY Mellon",
+   "The Bank of New York Mellon Corporation"
+  ],
+  "wikipedia": "BNY Mellon"
+ },
+ {
+  "id": "US0970231058",
+  "isin": "US0970231058",
+  "symbol": "BCO.DE",
+  "name": "Boeing",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "The Boeing Company"
+  ],
+  "wikipedia": "Boeing"
+ },
+ {
+  "id": "SE0020050417",
+  "isin": "SE0020050417",
+  "symbol": "BOL.ST",
+  "name": "Boliden",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Boliden AB"
+  ],
+  "wikipedia": "Boliden AB"
+ },
+ {
+  "id": "FR0000039299",
+  "isin": "FR0000039299",
+  "symbol": "BOL.PA",
+  "name": "Bolloré",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bolloré SE"
+  ],
+  "wikipedia": "Bolloré"
+ },
+ {
+  "id": "US09857L1089",
+  "isin": "US09857L1089",
+  "symbol": "PCE1.DE",
+  "name": "Booking Holdings",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Booking.com",
+   "Booking Holdings Inc."
+  ],
+  "wikipedia": "Booking Holdings"
+ },
+ {
+  "id": "DE0005493092",
+  "isin": "DE0005493092",
+  "symbol": "BVB.DE",
+  "name": "Borussia Dortmund",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BVB",
+   "Borussia Dortmund GmbH",
+   "Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien"
+  ],
+  "wikipedia": "Borussia Dortmund"
+ },
+ {
+  "id": "US1011371077",
+  "isin": "US1011371077",
+  "symbol": "BSX",
+  "name": "Boston Scientific",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Boston Scientific Corporation"
+  ],
+  "wikipedia": "Boston Scientific"
+ },
+ {
+  "id": "FR0000120503",
+  "isin": "FR0000120503",
+  "symbol": "EN.PA",
+  "name": "Bouygues",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bouygues SA"
+  ],
+  "wikipedia": "Bouygues"
+ },
+ {
+  "id": "GB0007980591",
+  "isin": "GB0007980591",
+  "symbol": "BPE5.DE",
+  "name": "BP",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BP plc",
+   "British Petroleum"
+  ],
+  "wikipedia": "BP"
+ },
+ {
+  "id": "IT0000066123",
+  "isin": "IT0000066123",
+  "symbol": "BPE.MI",
+  "name": "BPER Banca",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "BPER Banca SpA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A1DAHH0",
+  "isin": "DE000A1DAHH0",
+  "symbol": "BNR.DE",
+  "name": "Brenntag",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Brenntag SE"
+  ],
+  "wikipedia": "Brenntag"
+ },
+ {
+  "id": "US1101221083",
+  "isin": "US1101221083",
+  "symbol": "BRM.DE",
+  "name": "Bristol-Myers Squibb",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bristol-Myers Squibb Company"
+  ],
+  "wikipedia": "Bristol Myers Squibb"
+ },
+ {
+  "id": "GB0002875804",
+  "isin": "GB0002875804",
+  "symbol": "BMT.DE",
+  "name": "British American Tobacco",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "British American Tobacco p.l.c."
+  ],
+  "wikipedia": "British American Tobacco"
+ },
+ {
+  "id": "US11135F1012",
+  "isin": "US11135F1012",
+  "symbol": "1YD.DE",
+  "name": "Broadcom",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Broadcom Inc."
+  ],
+  "wikipedia": "Broadcom"
+ },
+ {
+  "id": "GB0030913577",
+  "isin": "GB0030913577",
+  "symbol": "BT-A.L",
+  "name": "BT Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [],
+  "wikipedia": "BT Group"
+ },
+ {
+  "id": "GB00B0744B38",
+  "isin": "GB00B0744B38",
+  "symbol": "BNZL.L",
+  "name": "Bunzl",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Bunzl plc"
+  ],
+  "wikipedia": "Bunzl"
+ },
+ {
+  "id": "FR0006174348",
+  "isin": "FR0006174348",
+  "symbol": "BVI.PA",
+  "name": "Bureau Veritas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Bureau Veritas SA"
+  ],
+  "wikipedia": "Bureau Veritas"
+ },
+ {
+  "id": "CNE100000296",
+  "isin": "CNE100000296",
+  "symbol": "1211.HK",
+  "name": "BYD",
+  "type": "stock",
+  "currency": "HKD",
+  "aliases": [
+   "BYD Company",
+   "BYD Auto",
+   "BYD Co., Ltd."
+  ],
+  "wikipedia": "BYD Company"
+ },
+ {
+  "id": "US1273871087",
+  "isin": "US1273871087",
+  "symbol": "CDS.DE",
+  "name": "Cadence Design Systems",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cadence Design Systems, Inc."
+  ],
+  "wikipedia": "Cadence Design Systems"
+ },
+ {
+  "id": "ES0140609019",
+  "isin": "ES0140609019",
+  "symbol": "CABK.MC",
+  "name": "CaixaBank",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "CaixaBank, S.A."
+  ],
+  "wikipedia": "CaixaBank"
+ },
+ {
+  "id": "DE0005419105",
+  "isin": "DE0005419105",
+  "symbol": "COK.DE",
+  "name": "Cancom",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cancom SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000125338",
+  "isin": "FR0000125338",
+  "symbol": "CAP.PA",
+  "name": "Capgemini",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Capgemini SE"
+  ],
+  "wikipedia": "Capgemini"
+ },
+ {
+  "id": "US14040H1059",
+  "isin": "US14040H1059",
+  "symbol": "COF",
+  "name": "Capital One",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Capital One Financial Corporation"
+  ],
+  "wikipedia": "Capital One"
+ },
+ {
+  "id": "DE0005313704",
+  "isin": "DE0005313704",
+  "symbol": "AFX.DE",
+  "name": "Carl Zeiss Meditec",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Carl Zeiss Meditec AG"
+  ],
+  "wikipedia": "Carl Zeiss Meditec"
+ },
+ {
+  "id": "DK0010181759",
+  "isin": "DK0010181759",
+  "symbol": "CARL-B.CO",
+  "name": "Carlsberg (B)",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Carlsberg A/S"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000120172",
+  "isin": "FR0000120172",
+  "symbol": "CAR.DE",
+  "name": "Carrefour",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Carrefour SA"
+  ],
+  "wikipedia": "Carrefour"
+ },
+ {
+  "id": "US1491231015",
+  "isin": "US1491231015",
+  "symbol": "CAT1.DE",
+  "name": "Caterpillar",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Caterpillar Inc."
+  ],
+  "wikipedia": "Caterpillar Inc."
+ },
+ {
+  "id": "ES0105066007",
+  "isin": "ES0105066007",
+  "symbol": "CLNX.MC",
+  "name": "Cellnex Telecom",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cellnex Telecom S.A."
+  ],
+  "wikipedia": "Cellnex Telecom"
+ },
+ {
+  "id": "DE0005403901",
+  "isin": "DE0005403901",
+  "symbol": "CWC.DE",
+  "name": "CEWE",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "CEWE Stiftung & Co. KGaA"
+  ],
+  "wikipedia": "Cewe"
+ },
+ {
+  "id": "US8085131055",
+  "isin": "US8085131055",
+  "symbol": "SWG.DE",
+  "name": "Charles Schwab",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "The Charles Schwab Corporation",
+   "Charles Schwab Corporation"
+  ],
+  "wikipedia": "Charles Schwab Corporation"
+ },
+ {
+  "id": "US16119P1084",
+  "isin": "US16119P1084",
+  "symbol": "CQD.DE",
+  "name": "Charter Communications",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Charter Communications Inc"
+  ],
+  "wikipedia": "Charter Communications"
+ },
+ {
+  "id": "US1667641005",
+  "isin": "US1667641005",
+  "symbol": "CHV.DE",
+  "name": "Chevron",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Chevron Corporation"
+  ],
+  "wikipedia": "Chevron Corporation"
+ },
+ {
+  "id": "FR0000130403",
+  "isin": "FR0000130403",
+  "symbol": "CDI.PA",
+  "name": "Christian Dior",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Christian Dior SE"
+  ],
+  "wikipedia": "Christian Dior SE"
+ },
+ {
+  "id": "US1255231003",
+  "isin": "US1255231003",
+  "symbol": "CGN.DE",
+  "name": "Cigna",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cigna Corporation"
+  ],
+  "wikipedia": "Cigna"
+ },
+ {
+  "id": "US1729081059",
+  "isin": "US1729081059",
+  "symbol": "CIT.DE",
+  "name": "Cintas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cintas Corporation"
+  ],
+  "wikipedia": "Cintas"
+ },
+ {
+  "id": "US17275R1023",
+  "isin": "US17275R1023",
+  "symbol": "CIS.DE",
+  "name": "Cisco",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cisco Systems, Inc."
+  ],
+  "wikipedia": "Cisco"
+ },
+ {
+  "id": "US1729674242",
+  "isin": "US1729674242",
+  "symbol": "TRVC.DE",
+  "name": "Citigroup",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Citigroup Inc."
+  ],
+  "wikipedia": "Citigroup"
+ },
+ {
+  "id": "US12572Q1058",
+  "isin": "US12572Q1058",
+  "symbol": "MX4A.DE",
+  "name": "CME Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "CME Group Inc."
+  ],
+  "wikipedia": "CME Group"
+ },
+ {
+  "id": "US1912161007",
+  "isin": "US1912161007",
+  "symbol": "CCC3.DE",
+  "name": "Coca-Cola",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Coca-Cola Co",
+   "Coca-Cola Company",
+   "The Coca-Cola Company"
+  ],
+  "wikipedia": "The Coca-Cola Company"
+ },
+ {
+  "id": "GB00BDCPN049",
+  "isin": "GB00BDCPN049",
+  "symbol": "CCEP.L",
+  "name": "Coca-Cola Europacific Partners",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Coca-Cola Europacific Partners PLC"
+  ],
+  "wikipedia": "Coca-Cola Europacific Partners"
+ },
+ {
+  "id": "CH0198251305",
+  "isin": "CH0198251305",
+  "symbol": "CCH.L",
+  "name": "Coca-Cola HBC",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Coca-Cola HBC AG"
+  ],
+  "wikipedia": "Coca-Cola HBC"
+ },
+ {
+  "id": "US1924461023",
+  "isin": "US1924461023",
+  "symbol": "COZ.DE",
+  "name": "Cognizant",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Cognizant Technology Solutions Corporation"
+  ],
+  "wikipedia": "Cognizant"
+ },
+ {
+  "id": "US19260Q1076",
+  "isin": "US19260Q1076",
+  "symbol": "1QZ.DE",
+  "name": "Coinbase",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Coinbase Global, Inc."
+  ],
+  "wikipedia": "Coinbase"
+ },
+ {
+  "id": "US1941621039",
+  "isin": "US1941621039",
+  "symbol": "CPA.DE",
+  "name": "Colgate-Palmolive",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Colgate-Palmolive Company"
+  ],
+  "wikipedia": "Colgate-Palmolive"
+ },
+ {
+  "id": "DK0060448595",
+  "isin": "DK0060448595",
+  "symbol": "CBHD.DE",
+  "name": "Coloplast (B)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Coloplast A/S"
+  ],
+  "wikipedia": "Coloplast"
+ },
+ {
+  "id": "US20030N1019",
+  "isin": "US20030N1019",
+  "symbol": "CTP2.DE",
+  "name": "Comcast",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "NBCUniversal",
+   "Comcast Corporation"
+  ],
+  "wikipedia": "Comcast"
+ },
+ {
+  "id": "DE000CBK1001",
+  "isin": "DE000CBK1001",
+  "symbol": "CBK.DE",
+  "name": "Commerzbank",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Commerzbank AG"
+  ],
+  "wikipedia": "Commerzbank"
+ },
+ {
+  "id": "GB00BD6K4575",
+  "isin": "GB00BD6K4575",
+  "symbol": "CPG.L",
+  "name": "Compass Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Compass Group PLC"
+  ],
+  "wikipedia": "Compass Group"
+ },
+ {
+  "id": "US20825C1045",
+  "isin": "US20825C1045",
+  "symbol": "YCP.DE",
+  "name": "ConocoPhillips",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "ConocoPhillips"
+ },
+ {
+  "id": "US21037T1097",
+  "isin": "US21037T1097",
+  "symbol": "CEG",
+  "name": "Constellation Energy",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Constellation Energy Corporation"
+  ],
+  "wikipedia": "Constellation Energy"
+ },
+ {
+  "id": "DE0005439004",
+  "isin": "DE0005439004",
+  "symbol": "CON.DE",
+  "name": "Continental",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Continental Aktiengesellschaft",
+   "Continental AG"
+  ],
+  "wikipedia": "Continental AG"
+ },
+ {
+  "id": "US2172041061",
+  "isin": "US2172041061",
+  "symbol": "CPRT",
+  "name": "Copart",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Copart, Inc."
+  ],
+  "wikipedia": "Copart"
+ },
+ {
+  "id": "US22160N1090",
+  "isin": "US22160N1090",
+  "symbol": "CSGP",
+  "name": "CoStar Group",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "CoStar Group, Inc."
+  ],
+  "wikipedia": "CoStar Group"
+ },
+ {
+  "id": "US22160K1051",
+  "isin": "US22160K1051",
+  "symbol": "CTO.DE",
+  "name": "Costco",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Costco Wholesale Corporation"
+  ],
+  "wikipedia": "Costco"
+ },
+ {
+  "id": "IE0001827041",
+  "isin": "IE0001827041",
+  "symbol": "CRH",
+  "name": "CRH",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "CRH plc"
+  ],
+  "wikipedia": "CRH plc"
+ },
+ {
+  "id": "US22788C1053",
+  "isin": "US22788C1053",
+  "symbol": "CRWD",
+  "name": "CrowdStrike",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "CrowdStrike Holdings, Inc."
+  ],
+  "wikipedia": "CrowdStrike"
+ },
+ {
+  "id": "FR0000045072",
+  "isin": "FR0000045072",
+  "symbol": "ACA.PA",
+  "name": "Crédit Agricole",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Credit Agricole S.A."
+  ],
+  "wikipedia": "Crédit Agricole"
+ },
+ {
+  "id": "US1264081035",
+  "isin": "US1264081035",
+  "symbol": "CXR.DE",
+  "name": "CSX",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "CSX Corporation"
+  ],
+  "wikipedia": "CSX Corporation"
+ },
+ {
+  "id": "DE0005470306",
+  "isin": "DE0005470306",
+  "symbol": "EVD.DE",
+  "name": "CTS Eventim",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "CTS Eventim AG & Co. KGaA"
+  ],
+  "wikipedia": "CTS Eventim"
+ },
+ {
+  "id": "US1266501006",
+  "isin": "US1266501006",
+  "symbol": "CVS.DE",
+  "name": "CVS Health",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "CVS Health Corporation"
+  ],
+  "wikipedia": "CVS Health"
+ },
+ {
+  "id": "DE000DTR0CK8",
+  "isin": "DE000DTR0CK8",
+  "symbol": "DTG.DE",
+  "name": "Daimler Truck",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Daimler Truck Holding AG"
+  ],
+  "wikipedia": "Daimler Truck"
+ },
+ {
+  "id": "US2358511028",
+  "isin": "US2358511028",
+  "symbol": "DAP.DE",
+  "name": "Danaher",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Danaher Corporation"
+  ],
+  "wikipedia": "Danaher Corporation"
+ },
+ {
+  "id": "FR0000120644",
+  "isin": "FR0000120644",
+  "symbol": "BSN.DE",
+  "name": "Danone",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Danone S.A."
+  ],
+  "wikipedia": "Danone"
+ },
+ {
+  "id": "DK0010274414",
+  "isin": "DK0010274414",
+  "symbol": "DANSKE.CO",
+  "name": "Danske Bank",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Danske Bank A/S"
+  ],
+  "wikipedia": "Danske Bank"
+ },
+ {
+  "id": "FR0014004L86",
+  "isin": "FR0014004L86",
+  "symbol": "AM.PA",
+  "name": "Dassault Aviation",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Dassault Aviation SA"
+  ],
+  "wikipedia": "Dassault Aviation"
+ },
+ {
+  "id": "FR0014003TT8",
+  "isin": "FR0014003TT8",
+  "symbol": "DSY.PA",
+  "name": "Dassault Systèmes",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Dassault Systemes SE"
+  ],
+  "wikipedia": "Dassault Systèmes"
+ },
+ {
+  "id": "US23804L1035",
+  "isin": "US23804L1035",
+  "symbol": "3QD.DE",
+  "name": "Datadog",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Datadog, Inc."
+  ],
+  "wikipedia": "Datadog"
+ },
+ {
+  "id": "US2441991054",
+  "isin": "US2441991054",
+  "symbol": "DCO.DE",
+  "name": "Deere & Company",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "John Deere"
+  ],
+  "wikipedia": "John Deere"
+ },
+ {
+  "id": "DE000A2E4K43",
+  "isin": "DE000A2E4K43",
+  "symbol": "DHER.DE",
+  "name": "Delivery Hero",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Delivery Hero SE"
+  ],
+  "wikipedia": "Delivery Hero"
+ },
+ {
+  "id": "DK0060738599",
+  "isin": "DK0060738599",
+  "symbol": "DEMANT.CO",
+  "name": "Demant",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Demant A/S"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A2GS5D8",
+  "isin": "DE000A2GS5D8",
+  "symbol": "DMP.DE",
+  "name": "Dermapharm",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Dermapharm Holding SE"
+  ],
+  "wikipedia": "Dermapharm"
+ },
+ {
+  "id": "DE0005140008",
+  "isin": "DE0005140008",
+  "symbol": "DBK.DE",
+  "name": "Deutsche Bank",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Bank Aktiengesellschaft"
+  ],
+  "wikipedia": "Deutsche Bank"
+ },
+ {
+  "id": "DE000A1TNUT7",
+  "isin": "DE000A1TNUT7",
+  "symbol": "DBAN.DE",
+  "name": "Deutsche Beteiligungs AG",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "Deutsche Beteiligungs AG"
+ },
+ {
+  "id": "DE0005810055",
+  "isin": "DE0005810055",
+  "symbol": "DB1.DE",
+  "name": "Deutsche Börse",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Boerse",
+   "Deutsche Börse AG",
+   "Deutsche Borse AG"
+  ],
+  "wikipedia": "Deutsche Börse"
+ },
+ {
+  "id": "DE0007480204",
+  "isin": "DE0007480204",
+  "symbol": "DEQ.DE",
+  "name": "Deutsche EuroShop",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche EuroShop AG"
+  ],
+  "wikipedia": "Deutsche EuroShop"
+ },
+ {
+  "id": "DE0008019001",
+  "isin": "DE0008019001",
+  "symbol": "PBB.DE",
+  "name": "Deutsche Pfandbriefbank",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Pfandbriefbank AG"
+  ],
+  "wikipedia": "Deutsche Pfandbriefbank"
+ },
+ {
+  "id": "DE0005557508",
+  "isin": "DE0005557508",
+  "symbol": "DTE.DE",
+  "name": "Deutsche Telekom",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Telekom AG"
+  ],
+  "wikipedia": "Deutsche Telekom"
+ },
+ {
+  "id": "DE000A0HN5C6",
+  "isin": "DE000A0HN5C6",
+  "symbol": "DWNI.DE",
+  "name": "Deutsche Wohnen",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Wohnen SE"
+  ],
+  "wikipedia": "Deutsche Wohnen"
+ },
+ {
+  "id": "DE0006305006",
+  "isin": "DE0006305006",
+  "symbol": "DEZ.DE",
+  "name": "Deutz",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "DEUTZ Aktiengesellschaft",
+   "Deutz AG"
+  ],
+  "wikipedia": "Deutz AG"
+ },
+ {
+  "id": "US2521311074",
+  "isin": "US2521311074",
+  "symbol": "DC4.DE",
+  "name": "DexCom",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "DexCom, Inc."
+  ],
+  "wikipedia": "DexCom"
+ },
+ {
+  "id": "DE0005552004",
+  "isin": "DE0005552004",
+  "symbol": "DHL.DE",
+  "name": "DHL Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Post",
+   "Deutsche Post DHL",
+   "DHL AG"
+  ],
+  "wikipedia": "Deutsche Post"
+ },
+ {
+  "id": "GB0002374006",
+  "isin": "GB0002374006",
+  "symbol": "GUI.DE",
+  "name": "Diageo",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Diageo plc"
+  ],
+  "wikipedia": "Diageo"
+ },
+ {
+  "id": "US25278X1090",
+  "isin": "US25278X1090",
+  "symbol": "7DB.DE",
+  "name": "Diamondback Energy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Diamondback Energy, Inc."
+  ],
+  "wikipedia": "Diamondback Energy"
+ },
+ {
+  "id": "GB0001826634",
+  "isin": "GB0001826634",
+  "symbol": "DPLM.L",
+  "name": "Diploma",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Diploma PLC"
+  ],
+  "wikipedia": "Diploma plc"
+ },
+ {
+  "id": "NO0010161896",
+  "isin": "NO0010161896",
+  "symbol": "DNB.OL",
+  "name": "DNB Bank",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "DNB Bank ASA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US25809K1051",
+  "isin": "US25809K1051",
+  "symbol": "DASH",
+  "name": "DoorDash",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "DoorDash, Inc."
+  ],
+  "wikipedia": "DoorDash"
+ },
+ {
+  "id": "DE000BEAU1Y4",
+  "isin": "DE000BEAU1Y4",
+  "symbol": "DOU.DE",
+  "name": "Douglas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Douglas AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0005550636",
+  "isin": "DE0005550636",
+  "symbol": "DRW3.DE",
+  "name": "Drägerwerk (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Drägerwerk AG & Co. KGaA",
+   "Drägerwerk"
+  ],
+  "wikipedia": "Drägerwerk"
+ },
+ {
+  "id": "CH1216478797",
+  "isin": "CH1216478797",
+  "symbol": "DSFIR.AS",
+  "name": "DSM-Firmenich",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "DSM-Firmenich AG"
+  ],
+  "wikipedia": "DSM-Firmenich"
+ },
+ {
+  "id": "DK0060079531",
+  "isin": "DK0060079531",
+  "symbol": "DSV.CO",
+  "name": "DSV",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "DSV Panalpina A/S"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US26441C2044",
+  "isin": "US26441C2044",
+  "symbol": "D2MN.DE",
+  "name": "Duke Energy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Duke Energy Corporation"
+  ],
+  "wikipedia": "Duke Energy"
+ },
+ {
+  "id": "DE000DWS1007",
+  "isin": "DE000DWS1007",
+  "symbol": "DWS.DE",
+  "name": "DWS Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "DWS Group GmbH & Co. KGaA"
+  ],
+  "wikipedia": "DWS Group"
+ },
+ {
+  "id": "DE0005565204",
+  "isin": "DE0005565204",
+  "symbol": "DUE.DE",
+  "name": "Dürr",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Durr Aktiengesellschaft",
+   "Dürr AG"
+  ],
+  "wikipedia": "Dürr AG"
+ },
+ {
+  "id": "DE000ENAG999",
+  "isin": "DE000ENAG999",
+  "symbol": "EOAN.DE",
+  "name": "E.ON",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "E.ON SE"
+  ],
+  "wikipedia": "E.ON"
+ },
+ {
+  "id": "DE0005659700",
+  "isin": "DE0005659700",
+  "symbol": "EUZ.DE",
+  "name": "Eckert & Ziegler",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Eckert & Ziegler Strahlen-und Medizinte AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "PTEDP0AM0009",
+  "isin": "PTEDP0AM0009",
+  "symbol": "EDP.LS",
+  "name": "EDP",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "EDP - Energias de Portugal, S.A."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "ES0127797019",
+  "isin": "ES0127797019",
+  "symbol": "EDPR.LS",
+  "name": "EDP Renováveis",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "EDP Renovaveis, S.A."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000130452",
+  "isin": "FR0000130452",
+  "symbol": "FGR.PA",
+  "name": "Eiffage",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Eiffage SA"
+  ],
+  "wikipedia": "Eiffage"
+ },
+ {
+  "id": "US0367521038",
+  "isin": "US0367521038",
+  "symbol": "A58.DE",
+  "name": "Elevance Health",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Elevance Health Inc."
+  ],
+  "wikipedia": "Elevance Health"
+ },
+ {
+  "id": "US5324571083",
+  "isin": "US5324571083",
+  "symbol": "LLY.DE",
+  "name": "Eli Lilly",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Eli Lilly and Company",
+   "Mounjaro",
+   "Zepbound"
+  ],
+  "wikipedia": "Eli Lilly and Company"
+ },
+ {
+  "id": "BE0003822393",
+  "isin": "BE0003822393",
+  "symbol": "ELI.BR",
+  "name": "Elia Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Elia Group SA/NV",
+   "Elia System Operator"
+  ],
+  "wikipedia": "Elia System Operator"
+ },
+ {
+  "id": "DE0005677108",
+  "isin": "DE0005677108",
+  "symbol": "ELG.DE",
+  "name": "Elmos Semiconductor",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Elmos Semiconductor SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US2910111044",
+  "isin": "US2910111044",
+  "symbol": "EMR.DE",
+  "name": "Emerson Electric",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Emerson Electric Co."
+  ],
+  "wikipedia": "Emerson Electric"
+ },
+ {
+  "id": "CH0016440353",
+  "isin": "CH0016440353",
+  "symbol": "EMSN.SW",
+  "name": "Ems-Chemie",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Ems-Chemie Holding AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB00BL6K5J42",
+  "isin": "GB00BL6K5J42",
+  "symbol": "EDV.L",
+  "name": "Endeavour Mining",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Endeavour Mining plc"
+  ],
+  "wikipedia": "Endeavour Mining"
+ },
+ {
+  "id": "ES0130670112",
+  "isin": "ES0130670112",
+  "symbol": "ELE.MC",
+  "name": "Endesa",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Endesa, S.A."
+  ],
+  "wikipedia": "Endesa"
+ },
+ {
+  "id": "IT0003128367",
+  "isin": "IT0003128367",
+  "symbol": "ENL.DE",
+  "name": "Enel",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Enel SpA"
+  ],
+  "wikipedia": "Enel"
+ },
+ {
+  "id": "DE0005313506",
+  "isin": "DE0005313506",
+  "symbol": "EKT.DE",
+  "name": "Energiekontor",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "EnergieKontor AG"
+  ],
+  "wikipedia": "Energiekontor"
+ },
+ {
+  "id": "FR0010208488",
+  "isin": "FR0010208488",
+  "symbol": "GZF.DE",
+  "name": "Engie",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Engie S.A."
+  ],
+  "wikipedia": "Engie"
+ },
+ {
+  "id": "IT0003132476",
+  "isin": "IT0003132476",
+  "symbol": "ENI.DE",
+  "name": "Eni",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Eni S.p.A."
+  ],
+  "wikipedia": "Eni"
+ },
+ {
+  "id": "SE0015658109",
+  "isin": "SE0015658109",
+  "symbol": "EPI-A.ST",
+  "name": "Epiroc (A)",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Epiroc"
+  ],
+  "wikipedia": "Epiroc"
+ },
+ {
+  "id": "SE0012853455",
+  "isin": "SE0012853455",
+  "symbol": "EQT.ST",
+  "name": "EQT",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "EQT AB"
+  ],
+  "wikipedia": "EQT AB"
+ },
+ {
+  "id": "NO0010096985",
+  "isin": "NO0010096985",
+  "symbol": "EQNR.OL",
+  "name": "Equinor",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Equinor ASA"
+  ],
+  "wikipedia": "Equinor"
+ },
+ {
+  "id": "SE0000108656",
+  "isin": "SE0000108656",
+  "symbol": "ERCB.DE",
+  "name": "Ericsson (B)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ericsson"
+  ],
+  "wikipedia": "Ericsson"
+ },
+ {
+  "id": "AT0000652011",
+  "isin": "AT0000652011",
+  "symbol": "EBO.DE",
+  "name": "Erste Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Erste Group Bank AG"
+  ],
+  "wikipedia": "Erste Group"
+ },
+ {
+  "id": "FR0000121667",
+  "isin": "FR0000121667",
+  "symbol": "EL.PA",
+  "name": "EssilorLuxottica",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ray-Ban",
+   "EssilorLuxottica SA",
+   "EssilorLuxottica Societe anonyme"
+  ],
+  "wikipedia": "EssilorLuxottica"
+ },
+ {
+  "id": "SE0009922164",
+  "isin": "SE0009922164",
+  "symbol": "ESSITY-B.ST",
+  "name": "Essity",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Essity AB"
+  ],
+  "wikipedia": "Essity"
+ },
+ {
+  "id": "FR0014000MR3",
+  "isin": "FR0014000MR3",
+  "symbol": "ERF.PA",
+  "name": "Eurofins Scientific",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Eurofins Scientific SE"
+  ],
+  "wikipedia": "Eurofins Scientific"
+ },
+ {
+  "id": "NL0006294274",
+  "isin": "NL0006294274",
+  "symbol": "ENX.PA",
+  "name": "Euronext",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Euronext N.V."
+  ],
+  "wikipedia": "Euronext"
+ },
+ {
+  "id": "SE0012673267",
+  "isin": "SE0012673267",
+  "symbol": "EVO.ST",
+  "name": "Evolution",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Evolution AB"
+  ],
+  "wikipedia": "Evolution AB"
+ },
+ {
+  "id": "DE000EVNK013",
+  "isin": "DE000EVNK013",
+  "symbol": "EVK.DE",
+  "name": "Evonik Industries",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Evonik Industries AG"
+  ],
+  "wikipedia": "Evonik Industries"
+ },
+ {
+  "id": "DE0005664809",
+  "isin": "DE0005664809",
+  "symbol": "EVT.DE",
+  "name": "Evotec",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Evotec SE"
+  ],
+  "wikipedia": "Evotec"
+ },
+ {
+  "id": "US30161N1019",
+  "isin": "US30161N1019",
+  "symbol": "PEO.DE",
+  "name": "Exelon",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Exelon Corporation"
+  ],
+  "wikipedia": "Exelon"
+ },
+ {
+  "id": "NL0012059018",
+  "isin": "NL0012059018",
+  "symbol": "EXO.AS",
+  "name": "Exor",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Exor N.V."
+  ],
+  "wikipedia": "Exor (company)"
+ },
+ {
+  "id": "GB00B19NLV48",
+  "isin": "GB00B19NLV48",
+  "symbol": "EXPN.L",
+  "name": "Experian",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Experian plc"
+  ],
+  "wikipedia": "Experian"
+ },
+ {
+  "id": "US30233Q1085",
+  "isin": "US30233Q1085",
+  "symbol": "7DZ.DE",
+  "name": "ExxonMobil",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Exxon",
+   "Exxonmobil Holdings Corporation"
+  ],
+  "wikipedia": "ExxonMobil"
+ },
+ {
+  "id": "US3119001044",
+  "isin": "US3119001044",
+  "symbol": "FAS.DE",
+  "name": "Fastenal",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fastenal Company"
+  ],
+  "wikipedia": "Fastenal"
+ },
+ {
+  "id": "US31428X1063",
+  "isin": "US31428X1063",
+  "symbol": "FDX.DE",
+  "name": "FedEx",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "FedEx Corporation"
+  ],
+  "wikipedia": "FedEx"
+ },
+ {
+  "id": "NL0011585146",
+  "isin": "NL0011585146",
+  "symbol": "2FE.DE",
+  "name": "Ferrari",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ferrari N.V."
+  ],
+  "wikipedia": "Ferrari"
+ },
+ {
+  "id": "NL0015001FS8",
+  "isin": "NL0015001FS8",
+  "symbol": "FER.MC",
+  "name": "Ferrovial",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ferrovial SE"
+  ],
+  "wikipedia": "Ferrovial"
+ },
+ {
+  "id": "DE0005772206",
+  "isin": "DE0005772206",
+  "symbol": "FIE.DE",
+  "name": "Fielmann",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fielmann Aktiengesellschaft"
+  ],
+  "wikipedia": "Fielmann"
+ },
+ {
+  "id": "IT0000072170",
+  "isin": "IT0000072170",
+  "symbol": "FBK.MI",
+  "name": "FinecoBank",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "FinecoBank Banca Fineco S.p.A."
+  ],
+  "wikipedia": "FinecoBank"
+ },
+ {
+  "id": "IE00BWT6H894",
+  "isin": "IE00BWT6H894",
+  "symbol": "FLUT",
+  "name": "Flutter",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Flutter Entertainment",
+   "FanDuel",
+   "Flutter Entertainment plc"
+  ],
+  "wikipedia": "Flutter Entertainment"
+ },
+ {
+  "id": "DE000A1EWVY8",
+  "isin": "DE000A1EWVY8",
+  "symbol": "FYB.DE",
+  "name": "Formycon",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Formycon AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US34959E1091",
+  "isin": "US34959E1091",
+  "symbol": "FTNT",
+  "name": "Fortinet",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Fortinet, Inc."
+  ],
+  "wikipedia": "Fortinet"
+ },
+ {
+  "id": "FI0009007132",
+  "isin": "FI0009007132",
+  "symbol": "FORTUM.HE",
+  "name": "Fortum",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fortum Oyj"
+  ],
+  "wikipedia": "Fortum"
+ },
+ {
+  "id": "DE0005773303",
+  "isin": "DE0005773303",
+  "symbol": "FRA.DE",
+  "name": "Fraport",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fraport AG"
+  ],
+  "wikipedia": "Fraport"
+ },
+ {
+  "id": "DE000A0Z2ZZ5",
+  "isin": "DE000A0Z2ZZ5",
+  "symbol": "FNTN.DE",
+  "name": "freenet",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "freenet AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000FRE5EN2",
+  "isin": "DE000FRE5EN2",
+  "symbol": "FRE.DE",
+  "name": "Fresenius",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fresenius SE & Co. KGaA",
+   "Fresenius SE"
+  ],
+  "wikipedia": "Fresenius SE"
+ },
+ {
+  "id": "DE0005785802",
+  "isin": "DE0005785802",
+  "symbol": "FME.DE",
+  "name": "Fresenius Medical Care",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fresenius Medical Care AG & Co. KGaA"
+  ],
+  "wikipedia": "Fresenius Medical Care"
+ },
+ {
+  "id": "GB00B2QPKJ12",
+  "isin": "GB00B2QPKJ12",
+  "symbol": "FRES.L",
+  "name": "Fresnillo",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Fresnillo plc"
+  ],
+  "wikipedia": "Fresnillo plc"
+ },
+ {
+  "id": "DE000A3E5D64",
+  "isin": "DE000A3E5D64",
+  "symbol": "FPE3.DE",
+  "name": "Fuchs (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Fuchs SE",
+   "Fuchs Petrolub"
+  ],
+  "wikipedia": "Fuchs Petrolub"
+ },
+ {
+  "id": "CH1335392721",
+  "isin": "CH1335392721",
+  "symbol": "GALD.SW",
+  "name": "Galderma",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Galderma Group AG"
+  ],
+  "wikipedia": "Galderma"
+ },
+ {
+  "id": "PTGAL0AM0009",
+  "isin": "PTGAL0AM0009",
+  "symbol": "GALP.LS",
+  "name": "Galp",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Galp Energia, SGPS, S.A."
+  ],
+  "wikipedia": "Galp Energia"
+ },
+ {
+  "id": "US3696043013",
+  "isin": "US3696043013",
+  "symbol": "GE",
+  "name": "GE Aerospace",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "General Electric"
+  ],
+  "wikipedia": "GE Aerospace"
+ },
+ {
+  "id": "US36266G1076",
+  "isin": "US36266G1076",
+  "symbol": "GEHC",
+  "name": "GE HealthCare",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "GE HealthCare Technologies Inc."
+  ],
+  "wikipedia": "GE HealthCare"
+ },
+ {
+  "id": "DE0006602006",
+  "isin": "DE0006602006",
+  "symbol": "G1A.DE",
+  "name": "GEA Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "GEA Group Aktiengesellschaft"
+  ],
+  "wikipedia": "GEA Group"
+ },
+ {
+  "id": "CH0030170408",
+  "isin": "CH0030170408",
+  "symbol": "GEBN.SW",
+  "name": "Geberit",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Geberit AG"
+  ],
+  "wikipedia": "Geberit AG"
+ },
+ {
+  "id": "US3695501086",
+  "isin": "US3695501086",
+  "symbol": "GD",
+  "name": "General Dynamics",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "General Dynamics Corporation"
+  ],
+  "wikipedia": "General Dynamics"
+ },
+ {
+  "id": "US37045V1008",
+  "isin": "US37045V1008",
+  "symbol": "8GM.DE",
+  "name": "General Motors",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "General Motors Company"
+  ],
+  "wikipedia": "General Motors"
+ },
+ {
+  "id": "IT0000062072",
+  "isin": "IT0000062072",
+  "symbol": "ASG.DE",
+  "name": "Generali",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Assicurazioni Generali",
+   "Generali Group",
+   "Assicurazioni Generali S.p.A."
+  ],
+  "wikipedia": "Assicurazioni Generali"
+ },
+ {
+  "id": "DK0010272202",
+  "isin": "DK0010272202",
+  "symbol": "GMAB.CO",
+  "name": "Genmab",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Genmab A/S"
+  ],
+  "wikipedia": "Genmab"
+ },
+ {
+  "id": "DE000A0LD6E6",
+  "isin": "DE000A0LD6E6",
+  "symbol": "GXI.DE",
+  "name": "Gerresheimer",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Gerresheimer AG"
+  ],
+  "wikipedia": "Gerresheimer"
+ },
+ {
+  "id": "FR0010533075",
+  "isin": "FR0010533075",
+  "symbol": "GET.PA",
+  "name": "Getlink",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Getlink SE"
+  ],
+  "wikipedia": "Getlink"
+ },
+ {
+  "id": "DE0005800601",
+  "isin": "DE0005800601",
+  "symbol": "GFT.DE",
+  "name": "GFT Technologies",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "GFT Technologies SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US3755581036",
+  "isin": "US3755581036",
+  "symbol": "GIS.DE",
+  "name": "Gilead Sciences",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Gilead Sciences, Inc."
+  ],
+  "wikipedia": "Gilead Sciences"
+ },
+ {
+  "id": "CH0010645932",
+  "isin": "CH0010645932",
+  "symbol": "GIVN.SW",
+  "name": "Givaudan",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Givaudan SA"
+  ],
+  "wikipedia": "Givaudan"
+ },
+ {
+  "id": "JE00B4T3BW64",
+  "isin": "JE00B4T3BW64",
+  "symbol": "GLEN.L",
+  "name": "Glencore",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Glencore plc"
+  ],
+  "wikipedia": "Glencore"
+ },
+ {
+  "id": "IE00BM8R0J59",
+  "isin": "IE00BM8R0J59",
+  "symbol": "QYLE.DE",
+  "name": "Global X Nasdaq 100 Covered Call",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Global X - Nasdaq 100 Covered Call UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US38141G1040",
+  "isin": "US38141G1040",
+  "symbol": "GOS.DE",
+  "name": "Goldman Sachs",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "The Goldman Sachs Group, Inc."
+  ],
+  "wikipedia": "Goldman Sachs"
+ },
+ {
+  "id": "LU0775917882",
+  "isin": "LU0775917882",
+  "symbol": "GYC.DE",
+  "name": "Grand City Properties",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Grand City Properties SA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A161N30",
+  "isin": "DE000A161N30",
+  "symbol": "GLJ.DE",
+  "name": "Grenke",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Grenke AG"
+  ],
+  "wikipedia": "Grenke"
+ },
+ {
+  "id": "GB00BN7SWP63",
+  "isin": "GB00BN7SWP63",
+  "symbol": "GSK.L",
+  "name": "GSK",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "GSK plc",
+   "GlaxoSmithKline"
+  ],
+  "wikipedia": "GSK plc"
+ },
+ {
+  "id": "SE0000106270",
+  "isin": "SE0000106270",
+  "symbol": "HMSB.DE",
+  "name": "H&M (B)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hennes & Mauritz",
+   "H&M"
+  ],
+  "wikipedia": "H&M"
+ },
+ {
+  "id": "GB00BMX86B70",
+  "isin": "GB00BMX86B70",
+  "symbol": "HLN.L",
+  "name": "Haleon",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Haleon PLC"
+  ],
+  "wikipedia": "Haleon"
+ },
+ {
+  "id": "GB0004052071",
+  "isin": "GB0004052071",
+  "symbol": "HLMA.L",
+  "name": "Halma",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Halma plc"
+  ],
+  "wikipedia": "Halma plc"
+ },
+ {
+  "id": "DE000A3H2333",
+  "isin": "DE000A3H2333",
+  "symbol": "HABA.DE",
+  "name": "Hamborner",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hamborner REIT AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "SE0007100599",
+  "isin": "SE0007100599",
+  "symbol": "SHB-A.ST",
+  "name": "Handelsbanken",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Handelsbanken"
+ },
+ {
+  "id": "DE0008402215",
+  "isin": "DE0008402215",
+  "symbol": "HNR1.DE",
+  "name": "Hannover Re",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hannover Rück",
+   "Hannover Ruck SE"
+  ],
+  "wikipedia": "Hannover Re"
+ },
+ {
+  "id": "DE000HLAG475",
+  "isin": "DE000HLAG475",
+  "symbol": "HLAG.DE",
+  "name": "Hapag-Lloyd",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hapag-Lloyd Aktiengesellschaft"
+  ],
+  "wikipedia": "Hapag-Lloyd"
+ },
+ {
+  "id": "DE0006047004",
+  "isin": "DE0006047004",
+  "symbol": "HEI.DE",
+  "name": "Heidelberg Materials",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "HeidelbergCement",
+   "Heidelberg Materials AG",
+   "HeidelbergCement AG"
+  ],
+  "wikipedia": "Heidelberg Materials"
+ },
+ {
+  "id": "DE0007314007",
+  "isin": "DE0007314007",
+  "symbol": "HDD.DE",
+  "name": "Heidelberger Druck",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Heidelberger Druckmaschinen Aktiengesellschaft",
+   "Heidelberger Druckmaschinen"
+  ],
+  "wikipedia": "Heidelberger Druckmaschinen"
+ },
+ {
+  "id": "NL0000009165",
+  "isin": "NL0000009165",
+  "symbol": "HNK1.DE",
+  "name": "Heineken",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Heineken N.V.",
+   "Heineken International"
+  ],
+  "wikipedia": "Heineken International"
+ },
+ {
+  "id": "DE000A13SX22",
+  "isin": "DE000A13SX22",
+  "symbol": "HLE.DE",
+  "name": "Hella",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "HELLA GmbH & Co. KGaA"
+  ],
+  "wikipedia": "Hella (company)"
+ },
+ {
+  "id": "DE000A161408",
+  "isin": "DE000A161408",
+  "symbol": "HFG.DE",
+  "name": "HelloFresh",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "HelloFresh SE"
+  ],
+  "wikipedia": "HelloFresh"
+ },
+ {
+  "id": "DE0006048408",
+  "isin": "DE0006048408",
+  "symbol": "HEN.DE",
+  "name": "Henkel",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Henkel AG",
+   "Henkel AG & Co. KGAA"
+  ],
+  "wikipedia": "Henkel"
+ },
+ {
+  "id": "DE0006048432",
+  "isin": "DE0006048432",
+  "symbol": "HEN3.DE",
+  "name": "Henkel (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Henkel AG",
+   "Henkel AG & Co. KGAA",
+   "Henkel"
+  ],
+  "wikipedia": "Henkel"
+ },
+ {
+  "id": "DE000HAG0005",
+  "isin": "DE000HAG0005",
+  "symbol": "HAG.DE",
+  "name": "Hensoldt",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hensoldt AG"
+  ],
+  "wikipedia": "Hensoldt"
+ },
+ {
+  "id": "FR0000052292",
+  "isin": "FR0000052292",
+  "symbol": "HMI.DE",
+  "name": "Hermès",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hermes International",
+   "Hermès International",
+   "Hermes International Societe en commandite par actions"
+  ],
+  "wikipedia": "Hermès"
+ },
+ {
+  "id": "SE0015961909",
+  "isin": "SE0015961909",
+  "symbol": "HEXA-B.ST",
+  "name": "Hexagon",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Hexagon AB"
+  ],
+  "wikipedia": "Hexagon AB"
+ },
+ {
+  "id": "DE0006070006",
+  "isin": "DE0006070006",
+  "symbol": "HOT.DE",
+  "name": "Hochtief",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "HOCHTIEF Aktiengesellschaft"
+  ],
+  "wikipedia": "Hochtief"
+ },
+ {
+  "id": "CH0012214059",
+  "isin": "CH0012214059",
+  "symbol": "HOLN.SW",
+  "name": "Holcim",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Holcim AG",
+   "Holcim Group"
+  ],
+  "wikipedia": "Holcim Group"
+ },
+ {
+  "id": "US4370761029",
+  "isin": "US4370761029",
+  "symbol": "HDI.DE",
+  "name": "Home Depot",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Home Depot, Inc."
+  ],
+  "wikipedia": "Home Depot"
+ },
+ {
+  "id": "US4385162056",
+  "isin": "US4385162056",
+  "symbol": "ALD0.DE",
+  "name": "Honeywell",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Honeywell International",
+   "Honeywell International Inc."
+  ],
+  "wikipedia": "Honeywell"
+ },
+ {
+  "id": "DE0006083405",
+  "isin": "DE0006083405",
+  "symbol": "HBH.DE",
+  "name": "Hornbach",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "HORNBACH Holding AG & Co. KGaA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB0005405286",
+  "isin": "GB0005405286",
+  "symbol": "HBC1.DE",
+  "name": "HSBC",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "HSBC Holdings Plc"
+  ],
+  "wikipedia": "HSBC"
+ },
+ {
+  "id": "IE00B4X9L533",
+  "isin": "IE00B4X9L533",
+  "symbol": "H4ZJ.DE",
+  "name": "HSBC MSCI World",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "HSBC ETFs Public Limited Company - HSBC MSCI World UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A1PHFF7",
+  "isin": "DE000A1PHFF7",
+  "symbol": "BOSS.DE",
+  "name": "Hugo Boss",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hugo Boss AG"
+  ],
+  "wikipedia": "Hugo Boss"
+ },
+ {
+  "id": "DE0005493365",
+  "isin": "DE0005493365",
+  "symbol": "HYQ.DE",
+  "name": "Hypoport",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Hypoport SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "ES0144580Y14",
+  "isin": "ES0144580Y14",
+  "symbol": "IBE1.DE",
+  "name": "Iberdrola",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Iberdrola, S.A."
+  ],
+  "wikipedia": "Iberdrola"
+ },
+ {
+  "id": "US4592001014",
+  "isin": "US4592001014",
+  "symbol": "IBM.DE",
+  "name": "IBM",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "International Business Machines",
+   "International Business Machines Corporation"
+  ],
+  "wikipedia": "IBM"
+ },
+ {
+  "id": "US45168D1046",
+  "isin": "US45168D1046",
+  "symbol": "IX1.DE",
+  "name": "Idexx Laboratories",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "IDEXX Laboratories, Inc."
+  ],
+  "wikipedia": "Idexx Laboratories"
+ },
+ {
+  "id": "GB0004544929",
+  "isin": "GB0004544929",
+  "symbol": "ITB.DE",
+  "name": "Imperial Brands",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Imperial Brands PLC"
+  ],
+  "wikipedia": "Imperial Brands"
+ },
+ {
+  "id": "ES0148396007",
+  "isin": "ES0148396007",
+  "symbol": "IXD1.DE",
+  "name": "Inditex",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Industria de Diseño Textil",
+   "Industria de Diseno Textil, S.A."
+  ],
+  "wikipedia": "Inditex"
+ },
+ {
+  "id": "ES0118594417",
+  "isin": "ES0118594417",
+  "symbol": "IDR.MC",
+  "name": "Indra Sistemas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Indra Sistemas, S.A."
+  ],
+  "wikipedia": "Indra Sistemas"
+ },
+ {
+  "id": "DE0006200108",
+  "isin": "DE0006200108",
+  "symbol": "INH.DE",
+  "name": "Indus Holding",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "INDUS Holding AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "SE0000107203",
+  "isin": "SE0000107203",
+  "symbol": "INDU-C.ST",
+  "name": "Industrivärden (C)",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0006231004",
+  "isin": "DE0006231004",
+  "symbol": "IFX.DE",
+  "name": "Infineon",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Infineon Technologies AG",
+   "Infineon Technologies"
+  ],
+  "wikipedia": "Infineon Technologies"
+ },
+ {
+  "id": "GB00BMJ6DW54",
+  "isin": "GB00BMJ6DW54",
+  "symbol": "INF.L",
+  "name": "Informa",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Informa plc"
+  ],
+  "wikipedia": "Informa"
+ },
+ {
+  "id": "NL0011821202",
+  "isin": "NL0011821202",
+  "symbol": "INN1.DE",
+  "name": "ING",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ING Groep N.V.",
+   "ING Group"
+  ],
+  "wikipedia": "ING Group"
+ },
+ {
+  "id": "US4576693075",
+  "isin": "US4576693075",
+  "symbol": "INSM",
+  "name": "Insmed",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Insmed Incorporated"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US4581401001",
+  "isin": "US4581401001",
+  "symbol": "INL.DE",
+  "name": "Intel",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Intel Corporation"
+  ],
+  "wikipedia": "Intel"
+ },
+ {
+  "id": "US45866F1049",
+  "isin": "US45866F1049",
+  "symbol": "IC2.DE",
+  "name": "Intercontinental Exchange",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Intercontinental Exchange, Inc."
+  ],
+  "wikipedia": "Intercontinental Exchange"
+ },
+ {
+  "id": "GB00BHJYC057",
+  "isin": "GB00BHJYC057",
+  "symbol": "IHG.L",
+  "name": "InterContinental Hotels (IHG)",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "InterContinental Hotels",
+   "IHG",
+   "InterContinental Hotels Group PLC",
+   "IHG Hotels & Resorts"
+  ],
+  "wikipedia": "IHG Hotels & Resorts"
+ },
+ {
+  "id": "ES0177542018",
+  "isin": "ES0177542018",
+  "symbol": "INR.DE",
+  "name": "International Airlines Group (IAG)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "International Consolidated Airlines",
+   "British Airways",
+   "Iberia",
+   "International Consolidated Airlines Group S.A.",
+   "International Airlines Group"
+  ],
+  "wikipedia": "International Airlines Group"
+ },
+ {
+  "id": "GB0031638363",
+  "isin": "GB0031638363",
+  "symbol": "ITRK.L",
+  "name": "Intertek",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Intertek Group plc"
+  ],
+  "wikipedia": "Intertek"
+ },
+ {
+  "id": "IT0000072618",
+  "isin": "IT0000072618",
+  "symbol": "IES.DE",
+  "name": "Intesa Sanpaolo",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Intesa Sanpaolo S.p.A."
+  ],
+  "wikipedia": "Intesa Sanpaolo"
+ },
+ {
+  "id": "US4612021034",
+  "isin": "US4612021034",
+  "symbol": "ITU.DE",
+  "name": "Intuit",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Intuit Inc."
+  ],
+  "wikipedia": "Intuit"
+ },
+ {
+  "id": "US46120E6023",
+  "isin": "US46120E6023",
+  "symbol": "IUI1.DE",
+  "name": "Intuitive Surgical",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Intuitive Surgical, Inc."
+  ],
+  "wikipedia": "Intuitive Surgical"
+ },
+ {
+  "id": "IE00BFZXGZ54",
+  "isin": "IE00BFZXGZ54",
+  "symbol": "EQQB.DE",
+  "name": "Invesco EQQQ Nasdaq-100 (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Invesco EQQQ Nasdaq-100 UCITS ETF Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE0032077012",
+  "isin": "IE0032077012",
+  "symbol": "EQQQ.DE",
+  "name": "Invesco EQQQ Nasdaq-100 (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Invesco EQQQ NASDAQ-100 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE000716YHJ7",
+  "isin": "IE000716YHJ7",
+  "symbol": "FWIA.DE",
+  "name": "Invesco FTSE All-World (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Invesco FTSE All-World UCITS ETF USD Accumulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B60SX394",
+  "isin": "IE00B60SX394",
+  "symbol": "SC0J.DE",
+  "name": "Invesco MSCI World",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Invesco MSCI World UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B579F325",
+  "isin": "IE00B579F325",
+  "symbol": "8PSG.DE",
+  "name": "Invesco Physical Gold ETC",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3YCGJ38",
+  "isin": "IE00B3YCGJ38",
+  "symbol": "P500.DE",
+  "name": "Invesco S&P 500",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Invesco S&P 500 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "SE0015811963",
+  "isin": "SE0015811963",
+  "symbol": "INVE-B.ST",
+  "name": "Investor (B)",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Investor AB"
+  ],
+  "wikipedia": "Investor AB"
+ },
+ {
+  "id": "DE000A3E00M1",
+  "isin": "DE000A3E00M1",
+  "symbol": "IOS.DE",
+  "name": "IONOS",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "IONOS Group SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0010259150",
+  "isin": "FR0010259150",
+  "symbol": "IPN.PA",
+  "name": "Ipsen",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ipsen S.A."
+  ],
+  "wikipedia": "Ipsen"
+ },
+ {
+  "id": "IE00BYZK4669",
+  "isin": "IE00BYZK4669",
+  "symbol": "2B77.DE",
+  "name": "iShares Ageing Population (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Ageing Population UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYZK4552",
+  "isin": "IE00BYZK4552",
+  "symbol": "2B76.DE",
+  "name": "iShares Automation & Robotics (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Automation & Robotics UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0005933931",
+  "isin": "DE0005933931",
+  "symbol": "EXS1.DE",
+  "name": "iShares Core DAX",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core DAX UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3F81R35",
+  "isin": "IE00B3F81R35",
+  "symbol": "EUN5.DE",
+  "name": "iShares Core EUR Corporate Bond (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core € Corp Bond",
+   "iShares Core € Corp Bond UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B4WXJJ64",
+  "isin": "IE00B4WXJJ64",
+  "symbol": "EUNH.DE",
+  "name": "iShares Core EUR Government Bond (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core € Govt Bond",
+   "iShares Core € Govt Bond UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE0008471009",
+  "isin": "IE0008471009",
+  "symbol": "EUN2.DE",
+  "name": "iShares Core EURO STOXX 50 (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core EURO STOXX 50 UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BDBRDM35",
+  "isin": "IE00BDBRDM35",
+  "symbol": "EUNA.DE",
+  "name": "iShares Core Global Aggregate Bond EUR Hedged (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core Global Aggregate Bond UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BKM4GZ66",
+  "isin": "IE00BKM4GZ66",
+  "symbol": "IS3N.DE",
+  "name": "iShares Core MSCI EM IMI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI EM IMI UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BD45KH83",
+  "isin": "IE00BD45KH83",
+  "symbol": "IBC3.DE",
+  "name": "iShares Core MSCI EM IMI (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI EM IMI UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B4K48X80",
+  "isin": "IE00B4K48X80",
+  "symbol": "EUNK.DE",
+  "name": "iShares Core MSCI Europe (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI Europe UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B1YZSC51",
+  "isin": "IE00B1YZSC51",
+  "symbol": "IQQY.DE",
+  "name": "iShares Core MSCI Europe (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI Europe UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B4L5YX21",
+  "isin": "IE00B4L5YX21",
+  "symbol": "EUNN.DE",
+  "name": "iShares Core MSCI Japan IMI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI Japan IMI UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B52MJY50",
+  "isin": "IE00B52MJY50",
+  "symbol": "SXR1.DE",
+  "name": "iShares Core MSCI Pacific ex-Japan (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI Pac ex-Jpn ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B4L5Y983",
+  "isin": "IE00B4L5Y983",
+  "symbol": "EUNL.DE",
+  "name": "iShares Core MSCI World (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core MSCI World UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B5BMR087",
+  "isin": "IE00B5BMR087",
+  "symbol": "SXR8.DE",
+  "name": "iShares Core S&P 500 (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Core S&P 500 UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B1FZS350",
+  "isin": "IE00B1FZS350",
+  "symbol": "IQQ6.DE",
+  "name": "iShares Developed Markets Property Yield (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Developed Markets Property Yield UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYZK4883",
+  "isin": "IE00BYZK4883",
+  "symbol": "2B79.DE",
+  "name": "iShares Digitalisation (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Digitalisation UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0002635273",
+  "isin": "DE0002635273",
+  "symbol": "EXSB.DE",
+  "name": "iShares DivDAX",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares DivDAX UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0H0728",
+  "isin": "DE000A0H0728",
+  "symbol": "EXXY.DE",
+  "name": "iShares Diversified Commodity Swap (DE)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Diversified Commodity Swap UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0D8Q49",
+  "isin": "DE000A0D8Q49",
+  "symbol": "EXX5.DE",
+  "name": "iShares Dow Jones U.S. Select Dividend",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Dow Jones U.S. Select Dividend UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B8FHGS14",
+  "isin": "IE00B8FHGS14",
+  "symbol": "IQQ0.DE",
+  "name": "iShares Edge MSCI World Minimum Volatility (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Edge MSCI World Minimum Volatility UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BP3QZ825",
+  "isin": "IE00BP3QZ825",
+  "symbol": "IS3R.DE",
+  "name": "iShares Edge MSCI World Momentum Factor (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Edge MSCI World Momentum Factor UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BP3QZ601",
+  "isin": "IE00BP3QZ601",
+  "symbol": "IS3Q.DE",
+  "name": "iShares Edge MSCI World Quality Factor (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Edge MSCI World Quality Factor UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BP3QZB59",
+  "isin": "IE00BP3QZB59",
+  "symbol": "IS3S.DE",
+  "name": "iShares Edge MSCI World Value Factor (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Edge MSCI World Value Factor UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BGL86Z12",
+  "isin": "IE00BGL86Z12",
+  "symbol": "IEVD.DE",
+  "name": "iShares Electric Vehicles and Driving Technology (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Electric Vehicles and Driving Technology UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B652H904",
+  "isin": "IE00B652H904",
+  "symbol": "EUNY.DE",
+  "name": "iShares EM Dividend (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares EM Dividend UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3DKXQ41",
+  "isin": "IE00B3DKXQ41",
+  "symbol": "EUN4.DE",
+  "name": "iShares EUR Aggregate Bond (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares € Aggregate Bond",
+   "iShares € Aggregate Bond UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B66F4759",
+  "isin": "IE00B66F4759",
+  "symbol": "EUNW.DE",
+  "name": "iShares EUR High Yield Corporate Bond (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares € High Yield Corp Bond",
+   "iShares € High Yield Corp Bond UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B0M62X26",
+  "isin": "IE00B0M62X26",
+  "symbol": "IBCI.DE",
+  "name": "iShares EUR Inflation Linked Government Bond (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares € Inflation Linked Govt Bond",
+   "iShares Public Limited Company - iShares Euro Inflation Linked Govt Bond UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE000RHYOR04",
+  "isin": "IE000RHYOR04",
+  "symbol": "ERNX.DE",
+  "name": "iShares EUR Ultrashort Bond",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares € Ultrashort Bond",
+   "iShares € Ultrashort Bond UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B0M62S72",
+  "isin": "IE00B0M62S72",
+  "symbol": "IQQA.DE",
+  "name": "iShares Euro Dividend (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Euro Dividend UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0005933956",
+  "isin": "DE0005933956",
+  "symbol": "EXW1.DE",
+  "name": "iShares EURO STOXX 50 (DE)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares EURO STOXX 50 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0006289309",
+  "isin": "DE0006289309",
+  "symbol": "EXX1.DE",
+  "name": "iShares EURO STOXX Banks 30-15",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares EURO STOXX Banks 30-15 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BGDQ0L74",
+  "isin": "IE00BGDQ0L74",
+  "symbol": "IPRE.DE",
+  "name": "iShares European Property Yield (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares European Property Yield UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B0M63284",
+  "isin": "IE00B0M63284",
+  "symbol": "IQQP.DE",
+  "name": "iShares European Property Yield (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares European Property Yield UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B1XNHC34",
+  "isin": "IE00B1XNHC34",
+  "symbol": "IQQH.DE",
+  "name": "iShares Global Clean Energy (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Global Clean Energy UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B1TXK627",
+  "isin": "IE00B1TXK627",
+  "symbol": "IQQQ.DE",
+  "name": "iShares Global Water (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Global Water UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYZK4776",
+  "isin": "IE00BYZK4776",
+  "symbol": "2B78.DE",
+  "name": "iShares Healthcare Innovation (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Healthcare Innovation UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B2NPKV68",
+  "isin": "IE00B2NPKV68",
+  "symbol": "IUS7.DE",
+  "name": "iShares J.P. Morgan USD EM Bond (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares J.P. Morgan $ EM Bond",
+   "iShares J.P. Morgan $ EM Bond UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0005933923",
+  "isin": "DE0005933923",
+  "symbol": "EXS3.DE",
+  "name": "iShares MDAX",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MDAX UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B6R52259",
+  "isin": "IE00B6R52259",
+  "symbol": "IUSQ.DE",
+  "name": "iShares MSCI ACWI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI ACWI UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BJ5JPG56",
+  "isin": "IE00BJ5JPG56",
+  "symbol": "ICGA.DE",
+  "name": "iShares MSCI China (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI China UCITS ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE000NFR7C63",
+  "isin": "IE000NFR7C63",
+  "symbol": "CBUK.DE",
+  "name": "iShares MSCI China Tech",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI China Tech UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B4L5YC18",
+  "isin": "IE00B4L5YC18",
+  "symbol": "EUNM.DE",
+  "name": "iShares MSCI EM (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI EM UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B0M63177",
+  "isin": "IE00B0M63177",
+  "symbol": "IQQE.DE",
+  "name": "iShares MSCI EM (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI EM UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B5L8K969",
+  "isin": "IE00B5L8K969",
+  "symbol": "CEBL.DE",
+  "name": "iShares MSCI EM Asia (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI EM Asia ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BFNM3P36",
+  "isin": "IE00BFNM3P36",
+  "symbol": "AYEM.DE",
+  "name": "iShares MSCI EM IMI ESG Screened (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI EM IMI ESG Screened UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B27YCK28",
+  "isin": "IE00B27YCK28",
+  "symbol": "IUSC.DE",
+  "name": "iShares MSCI EM Latin America (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI EM Latin America UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYVJRP78",
+  "isin": "IE00BYVJRP78",
+  "symbol": "QDVS.DE",
+  "name": "iShares MSCI EM SRI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI EM SRI UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B52VJ196",
+  "isin": "IE00B52VJ196",
+  "symbol": "IUSK.DE",
+  "name": "iShares MSCI Europe SRI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI Europe SRI UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE000I8KRLL9",
+  "isin": "IE000I8KRLL9",
+  "symbol": "SEC0.DE",
+  "name": "iShares MSCI Global Semiconductors (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI Global Semiconductors UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BZCQB185",
+  "isin": "IE00BZCQB185",
+  "symbol": "QDV5.DE",
+  "name": "iShares MSCI India (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI India UCITS ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B02KXH56",
+  "isin": "IE00B02KXH56",
+  "symbol": "IQQJ.DE",
+  "name": "iShares MSCI Japan (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI Japan UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B42Z5J44",
+  "isin": "IE00B42Z5J44",
+  "symbol": "IBCG.DE",
+  "name": "iShares MSCI Japan EUR Hedged (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI Japan EUR Hedged UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B14X4M10",
+  "isin": "IE00B14X4M10",
+  "symbol": "IQQN.DE",
+  "name": "iShares MSCI North America (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI North America UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYVJRR92",
+  "isin": "IE00BYVJRR92",
+  "symbol": "QDVR.DE",
+  "name": "iShares MSCI USA SRI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI USA SRI UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B0M62Q58",
+  "isin": "IE00B0M62Q58",
+  "symbol": "IQQW.DE",
+  "name": "iShares MSCI World (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI World UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BHZPJ569",
+  "isin": "IE00BHZPJ569",
+  "symbol": "EDMW.DE",
+  "name": "iShares MSCI World ESG Enhanced (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI World ESG Enhanced UCITS ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BFNM3J75",
+  "isin": "IE00BFNM3J75",
+  "symbol": "SNAW.DE",
+  "name": "iShares MSCI World ESG Screened (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI World ESG Screened UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYYHSQ67",
+  "isin": "IE00BYYHSQ67",
+  "symbol": "QDVW.DE",
+  "name": "iShares MSCI World Quality Dividend (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI World Quality Dividend UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BF4RFH31",
+  "isin": "IE00BF4RFH31",
+  "symbol": "IUSN.DE",
+  "name": "iShares MSCI World Small Cap (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI World Small Cap UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYX2JD69",
+  "isin": "IE00BYX2JD69",
+  "symbol": "2B7K.DE",
+  "name": "iShares MSCI World SRI (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares MSCI World SRI UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B53SZB19",
+  "isin": "IE00B53SZB19",
+  "symbol": "SXRV.DE",
+  "name": "iShares Nasdaq 100 (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares NASDAQ 100 UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYXG2H39",
+  "isin": "IE00BYXG2H39",
+  "symbol": "2B70.DE",
+  "name": "iShares Nasdaq US Biotechnology",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares Nasdaq US Biotechnology UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B4ND3602",
+  "isin": "IE00B4ND3602",
+  "symbol": "PPFB.DE",
+  "name": "iShares Physical Gold ETC",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B42NKQ00",
+  "isin": "IE00B42NKQ00",
+  "symbol": "QDVF.DE",
+  "name": "iShares S&P 500 Energy Sector (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares S&P 500 Energy Sector UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B43HR379",
+  "isin": "IE00B43HR379",
+  "symbol": "QDVG.DE",
+  "name": "iShares S&P 500 Health Care Sector (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares S&P 500 Health Care Sector UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3WJKG14",
+  "isin": "IE00B3WJKG14",
+  "symbol": "QDVE.DE",
+  "name": "iShares S&P 500 Information Technology Sector (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares S&P 500 Information Technology Sector UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BMTX1Y45",
+  "isin": "IE00BMTX1Y45",
+  "symbol": "I500.DE",
+  "name": "iShares S&P 500 Swap (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares S&P 500 Swap UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0002635307",
+  "isin": "DE0002635307",
+  "symbol": "EXSA.DE",
+  "name": "iShares STOXX Europe 600",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe 600 UCITS ETF EUR"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0F5UJ7",
+  "isin": "DE000A0F5UJ7",
+  "symbol": "EXV1.DE",
+  "name": "iShares STOXX Europe 600 Banks",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe 600 Banks UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0Q4R36",
+  "isin": "DE000A0Q4R36",
+  "symbol": "EXV4.DE",
+  "name": "iShares STOXX Europe 600 Health Care",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe 600 Health Care UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0H08J9",
+  "isin": "DE000A0H08J9",
+  "symbol": "EXH4.DE",
+  "name": "iShares STOXX Europe 600 Industrial Goods & Services",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe 600 Industrial Goods & Services UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0H08M3",
+  "isin": "DE000A0H08M3",
+  "symbol": "EXH1.DE",
+  "name": "iShares STOXX Europe 600 Oil & Gas",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe 600 Oil & Gas UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0H08Q4",
+  "isin": "DE000A0H08Q4",
+  "symbol": "EXV3.DE",
+  "name": "iShares STOXX Europe 600 Technology",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe 600 Technology UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0002635299",
+  "isin": "DE0002635299",
+  "symbol": "EXSH.DE",
+  "name": "iShares STOXX Europe Select Dividend 30",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Europe Select Dividend 30 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0F5UH1",
+  "isin": "DE000A0F5UH1",
+  "symbol": "ISPA.DE",
+  "name": "iShares STOXX Global Select Dividend 100",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares STOXX Global Select Dividend 100 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0005933972",
+  "isin": "DE0005933972",
+  "symbol": "EXS2.DE",
+  "name": "iShares TecDAX",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares TecDAX UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3VWN518",
+  "isin": "IE00B3VWN518",
+  "symbol": "SXRM.DE",
+  "name": "iShares USD Treasury Bond 7-10yr (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares $ Treasury Bond 7-10yr",
+   "iShares $ Treasury Bd 7-10y ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B1FZS798",
+  "isin": "IE00B1FZS798",
+  "symbol": "IUSM.DE",
+  "name": "iShares USD Treasury Bond 7-10yr (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "iShares $ Treasury Bond 7-10yr",
+   "iShares $ Treasury Bond 7-10yr UCITS ETF USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A2NB601",
+  "isin": "DE000A2NB601",
+  "symbol": "JEN.DE",
+  "name": "Jenoptik",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Jenoptik AG"
+  ],
+  "wikipedia": "Jenoptik"
+ },
+ {
+  "id": "PTJMT0AE0001",
+  "isin": "PTJMT0AE0001",
+  "symbol": "JMT.LS",
+  "name": "Jerónimo Martins",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Jeronimo Martins, SGPS, S.A."
+  ],
+  "wikipedia": "Jerónimo Martins"
+ },
+ {
+  "id": "US4781601046",
+  "isin": "US4781601046",
+  "symbol": "JNJ.DE",
+  "name": "Johnson & Johnson",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "J&J"
+  ],
+  "wikipedia": "Johnson & Johnson"
+ },
+ {
+  "id": "DE000JST4000",
+  "isin": "DE000JST4000",
+  "symbol": "JST.DE",
+  "name": "Jost Werke",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "JOST Werke AG"
+  ],
+  "wikipedia": "Jost Werke"
+ },
+ {
+  "id": "US46625H1005",
+  "isin": "US46625H1005",
+  "symbol": "CMC.DE",
+  "name": "JPMorgan Chase",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "J.P. Morgan",
+   "JPMorgan Chase & Co."
+  ],
+  "wikipedia": "JPMorgan Chase"
+ },
+ {
+  "id": "CH0102484968",
+  "isin": "CH0102484968",
+  "symbol": "BAER.SW",
+  "name": "Julius Bär",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Julius Baer",
+   "Julius Bär Gruppe",
+   "Julius Bar Gruppe AG"
+  ],
+  "wikipedia": "Julius Baer Group"
+ },
+ {
+  "id": "DE0006219934",
+  "isin": "DE0006219934",
+  "symbol": "JUN3.DE",
+  "name": "Jungheinrich (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Jungheinrich Aktiengesellschaft",
+   "Jungheinrich"
+  ],
+  "wikipedia": "Jungheinrich"
+ },
+ {
+  "id": "DE000KSAG888",
+  "isin": "DE000KSAG888",
+  "symbol": "SDF.DE",
+  "name": "K+S",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "K+S Aktiengesellschaft"
+  ],
+  "wikipedia": "K+S"
+ },
+ {
+  "id": "BE0003565737",
+  "isin": "BE0003565737",
+  "symbol": "KBC.BR",
+  "name": "KBC Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "KBC Group NV",
+   "KBC Bank"
+  ],
+  "wikipedia": "KBC Bank"
+ },
+ {
+  "id": "FR0000121485",
+  "isin": "FR0000121485",
+  "symbol": "PPX.DE",
+  "name": "Kering",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Gucci",
+   "Kering SA"
+  ],
+  "wikipedia": "Kering"
+ },
+ {
+  "id": "IE0004906560",
+  "isin": "IE0004906560",
+  "symbol": "KRZ.IR",
+  "name": "Kerry Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Kerry Group plc"
+  ],
+  "wikipedia": "Kerry Group"
+ },
+ {
+  "id": "FI0009000202",
+  "isin": "FI0009000202",
+  "symbol": "KESKOB.HE",
+  "name": "Kesko",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Kesko Oyj"
+  ],
+  "wikipedia": "Kesko"
+ },
+ {
+  "id": "US49271V1008",
+  "isin": "US49271V1008",
+  "symbol": "KDP",
+  "name": "Keurig Dr Pepper",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Keurig Dr Pepper Inc."
+  ],
+  "wikipedia": "Keurig Dr Pepper"
+ },
+ {
+  "id": "IE0004927939",
+  "isin": "IE0004927939",
+  "symbol": "KRX.IR",
+  "name": "Kingspan",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Kingspan Group plc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000KGX8881",
+  "isin": "DE000KGX8881",
+  "symbol": "KGX.DE",
+  "name": "KION Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Kion Group AG"
+  ],
+  "wikipedia": "KION Group"
+ },
+ {
+  "id": "US48251W1045",
+  "isin": "US48251W1045",
+  "symbol": "KKR",
+  "name": "KKR",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "KKR & Co. Inc."
+  ],
+  "wikipedia": "KKR & Co."
+ },
+ {
+  "id": "US4824801009",
+  "isin": "US4824801009",
+  "symbol": "KLA.DE",
+  "name": "KLA",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "KLA Corporation"
+  ],
+  "wikipedia": "KLA Corporation"
+ },
+ {
+  "id": "FR0000121964",
+  "isin": "FR0000121964",
+  "symbol": "LI.PA",
+  "name": "Klépierre",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Klépierre S.A."
+  ],
+  "wikipedia": "Klépierre"
+ },
+ {
+  "id": "DE000KBX1006",
+  "isin": "DE000KBX1006",
+  "symbol": "KBX.DE",
+  "name": "Knorr-Bremse",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Knorr-Bremse Aktiengesellschaft"
+  ],
+  "wikipedia": "Knorr-Bremse"
+ },
+ {
+  "id": "FI0009013403",
+  "isin": "FI0009013403",
+  "symbol": "KNEBV.HE",
+  "name": "Kone",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "KONE Oyj"
+  ],
+  "wikipedia": "Kone"
+ },
+ {
+  "id": "NO0013536151",
+  "isin": "NO0013536151",
+  "symbol": "KOG.OL",
+  "name": "Kongsberg Gruppen",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Kongsberg Defence",
+   "Kongsberg Gruppen ASA"
+  ],
+  "wikipedia": "Kongsberg Gruppen"
+ },
+ {
+  "id": "AT0000A0E9W5",
+  "isin": "AT0000A0E9W5",
+  "symbol": "KTN.DE",
+  "name": "Kontron",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Kontron AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "NL0000009082",
+  "isin": "NL0000009082",
+  "symbol": "KPN.AS",
+  "name": "KPN",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Koninklijke KPN N.V."
+  ],
+  "wikipedia": "KPN"
+ },
+ {
+  "id": "US5007541064",
+  "isin": "US5007541064",
+  "symbol": "KHNZ.DE",
+  "name": "Kraft Heinz",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Kraft Heinz Company"
+  ],
+  "wikipedia": "Kraft Heinz"
+ },
+ {
+  "id": "DE0006335003",
+  "isin": "DE0006335003",
+  "symbol": "KRN.DE",
+  "name": "Krones",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Krones AG"
+  ],
+  "wikipedia": "Krones"
+ },
+ {
+  "id": "DE0006292030",
+  "isin": "DE0006292030",
+  "symbol": "KSB3.DE",
+  "name": "KSB (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "KSB SE & Co. KGaA"
+  ],
+  "wikipedia": "KSB SE & Co. KGaA"
+ },
+ {
+  "id": "CH0025238863",
+  "isin": "CH0025238863",
+  "symbol": "KNIN.SW",
+  "name": "Kuehne + Nagel",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Kuehne & Nagel International AG"
+  ],
+  "wikipedia": "Kuehne + Nagel"
+ },
+ {
+  "id": "DE0007074007",
+  "isin": "DE0007074007",
+  "symbol": "KWS.DE",
+  "name": "KWS Saat",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "KWS SAAT SE & Co KGaA"
+  ],
+  "wikipedia": "KWS Saat"
+ },
+ {
+  "id": "IE00BF0M2Z96",
+  "isin": "IE00BF0M2Z96",
+  "symbol": "BATE.DE",
+  "name": "L&G Battery Value-Chain",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "L&G Battery Value-Chain UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYPLS672",
+  "isin": "IE00BYPLS672",
+  "symbol": "USPY.DE",
+  "name": "L&G Cyber Security",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "L&G Cyber Security UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BMYDM794",
+  "isin": "IE00BMYDM794",
+  "symbol": "HTMW.DE",
+  "name": "L&G Hydrogen Economy",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "L&G Hydrogen Economy UCITS ETF-USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3CNHJ55",
+  "isin": "IE00B3CNHJ55",
+  "symbol": "ETLZ.DE",
+  "name": "L&G Russell 2000 US Small Cap",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "L&G Russell 2000 US Small Cap UCITS ETF USD Accumulate"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000120321",
+  "isin": "FR0000120321",
+  "symbol": "LOR.DE",
+  "name": "L'Oréal",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "L'Oreal",
+   "L'Oréal SA",
+   "L'Oreal S.A."
+  ],
+  "wikipedia": "L'Oréal"
+ },
+ {
+  "id": "US5128071082",
+  "isin": "US5128071082",
+  "symbol": "LRCX",
+  "name": "Lam Research",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Lam Research Corporation"
+  ],
+  "wikipedia": "Lam Research"
+ },
+ {
+  "id": "DE0005470405",
+  "isin": "DE0005470405",
+  "symbol": "LXS.DE",
+  "name": "Lanxess",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "LANXESS Aktiengesellschaft",
+   "Lanxess AG"
+  ],
+  "wikipedia": "Lanxess AG"
+ },
+ {
+  "id": "DE000LEG1110",
+  "isin": "DE000LEG1110",
+  "symbol": "LEG.DE",
+  "name": "LEG Immobilien",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "LEG Immobilien SE"
+  ],
+  "wikipedia": "LEG Immobilien"
+ },
+ {
+  "id": "GB0005603997",
+  "isin": "GB0005603997",
+  "symbol": "LGEN.L",
+  "name": "Legal & General",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Legal & General Group Plc"
+  ],
+  "wikipedia": "Legal & General"
+ },
+ {
+  "id": "FR0010307819",
+  "isin": "FR0010307819",
+  "symbol": "LR.PA",
+  "name": "Legrand",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Legrand SA"
+  ],
+  "wikipedia": "Legrand (company)"
+ },
+ {
+  "id": "IT0003856405",
+  "isin": "IT0003856405",
+  "symbol": "LDO.MI",
+  "name": "Leonardo",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Leonardo SpA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "SE0015949201",
+  "isin": "SE0015949201",
+  "symbol": "LIFCO-B.ST",
+  "name": "Lifco",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "IE000S9YS762",
+  "isin": "IE000S9YS762",
+  "symbol": "LIN.DE",
+  "name": "Linde",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Linde plc"
+  ],
+  "wikipedia": "Linde plc"
+ },
+ {
+  "id": "CH0010570767",
+  "isin": "CH0010570767",
+  "symbol": "LISP.SW",
+  "name": "Lindt & Sprüngli",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Lindt & Spruengli",
+   "Lindt",
+   "Chocoladefabriken Lindt & Spruengli AG"
+  ],
+  "wikipedia": "Lindt & Sprüngli"
+ },
+ {
+  "id": "GB0008706128",
+  "isin": "GB0008706128",
+  "symbol": "LLD.DE",
+  "name": "Lloyds Banking Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Lloyds Banking Group plc"
+  ],
+  "wikipedia": "Lloyds Banking Group"
+ },
+ {
+  "id": "US5398301094",
+  "isin": "US5398301094",
+  "symbol": "LOM.DE",
+  "name": "Lockheed Martin",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Lockheed",
+   "Lockheed Martin Corporation"
+  ],
+  "wikipedia": "Lockheed Martin"
+ },
+ {
+  "id": "CH0025751329",
+  "isin": "CH0025751329",
+  "symbol": "LOGN.SW",
+  "name": "Logitech",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Logitech International S.A."
+  ],
+  "wikipedia": "Logitech"
+ },
+ {
+  "id": "GB00B0SWJX34",
+  "isin": "GB00B0SWJX34",
+  "symbol": "LSEG.L",
+  "name": "London Stock Exchange Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "London Stock Exchange Group plc"
+  ],
+  "wikipedia": "London Stock Exchange Group"
+ },
+ {
+  "id": "CH0013841017",
+  "isin": "CH0013841017",
+  "symbol": "LONN.SW",
+  "name": "Lonza",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Lonza Group Ltd",
+   "Lonza Group"
+  ],
+  "wikipedia": "Lonza Group"
+ },
+ {
+  "id": "BE0003604155",
+  "isin": "BE0003604155",
+  "symbol": "LOTB.BR",
+  "name": "Lotus Bakeries",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Lotus Bakeries NV"
+  ],
+  "wikipedia": "Lotus Bakeries"
+ },
+ {
+  "id": "US5486611073",
+  "isin": "US5486611073",
+  "symbol": "LOW",
+  "name": "Lowe's",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Lowe's Companies, Inc."
+  ],
+  "wikipedia": "Lowe's"
+ },
+ {
+  "id": "DE0006450000",
+  "isin": "DE0006450000",
+  "symbol": "LPK.DE",
+  "name": "LPKF Laser & Electronics",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Lpkf Laser & Electronics AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0008232125",
+  "isin": "DE0008232125",
+  "symbol": "LHA.DE",
+  "name": "Lufthansa",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Deutsche Lufthansa",
+   "Lufthansa Group",
+   "Deutsche Lufthansa AG"
+  ],
+  "wikipedia": "Lufthansa Group"
+ },
+ {
+  "id": "FR0000121014",
+  "isin": "FR0000121014",
+  "symbol": "MOH.DE",
+  "name": "LVMH",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Louis Vuitton",
+   "Moët Hennessy",
+   "LVMH Moët Hennessy",
+   "LVMH Moët Hennessy - Louis Vuitton, Societe Europeenne"
+  ],
+  "wikipedia": "LVMH Moët Hennessy Louis Vuitton"
+ },
+ {
+  "id": "ES0124244E34",
+  "isin": "ES0124244E34",
+  "symbol": "MAP.MC",
+  "name": "Mapfre",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mapfre, S.A."
+  ],
+  "wikipedia": "Mapfre"
+ },
+ {
+  "id": "GB0031274896",
+  "isin": "GB0031274896",
+  "symbol": "MKS.L",
+  "name": "Marks & Spencer",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Marks and Spencer Group plc"
+  ],
+  "wikipedia": "Marks & Spencer"
+ },
+ {
+  "id": "US5719032022",
+  "isin": "US5719032022",
+  "symbol": "MAQ.DE",
+  "name": "Marriott International",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Marriott International, Inc."
+  ],
+  "wikipedia": "Marriott International"
+ },
+ {
+  "id": "US5738741041",
+  "isin": "US5738741041",
+  "symbol": "MRVL",
+  "name": "Marvell Technology",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Marvell Technology, Inc."
+  ],
+  "wikipedia": "Marvell Technology"
+ },
+ {
+  "id": "US57636Q1040",
+  "isin": "US57636Q1040",
+  "symbol": "M4I.DE",
+  "name": "Mastercard",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mastercard Inc",
+   "Mastercard Incorporated"
+  ],
+  "wikipedia": "Mastercard"
+ },
+ {
+  "id": "DE000A0ETBQ4",
+  "isin": "DE000A0ETBQ4",
+  "symbol": "MBB.DE",
+  "name": "MBB",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mbb Se"
+  ],
+  "wikipedia": "MBB SE"
+ },
+ {
+  "id": "US5801351017",
+  "isin": "US5801351017",
+  "symbol": "MDO.DE",
+  "name": "McDonald's",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "McDonald's Corporation"
+  ],
+  "wikipedia": "McDonald's"
+ },
+ {
+  "id": "IT0000062957",
+  "isin": "IT0000062957",
+  "symbol": "MB.MI",
+  "name": "Mediobanca",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mediobanca Banca di Credito Finanziario S.p.A."
+  ],
+  "wikipedia": "Mediobanca"
+ },
+ {
+  "id": "DE000A1MMCC8",
+  "isin": "DE000A1MMCC8",
+  "symbol": "ILM1.DE",
+  "name": "Medios",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Medios AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BTN1Y115",
+  "isin": "IE00BTN1Y115",
+  "symbol": "2M6.DE",
+  "name": "Medtronic",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Medtronic plc"
+  ],
+  "wikipedia": "Medtronic"
+ },
+ {
+  "id": "US58733R1023",
+  "isin": "US58733R1023",
+  "symbol": "MLB1.DE",
+  "name": "MercadoLibre",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "MercadoLibre, Inc."
+  ],
+  "wikipedia": "Mercado Libre"
+ },
+ {
+  "id": "DE0007100000",
+  "isin": "DE0007100000",
+  "symbol": "MBG.DE",
+  "name": "Mercedes-Benz",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mercedes-Benz Group AG",
+   "Mercedes-Benz Group"
+  ],
+  "wikipedia": "Mercedes-Benz Group"
+ },
+ {
+  "id": "US58933Y1055",
+  "isin": "US58933Y1055",
+  "symbol": "6MK.DE",
+  "name": "Merck & Co.",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Merck Sharp & Dohme",
+   "Merck & Co., Inc."
+  ],
+  "wikipedia": "Merck & Co."
+ },
+ {
+  "id": "DE0006599905",
+  "isin": "DE0006599905",
+  "symbol": "MRK.DE",
+  "name": "Merck KGaA",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Merck Darmstadt",
+   "MERCK Kommanditgesellschaft auf Aktien",
+   "Merck Group"
+  ],
+  "wikipedia": "Merck Group"
+ },
+ {
+  "id": "US30303M1027",
+  "isin": "US30303M1027",
+  "symbol": "FB2A.DE",
+  "name": "Meta Platforms",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Facebook",
+   "Instagram",
+   "WhatsApp",
+   "Meta Platforms, Inc."
+  ],
+  "wikipedia": "Meta Platforms"
+ },
+ {
+  "id": "US59156R1086",
+  "isin": "US59156R1086",
+  "symbol": "MWZ.DE",
+  "name": "MetLife",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "MetLife, Inc."
+  ],
+  "wikipedia": "MetLife"
+ },
+ {
+  "id": "FI0009014575",
+  "isin": "FI0009014575",
+  "symbol": "METSO.HE",
+  "name": "Metso",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Metso Oyj"
+  ],
+  "wikipedia": "Metso (2020–present)"
+ },
+ {
+  "id": "FR001400AJ45",
+  "isin": "FR001400AJ45",
+  "symbol": "ML.PA",
+  "name": "Michelin",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Compagnie Generale des Etablissements Michelin Societe en commandite par actions"
+  ],
+  "wikipedia": "Michelin"
+ },
+ {
+  "id": "US5950171042",
+  "isin": "US5950171042",
+  "symbol": "MCP.DE",
+  "name": "Microchip Technology",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Microchip Technology Inc."
+  ],
+  "wikipedia": "Microchip Technology"
+ },
+ {
+  "id": "US5951121038",
+  "isin": "US5951121038",
+  "symbol": "MTE.DE",
+  "name": "Micron Technology",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Micron Technology, Inc."
+  ],
+  "wikipedia": "Micron Technology"
+ },
+ {
+  "id": "US5949181045",
+  "isin": "US5949181045",
+  "symbol": "MSF.DE",
+  "name": "Microsoft",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Microsoft Corp",
+   "Microsoft Corporation"
+  ],
+  "wikipedia": "Microsoft"
+ },
+ {
+  "id": "DE0006569908",
+  "isin": "DE0006569908",
+  "symbol": "MLP.DE",
+  "name": "MLP",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "MLP SE"
+  ],
+  "wikipedia": "MLP SE"
+ },
+ {
+  "id": "IT0004965148",
+  "isin": "IT0004965148",
+  "symbol": "MONC.MI",
+  "name": "Moncler",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Moncler S.P.A."
+  ],
+  "wikipedia": "Moncler"
+ },
+ {
+  "id": "US6092071058",
+  "isin": "US6092071058",
+  "symbol": "KTF.DE",
+  "name": "Mondelez International",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mondelez International, Inc."
+  ],
+  "wikipedia": "Mondelēz International"
+ },
+ {
+  "id": "US6098391054",
+  "isin": "US6098391054",
+  "symbol": "MPWR",
+  "name": "Monolithic Power Systems",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Monolithic Power Systems, Inc."
+  ],
+  "wikipedia": "Monolithic Power Systems"
+ },
+ {
+  "id": "US61174X1090",
+  "isin": "US61174X1090",
+  "symbol": "MNST",
+  "name": "Monster Beverage",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Monster Beverage Corporation"
+  ],
+  "wikipedia": "Monster Beverage"
+ },
+ {
+  "id": "US6153691059",
+  "isin": "US6153691059",
+  "symbol": "MCO",
+  "name": "Moody's",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Moody's Corporation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US6174464486",
+  "isin": "US6174464486",
+  "symbol": "DWD.DE",
+  "name": "Morgan Stanley",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "Morgan Stanley"
+ },
+ {
+  "id": "NO0003054108",
+  "isin": "NO0003054108",
+  "symbol": "MOWI.OL",
+  "name": "Mowi",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Mowi ASA"
+  ],
+  "wikipedia": "Mowi"
+ },
+ {
+  "id": "DE000A0D9PT0",
+  "isin": "DE000A0D9PT0",
+  "symbol": "MTX.DE",
+  "name": "MTU Aero Engines",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "MTU Aero",
+   "MTU Aero Engines AG"
+  ],
+  "wikipedia": "MTU Aero Engines"
+ },
+ {
+  "id": "DE0008430026",
+  "isin": "DE0008430026",
+  "symbol": "MUV2.DE",
+  "name": "Munich Re",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Münchener Rück",
+   "Munich Reinsurance",
+   "Munchener Ruckversicherungs-Gesellschaft Aktiengesellschaft in Munchen"
+  ],
+  "wikipedia": "Munich Re"
+ },
+ {
+  "id": "DE000A2NB650",
+  "isin": "DE000A2NB650",
+  "symbol": "MUX.DE",
+  "name": "Mutares",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Mutares SE & Co. KGaA"
+  ],
+  "wikipedia": "Mutares"
+ },
+ {
+  "id": "DE000A3H2200",
+  "isin": "DE000A3H2200",
+  "symbol": "NA9.DE",
+  "name": "Nagarro",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nagarro SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB00BDR05C01",
+  "isin": "GB00BDR05C01",
+  "symbol": "NNGF.DE",
+  "name": "National Grid",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "National Grid plc"
+  ],
+  "wikipedia": "National Grid plc"
+ },
+ {
+  "id": "ES0116870314",
+  "isin": "ES0116870314",
+  "symbol": "NTGY.MC",
+  "name": "Naturgy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Naturgy Energy Group, S.A."
+  ],
+  "wikipedia": "Naturgy"
+ },
+ {
+  "id": "GB00BM8PJY71",
+  "isin": "GB00BM8PJY71",
+  "symbol": "NWG.L",
+  "name": "NatWest",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "NatWest Group plc",
+   "NatWest Group"
+  ],
+  "wikipedia": "NatWest Group"
+ },
+ {
+  "id": "DE0006452907",
+  "isin": "DE0006452907",
+  "symbol": "NEM.DE",
+  "name": "Nemetschek",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nemetschek SE"
+  ],
+  "wikipedia": "Nemetschek"
+ },
+ {
+  "id": "FI0009013296",
+  "isin": "FI0009013296",
+  "symbol": "NESTE.HE",
+  "name": "Neste",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Neste Oyj"
+  ],
+  "wikipedia": "Neste"
+ },
+ {
+  "id": "CH0038863350",
+  "isin": "CH0038863350",
+  "symbol": "NESN.SW",
+  "name": "Nestlé",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Nestle",
+   "Nestlé SA",
+   "Nestle S.A."
+  ],
+  "wikipedia": "Nestlé SA"
+ },
+ {
+  "id": "US64110L1061",
+  "isin": "US64110L1061",
+  "symbol": "NFC.DE",
+  "name": "Netflix",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Netflix, Inc."
+  ],
+  "wikipedia": "Netflix, Inc."
+ },
+ {
+  "id": "GB0032089863",
+  "isin": "GB0032089863",
+  "symbol": "NXT.L",
+  "name": "NEXT plc",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [],
+  "wikipedia": "Next plc"
+ },
+ {
+  "id": "US65339F1012",
+  "isin": "US65339F1012",
+  "symbol": "NEE",
+  "name": "NextEra Energy",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "NextEra Energy, Inc."
+  ],
+  "wikipedia": "NextEra Energy"
+ },
+ {
+  "id": "US6541061031",
+  "isin": "US6541061031",
+  "symbol": "NKE.DE",
+  "name": "Nike",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nike, Inc."
+  ],
+  "wikipedia": "Nike, Inc."
+ },
+ {
+  "id": "NL0010773842",
+  "isin": "NL0010773842",
+  "symbol": "NN.AS",
+  "name": "NN Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "NN Group N.V."
+  ],
+  "wikipedia": "NN Group"
+ },
+ {
+  "id": "FI0009000681",
+  "isin": "FI0009000681",
+  "symbol": "NOA3.DE",
+  "name": "Nokia",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nokia Corp."
+  ],
+  "wikipedia": "Nokia"
+ },
+ {
+  "id": "FI4000297767",
+  "isin": "FI4000297767",
+  "symbol": "NDA-FI.HE",
+  "name": "Nordea",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nordea Bank Abp"
+  ],
+  "wikipedia": "Nordea"
+ },
+ {
+  "id": "DE000A0D6554",
+  "isin": "DE000A0D6554",
+  "symbol": "NDX1.DE",
+  "name": "Nordex",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Nordex SE"
+  ],
+  "wikipedia": "Nordex"
+ },
+ {
+  "id": "DE000A1H8BV3",
+  "isin": "DE000A1H8BV3",
+  "symbol": "NOEJ.DE",
+  "name": "Norma Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "NORMA Group SE"
+  ],
+  "wikipedia": "Norma Group"
+ },
+ {
+  "id": "NO0005052605",
+  "isin": "NO0005052605",
+  "symbol": "NHY.OL",
+  "name": "Norsk Hydro",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Norsk Hydro ASA"
+  ],
+  "wikipedia": "Norsk Hydro"
+ },
+ {
+  "id": "US6668071029",
+  "isin": "US6668071029",
+  "symbol": "NOC",
+  "name": "Northrop Grumman",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Northrop",
+   "Northrop Grumman Corp."
+  ],
+  "wikipedia": "Northrop Grumman"
+ },
+ {
+  "id": "CH0012005267",
+  "isin": "CH0012005267",
+  "symbol": "NOVN.SW",
+  "name": "Novartis",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Novartis AG"
+  ],
+  "wikipedia": "Novartis"
+ },
+ {
+  "id": "DK0062498333",
+  "isin": "DK0062498333",
+  "symbol": "NOV.DE",
+  "name": "Novo Nordisk (B)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Novo Nordisk",
+   "Wegovy",
+   "Ozempic",
+   "Novo Nordisk A/S"
+  ],
+  "wikipedia": "Novo Nordisk"
+ },
+ {
+  "id": "DK0060336014",
+  "isin": "DK0060336014",
+  "symbol": "NSIS-B.CO",
+  "name": "Novonesis",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Novozymes",
+   "Chr. Hansen",
+   "Novonesis Novozymes B"
+  ],
+  "wikipedia": "Novonesis"
+ },
+ {
+  "id": "US67066G1040",
+  "isin": "US67066G1040",
+  "symbol": "NVD.DE",
+  "name": "Nvidia",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "NVIDIA Corp",
+   "NVIDIA Corporation"
+  ],
+  "wikipedia": "Nvidia"
+ },
+ {
+  "id": "NL0009538784",
+  "isin": "NL0009538784",
+  "symbol": "VNX.DE",
+  "name": "NXP Semiconductors",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "NXP Semiconductors NV"
+  ],
+  "wikipedia": "NXP Semiconductors"
+ },
+ {
+  "id": "US67103H1077",
+  "isin": "US67103H1077",
+  "symbol": "ORLY",
+  "name": "O'Reilly Automotive",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "O'Reilly Automotive, Inc.",
+   "O'Reilly Auto Parts"
+  ],
+  "wikipedia": "O'Reilly Automotive"
+ },
+ {
+  "id": "US6745991058",
+  "isin": "US6745991058",
+  "symbol": "OPC.DE",
+  "name": "Occidental Petroleum",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Occidental Petroleum Corporatio"
+  ],
+  "wikipedia": "Occidental Petroleum"
+ },
+ {
+  "id": "US6795801009",
+  "isin": "US6795801009",
+  "symbol": "ODFL",
+  "name": "Old Dominion Freight Line",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Old Dominion Freight Line, Inc."
+  ],
+  "wikipedia": "Old Dominion Freight Line"
+ },
+ {
+  "id": "AT0000743059",
+  "isin": "AT0000743059",
+  "symbol": "OMV.DE",
+  "name": "OMV",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "OMV Aktiengesellschaft"
+  ],
+  "wikipedia": "OMV"
+ },
+ {
+  "id": "US68389X1054",
+  "isin": "US68389X1054",
+  "symbol": "ORC.DE",
+  "name": "Oracle",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Oracle Corporation"
+  ],
+  "wikipedia": "Oracle Corporation"
+ },
+ {
+  "id": "FR0000133308",
+  "isin": "FR0000133308",
+  "symbol": "FTE.DE",
+  "name": "Orange",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Orange S.A."
+  ],
+  "wikipedia": "Orange SA"
+ },
+ {
+  "id": "FI0009014377",
+  "isin": "FI0009014377",
+  "symbol": "ORNBV.HE",
+  "name": "Orion",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Orion Oyj"
+  ],
+  "wikipedia": "Orion Corporation (pharmaceutical company)"
+ },
+ {
+  "id": "US6937181088",
+  "isin": "US6937181088",
+  "symbol": "PAE.DE",
+  "name": "Paccar",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "PACCAR Inc"
+  ],
+  "wikipedia": "Paccar"
+ },
+ {
+  "id": "US69608A1088",
+  "isin": "US69608A1088",
+  "symbol": "PTX.DE",
+  "name": "Palantir",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Palantir Technologies Inc.",
+   "Palantir Technologies"
+  ],
+  "wikipedia": "Palantir Technologies"
+ },
+ {
+  "id": "US6974351057",
+  "isin": "US6974351057",
+  "symbol": "PANW",
+  "name": "Palo Alto Networks",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Palo Alto Networks, Inc."
+  ],
+  "wikipedia": "Palo Alto Networks"
+ },
+ {
+  "id": "CH0024608827",
+  "isin": "CH0024608827",
+  "symbol": "PGHN.SW",
+  "name": "Partners Group",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Partners Group Holding AG"
+  ],
+  "wikipedia": "Partners Group"
+ },
+ {
+  "id": "DE000PAT1AG3",
+  "isin": "DE000PAT1AG3",
+  "symbol": "PAT.DE",
+  "name": "Patrizia",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Patrizia Se",
+   "Patrizia AG"
+  ],
+  "wikipedia": "Patrizia AG"
+ },
+ {
+  "id": "US7043261079",
+  "isin": "US7043261079",
+  "symbol": "PCX.DE",
+  "name": "Paychex",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Paychex, Inc."
+  ],
+  "wikipedia": "Paychex"
+ },
+ {
+  "id": "US70450Y1038",
+  "isin": "US70450Y1038",
+  "symbol": "2PP.DE",
+  "name": "PayPal",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "PayPal Holdings, Inc."
+  ],
+  "wikipedia": "PayPal"
+ },
+ {
+  "id": "US7223041028",
+  "isin": "US7223041028",
+  "symbol": "PDD",
+  "name": "PDD Holdings",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Pinduoduo",
+   "Temu",
+   "PDD Holdings Inc."
+  ],
+  "wikipedia": "Pinduoduo"
+ },
+ {
+  "id": "GB0006776081",
+  "isin": "GB0006776081",
+  "symbol": "PES.DE",
+  "name": "Pearson",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Pearson plc"
+  ],
+  "wikipedia": "Pearson plc"
+ },
+ {
+  "id": "US7134481081",
+  "isin": "US7134481081",
+  "symbol": "PEP.DE",
+  "name": "PepsiCo",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Pepsi",
+   "PepsiCo Inc"
+  ],
+  "wikipedia": "PepsiCo"
+ },
+ {
+  "id": "FR0000120693",
+  "isin": "FR0000120693",
+  "symbol": "PER.DE",
+  "name": "Pernod Ricard",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Pernod Ricard SA"
+  ],
+  "wikipedia": "Pernod Ricard"
+ },
+ {
+  "id": "US7170811035",
+  "isin": "US7170811035",
+  "symbol": "PFE.DE",
+  "name": "Pfizer",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Pfizer, Inc."
+  ],
+  "wikipedia": "Pfizer"
+ },
+ {
+  "id": "US7181721090",
+  "isin": "US7181721090",
+  "symbol": "4I1.DE",
+  "name": "Philip Morris International",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Philip Morris International Inc."
+  ],
+  "wikipedia": "Philip Morris International"
+ },
+ {
+  "id": "NL0000009538",
+  "isin": "NL0000009538",
+  "symbol": "PHI1.DE",
+  "name": "Philips",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Koninklijke Philips N.V."
+  ],
+  "wikipedia": "Philips"
+ },
+ {
+  "id": "US72919P2020",
+  "isin": "US72919P2020",
+  "symbol": "PLUN.DE",
+  "name": "Plug Power",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Plug Power Inc."
+  ],
+  "wikipedia": "Plug Power"
+ },
+ {
+  "id": "DE000A0JBPG2",
+  "isin": "DE000A0JBPG2",
+  "symbol": "PNE3.DE",
+  "name": "PNE",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "PNE AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000PAG9113",
+  "isin": "DE000PAG9113",
+  "symbol": "P911.DE",
+  "name": "Porsche AG",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Dr. Ing. h.c. F. Porsche",
+   "Dr. Ing. h.c. F. Porsche AG"
+  ],
+  "wikipedia": "Porsche"
+ },
+ {
+  "id": "DE000PAH0038",
+  "isin": "DE000PAH0038",
+  "symbol": "PAH3.DE",
+  "name": "Porsche SE",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Porsche Automobil Holding",
+   "Porsche Automobil Holding SE"
+  ],
+  "wikipedia": "Porsche SE"
+ },
+ {
+  "id": "IT0003796171",
+  "isin": "IT0003796171",
+  "symbol": "PST.MI",
+  "name": "Poste Italiane",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Poste Italiane SpA"
+  ],
+  "wikipedia": "Poste Italiane"
+ },
+ {
+  "id": "DE0006223407",
+  "isin": "DE0006223407",
+  "symbol": "PCZ.DE",
+  "name": "ProCredit",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ProCredit Holding AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US7427181091",
+  "isin": "US7427181091",
+  "symbol": "PRG.DE",
+  "name": "Procter & Gamble",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "P&G",
+   "The Procter & Gamble Company"
+  ],
+  "wikipedia": "Procter & Gamble"
+ },
+ {
+  "id": "DE000PSM7770",
+  "isin": "DE000PSM7770",
+  "symbol": "PSM.DE",
+  "name": "ProSiebenSat.1",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ProSiebenSat.1 Media SE",
+   "ProSiebenSat.1 Media"
+  ],
+  "wikipedia": "ProSiebenSat.1 Media"
+ },
+ {
+  "id": "NL0013654783",
+  "isin": "NL0013654783",
+  "symbol": "1TY.DE",
+  "name": "Prosus",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Prosus N.V."
+  ],
+  "wikipedia": "Prosus"
+ },
+ {
+  "id": "GB0007099541",
+  "isin": "GB0007099541",
+  "symbol": "PRU.DE",
+  "name": "Prudential",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Prudential plc"
+  ],
+  "wikipedia": "Prudential plc"
+ },
+ {
+  "id": "IT0004176001",
+  "isin": "IT0004176001",
+  "symbol": "PRY.MI",
+  "name": "Prysmian",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000130577",
+  "isin": "FR0000130577",
+  "symbol": "PUB.PA",
+  "name": "Publicis",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Publicis Groupe S.A."
+  ],
+  "wikipedia": "Publicis"
+ },
+ {
+  "id": "ES0105777017",
+  "isin": "ES0105777017",
+  "symbol": "PUIG.MC",
+  "name": "Puig",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Puig Brands SA"
+  ],
+  "wikipedia": "Puig (company)"
+ },
+ {
+  "id": "DE0006969603",
+  "isin": "DE0006969603",
+  "symbol": "PUM.DE",
+  "name": "Puma",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "PUMA Se"
+  ],
+  "wikipedia": "Puma (brand)"
+ },
+ {
+  "id": "DE0007461006",
+  "isin": "DE0007461006",
+  "symbol": "TPE.DE",
+  "name": "PVA TePla",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "PVA TePla AG"
+  ],
+  "wikipedia": "PVA TePla"
+ },
+ {
+  "id": "NL0015002SN0",
+  "isin": "NL0015002SN0",
+  "symbol": "QIA.DE",
+  "name": "Qiagen",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Qiagen N.V."
+  ],
+  "wikipedia": "Qiagen"
+ },
+ {
+  "id": "US7475251036",
+  "isin": "US7475251036",
+  "symbol": "QCI.DE",
+  "name": "Qualcomm",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "QUALCOMM Incorporated"
+  ],
+  "wikipedia": "Qualcomm"
+ },
+ {
+  "id": "AT0000606306",
+  "isin": "AT0000606306",
+  "symbol": "RAW.DE",
+  "name": "Raiffeisen Bank International",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Raiffeisen Bank International AG"
+  ],
+  "wikipedia": "Raiffeisen Bank International"
+ },
+ {
+  "id": "DE0007010803",
+  "isin": "DE0007010803",
+  "symbol": "RAA.DE",
+  "name": "Rational",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "RATIONAL Aktiengesellschaft",
+   "Rational AG"
+  ],
+  "wikipedia": "Rational AG"
+ },
+ {
+  "id": "US7561091049",
+  "isin": "US7561091049",
+  "symbol": "O",
+  "name": "Realty Income",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Realty Income Corporation"
+  ],
+  "wikipedia": "Realty Income"
+ },
+ {
+  "id": "GB00B24CGK77",
+  "isin": "GB00B24CGK77",
+  "symbol": "RKT.L",
+  "name": "Reckitt",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Reckitt Benckiser",
+   "Reckitt Benckiser Group plc"
+  ],
+  "wikipedia": "Reckitt"
+ },
+ {
+  "id": "IT0003828271",
+  "isin": "IT0003828271",
+  "symbol": "REC.MI",
+  "name": "Recordati",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Recordati Industria Chimica e Farmaceutica S.p.A."
+  ],
+  "wikipedia": "Recordati"
+ },
+ {
+  "id": "NL0012044747",
+  "isin": "NL0012044747",
+  "symbol": "RDC.DE",
+  "name": "Redcare Pharmacy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Shop Apotheke",
+   "Redcare Pharmacy N.V.",
+   "Shop Apotheke Europe"
+  ],
+  "wikipedia": "Shop Apotheke Europe"
+ },
+ {
+  "id": "US75886F1075",
+  "isin": "US75886F1075",
+  "symbol": "RGO.DE",
+  "name": "Regeneron Pharmaceuticals",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Regeneron Pharmaceuticals, Inc."
+  ],
+  "wikipedia": "Regeneron Pharmaceuticals"
+ },
+ {
+  "id": "GB00B2B0DG97",
+  "isin": "GB00B2B0DG97",
+  "symbol": "RDEB.DE",
+  "name": "RELX",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "RELX Plc"
+  ],
+  "wikipedia": "RELX Group"
+ },
+ {
+  "id": "DE000RENK730",
+  "isin": "DE000RENK730",
+  "symbol": "R3NK.DE",
+  "name": "Renk",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "RENK Group",
+   "RENK Group AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "ES0173516115",
+  "isin": "ES0173516115",
+  "symbol": "REP.DE",
+  "name": "Repsol",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Repsol S.A."
+  ],
+  "wikipedia": "Repsol"
+ },
+ {
+  "id": "FR0010451203",
+  "isin": "FR0010451203",
+  "symbol": "RXL.PA",
+  "name": "Rexel",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Rexel S.A."
+  ],
+  "wikipedia": "Rexel"
+ },
+ {
+  "id": "DE0007030009",
+  "isin": "DE0007030009",
+  "symbol": "RHM.DE",
+  "name": "Rheinmetall",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Rheinmetall AG"
+  ],
+  "wikipedia": "Rheinmetall"
+ },
+ {
+  "id": "CH0210483332",
+  "isin": "CH0210483332",
+  "symbol": "CFR.SW",
+  "name": "Richemont",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Cartier",
+   "Compagnie Financière Richemont",
+   "Compagnie Financiere Richemont SA"
+  ],
+  "wikipedia": "Richemont"
+ },
+ {
+  "id": "GB0007188757",
+  "isin": "GB0007188757",
+  "symbol": "RIO1.DE",
+  "name": "Rio Tinto",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Rio Tinto plc"
+  ],
+  "wikipedia": "Rio Tinto (corporation)"
+ },
+ {
+  "id": "US7707001027",
+  "isin": "US7707001027",
+  "symbol": "HOOD",
+  "name": "Robinhood",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Robinhood Markets",
+   "Robinhood Markets Inc."
+  ],
+  "wikipedia": "Robinhood Markets"
+ },
+ {
+  "id": "CH0012032048",
+  "isin": "CH0012032048",
+  "symbol": "ROG.SW",
+  "name": "Roche",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Roche Holding",
+   "Roche Holding AG"
+  ],
+  "wikipedia": "Roche Holding AG"
+ },
+ {
+  "id": "US7731211089",
+  "isin": "US7731211089",
+  "symbol": "RKLB",
+  "name": "Rocket Lab",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Rocket Lab USA",
+   "Rocket Lab USA Inc."
+  ],
+  "wikipedia": "Rocket Lab"
+ },
+ {
+  "id": "GB00B63H8491",
+  "isin": "GB00B63H8491",
+  "symbol": "RRU.DE",
+  "name": "Rolls-Royce",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Rolls-Royce Holdings",
+   "Rolls-Royce Holdings plc"
+  ],
+  "wikipedia": "Rolls-Royce Holdings"
+ },
+ {
+  "id": "US7766961061",
+  "isin": "US7766961061",
+  "symbol": "ROP",
+  "name": "Roper Technologies",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Roper Technologies, Inc."
+  ],
+  "wikipedia": "Roper Technologies"
+ },
+ {
+  "id": "US7782961038",
+  "isin": "US7782961038",
+  "symbol": "RSO.DE",
+  "name": "Ross Stores",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ross Stores, Inc."
+  ],
+  "wikipedia": "Ross Stores"
+ },
+ {
+  "id": "LU0061462528",
+  "isin": "LU0061462528",
+  "symbol": "RRTL.DE",
+  "name": "RTL Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "RTL Group S.A."
+  ],
+  "wikipedia": "RTL Group"
+ },
+ {
+  "id": "US75513E1010",
+  "isin": "US75513E1010",
+  "symbol": "5UR.DE",
+  "name": "RTX",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Raytheon",
+   "Pratt & Whitney",
+   "RTX Corp",
+   "RTX Corporation"
+  ],
+  "wikipedia": "RTX Corporation"
+ },
+ {
+  "id": "DE0007037129",
+  "isin": "DE0007037129",
+  "symbol": "RWE.DE",
+  "name": "RWE",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "RWE Aktiengesellschaft"
+  ],
+  "wikipedia": "RWE"
+ },
+ {
+  "id": "IE00BYTBXV33",
+  "isin": "IE00BYTBXV33",
+  "symbol": "RY4C.DE",
+  "name": "Ryanair",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ryanair Holdings",
+   "Ryanair Holdings plc"
+  ],
+  "wikipedia": "Ryanair"
+ },
+ {
+  "id": "US78409V1044",
+  "isin": "US78409V1044",
+  "symbol": "MHL.DE",
+  "name": "S&P Global",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "S&P Global Inc."
+  ],
+  "wikipedia": "S&P Global"
+ },
+ {
+  "id": "SE0021921269",
+  "isin": "SE0021921269",
+  "symbol": "SAAB-B.ST",
+  "name": "Saab (B)",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Saab AB"
+  ],
+  "wikipedia": "Saab AB"
+ },
+ {
+  "id": "DE000SAFH001",
+  "isin": "DE000SAFH001",
+  "symbol": "SFQ.DE",
+  "name": "SAF-Holland",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "SAF-Holland SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000073272",
+  "isin": "FR0000073272",
+  "symbol": "SAF.PA",
+  "name": "Safran",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Safran SA"
+  ],
+  "wikipedia": "Safran"
+ },
+ {
+  "id": "GB00B8C3BL03",
+  "isin": "GB00B8C3BL03",
+  "symbol": "SGE.L",
+  "name": "Sage Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "The Sage Group plc"
+  ],
+  "wikipedia": "Sage Group"
+ },
+ {
+  "id": "FR0000125007",
+  "isin": "FR0000125007",
+  "symbol": "GOB.DE",
+  "name": "Saint-Gobain",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Compagnie de Saint-Gobain S.A."
+  ],
+  "wikipedia": "Saint-Gobain"
+ },
+ {
+  "id": "US79466L3024",
+  "isin": "US79466L3024",
+  "symbol": "FOO.DE",
+  "name": "Salesforce",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Salesforce, Inc."
+  ],
+  "wikipedia": "Salesforce"
+ },
+ {
+  "id": "DE0006202005",
+  "isin": "DE0006202005",
+  "symbol": "SZG.DE",
+  "name": "Salzgitter",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Salzgitter AG"
+  ],
+  "wikipedia": "Salzgitter AG"
+ },
+ {
+  "id": "FI4000552500",
+  "isin": "FI4000552500",
+  "symbol": "SAMPO.HE",
+  "name": "Sampo",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Sampo Oyj",
+   "Sampo Group"
+  ],
+  "wikipedia": "Sampo Group"
+ },
+ {
+  "id": "CH1243598427",
+  "isin": "CH1243598427",
+  "symbol": "SDZ.SW",
+  "name": "Sandoz",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Sandoz Group AG"
+  ],
+  "wikipedia": "Sandoz"
+ },
+ {
+  "id": "SE0000667891",
+  "isin": "SE0000667891",
+  "symbol": "SAND.ST",
+  "name": "Sandvik",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Sandvik"
+ },
+ {
+  "id": "FR0000120578",
+  "isin": "FR0000120578",
+  "symbol": "SNW.DE",
+  "name": "Sanofi",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "Sanofi"
+ },
+ {
+  "id": "DE0007164600",
+  "isin": "DE0007164600",
+  "symbol": "SAP.DE",
+  "name": "SAP",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "SAP SE"
+  ],
+  "wikipedia": "SAP"
+ },
+ {
+  "id": "DE0007165631",
+  "isin": "DE0007165631",
+  "symbol": "SRT3.DE",
+  "name": "Sartorius (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Sartorius Aktiengesellschaft",
+   "Sartorius"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0013154002",
+  "isin": "FR0013154002",
+  "symbol": "DIM.PA",
+  "name": "Sartorius Stedim Biotech",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000SHA0100",
+  "isin": "DE000SHA0100",
+  "symbol": "SHA0.DE",
+  "name": "Schaeffler",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Schaeffler AG"
+  ],
+  "wikipedia": "Schaeffler Group"
+ },
+ {
+  "id": "CH0024638196",
+  "isin": "CH0024638196",
+  "symbol": "SCHP.SW",
+  "name": "Schindler",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Schindler Holding AG"
+  ],
+  "wikipedia": "Schindler Group"
+ },
+ {
+  "id": "FR0000121972",
+  "isin": "FR0000121972",
+  "symbol": "SND.DE",
+  "name": "Schneider Electric",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Schneider Electric S.E."
+  ],
+  "wikipedia": "Schneider Electric"
+ },
+ {
+  "id": "DE000A3ENQ51",
+  "isin": "DE000A3ENQ51",
+  "symbol": "1SXP.DE",
+  "name": "Schott Pharma",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Schott Pharma AG & Co KGaA"
+  ],
+  "wikipedia": "Schott Pharma"
+ },
+ {
+  "id": "GB00BP9LHF23",
+  "isin": "GB00BP9LHF23",
+  "symbol": "SDR.L",
+  "name": "Schroders",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Schroders plc"
+  ],
+  "wikipedia": "Schroders"
+ },
+ {
+  "id": "DE000A12DM80",
+  "isin": "DE000A12DM80",
+  "symbol": "G24.DE",
+  "name": "Scout24",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Scout24 AG"
+  ],
+  "wikipedia": "Scout24"
+ },
+ {
+  "id": "IE00BKVD2N49",
+  "isin": "IE00BKVD2N49",
+  "symbol": "STX",
+  "name": "Seagate",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Seagate Technology Holdings PLC",
+   "Seagate Technology"
+  ],
+  "wikipedia": "Seagate Technology"
+ },
+ {
+  "id": "SE0000148884",
+  "isin": "SE0000148884",
+  "symbol": "SEB-A.ST",
+  "name": "SEB (A)",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Skandinaviska Enskilda Banken AB",
+   "SEB Group"
+  ],
+  "wikipedia": "SEB Group"
+ },
+ {
+  "id": "DE0007276503",
+  "isin": "DE0007276503",
+  "symbol": "YSN.DE",
+  "name": "Secunet",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "secunet Security Networks AG",
+   "Secunet Security Networks"
+  ],
+  "wikipedia": "Secunet Security Networks"
+ },
+ {
+  "id": "GB00B5ZN1N88",
+  "isin": "GB00B5ZN1N88",
+  "symbol": "SGRO.L",
+  "name": "Segro",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "SEGRO Plc"
+  ],
+  "wikipedia": "Segro"
+ },
+ {
+  "id": "US81762P1021",
+  "isin": "US81762P1021",
+  "symbol": "NOW",
+  "name": "ServiceNow",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "ServiceNow, Inc."
+  ],
+  "wikipedia": "ServiceNow"
+ },
+ {
+  "id": "GB00B1FH8J72",
+  "isin": "GB00B1FH8J72",
+  "symbol": "SVT.L",
+  "name": "Severn Trent",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Severn Trent Plc"
+  ],
+  "wikipedia": "Severn Trent"
+ },
+ {
+  "id": "DE0007568578",
+  "isin": "DE0007568578",
+  "symbol": "F3C.DE",
+  "name": "SFC Energy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "SFC Energy AG"
+  ],
+  "wikipedia": "SFC Energy"
+ },
+ {
+  "id": "CH1256740924",
+  "isin": "CH1256740924",
+  "symbol": "SGSN.SW",
+  "name": "SGS",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "SGS SA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB00BP6MXD84",
+  "isin": "GB00BP6MXD84",
+  "symbol": "SHELL.AS",
+  "name": "Shell",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Shell plc",
+   "Royal Dutch Shell"
+  ],
+  "wikipedia": "Shell plc"
+ },
+ {
+  "id": "CA82509L1076",
+  "isin": "CA82509L1076",
+  "symbol": "SHOP",
+  "name": "Shopify",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Shopify Inc."
+  ],
+  "wikipedia": "Shopify"
+ },
+ {
+  "id": "DE0007236101",
+  "isin": "DE0007236101",
+  "symbol": "SIE.DE",
+  "name": "Siemens",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Siemens AG",
+   "Siemens Aktiengesellschaft"
+  ],
+  "wikipedia": "Siemens"
+ },
+ {
+  "id": "DE000ENER6Y0",
+  "isin": "DE000ENER6Y0",
+  "symbol": "ENR.DE",
+  "name": "Siemens Energy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Siemens Gamesa",
+   "Siemens Energy AG"
+  ],
+  "wikipedia": "Siemens Energy AG"
+ },
+ {
+  "id": "DE000SHL1006",
+  "isin": "DE000SHL1006",
+  "symbol": "SHL.DE",
+  "name": "Siemens Healthineers",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Siemens Healthineers AG"
+  ],
+  "wikipedia": "Siemens Healthineers"
+ },
+ {
+  "id": "CH0418792922",
+  "isin": "CH0418792922",
+  "symbol": "SIKA.SW",
+  "name": "Sika",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Sika AG"
+  ],
+  "wikipedia": "Sika AG"
+ },
+ {
+  "id": "DE000WAF3001",
+  "isin": "DE000WAF3001",
+  "symbol": "WAF.DE",
+  "name": "Siltronic",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Siltronic AG"
+  ],
+  "wikipedia": "Siltronic"
+ },
+ {
+  "id": "US8288061091",
+  "isin": "US8288061091",
+  "symbol": "SPG",
+  "name": "Simon Property Group",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Simon Property Group, Inc."
+  ],
+  "wikipedia": "Simon Property Group"
+ },
+ {
+  "id": "DE0007231326",
+  "isin": "DE0007231326",
+  "symbol": "SIX2.DE",
+  "name": "Sixt",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Sixt SE"
+  ],
+  "wikipedia": "Sixt"
+ },
+ {
+  "id": "DE0007231334",
+  "isin": "DE0007231334",
+  "symbol": "SIX3.DE",
+  "name": "Sixt (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Sixt SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "SE0000113250",
+  "isin": "SE0000113250",
+  "symbol": "SKA-B.ST",
+  "name": "Skanska",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Skanska"
+ },
+ {
+  "id": "SE0000108227",
+  "isin": "SE0000108227",
+  "symbol": "SKF-B.ST",
+  "name": "SKF",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "SKF"
+ },
+ {
+  "id": "AN8068571086",
+  "isin": "AN8068571086",
+  "symbol": "SLB",
+  "name": "SLB (Schlumberger)",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Schlumberger",
+   "Slb N.V."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A0DJ6J9",
+  "isin": "DE000A0DJ6J9",
+  "symbol": "S92.DE",
+  "name": "SMA Solar",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "SMA Solar Technology AG",
+   "SMA Solar Technology"
+  ],
+  "wikipedia": "SMA Solar Technology"
+ },
+ {
+  "id": "GB0009223206",
+  "isin": "GB0009223206",
+  "symbol": "SN.L",
+  "name": "Smith & Nephew",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Smith & Nephew plc"
+  ],
+  "wikipedia": "Smith & Nephew"
+ },
+ {
+  "id": "GB00B1WY2338",
+  "isin": "GB00B1WY2338",
+  "symbol": "SMIN.L",
+  "name": "Smiths Group",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Smiths Group plc"
+  ],
+  "wikipedia": "Smiths Group"
+ },
+ {
+  "id": "IE00028FXN24",
+  "isin": "IE00028FXN24",
+  "symbol": "SW",
+  "name": "Smurfit WestRock",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Smurfit WestRock plc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IT0003153415",
+  "isin": "IT0003153415",
+  "symbol": "SRG.MI",
+  "name": "Snam",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Snam S.p.A."
+  ],
+  "wikipedia": "Snam"
+ },
+ {
+  "id": "US8334451098",
+  "isin": "US8334451098",
+  "symbol": "5Q5.DE",
+  "name": "Snowflake",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Snowflake, Inc."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000130809",
+  "isin": "FR0000130809",
+  "symbol": "SGE.DE",
+  "name": "Société Générale",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Société Générale S.A."
+  ],
+  "wikipedia": "Société Générale"
+ },
+ {
+  "id": "CH0012549785",
+  "isin": "CH0012549785",
+  "symbol": "SOON.SW",
+  "name": "Sonova",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Sonova Holding AG"
+  ],
+  "wikipedia": "Sonova"
+ },
+ {
+  "id": "US8425871071",
+  "isin": "US8425871071",
+  "symbol": "SOT.DE",
+  "name": "Southern Company",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "Southern Company"
+ },
+ {
+  "id": "IE00B44Z5B48",
+  "isin": "IE00B44Z5B48",
+  "symbol": "SPYY.DE",
+  "name": "SPDR MSCI ACWI",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR MSCI ACWI UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3YLTY66",
+  "isin": "IE00B3YLTY66",
+  "symbol": "SPYI.DE",
+  "name": "SPDR MSCI ACWI IMI",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR MSCI ACWI IMI UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BKWQ0Q14",
+  "isin": "IE00BKWQ0Q14",
+  "symbol": "SPYE.DE",
+  "name": "SPDR MSCI Europe",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR MSCI Europe UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BFY0GT14",
+  "isin": "IE00BFY0GT14",
+  "symbol": "SPPW.DE",
+  "name": "SPDR MSCI World",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "State Street SPDR MSCI World UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BCBJG560",
+  "isin": "IE00BCBJG560",
+  "symbol": "ZPRS.DE",
+  "name": "SPDR MSCI World Small Cap",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "State Street SPDR MSCI World Small Cap UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYTRRD19",
+  "isin": "IE00BYTRRD19",
+  "symbol": "SPFT.DE",
+  "name": "SPDR MSCI World Technology",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR MSCI World Technology UCITS ETF USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BJ38QD84",
+  "isin": "IE00BJ38QD84",
+  "symbol": "ZPRR.DE",
+  "name": "SPDR Russell 2000 US Small Cap",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR Russell 2000 US Small Cap UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B6YX5C33",
+  "isin": "IE00B6YX5C33",
+  "symbol": "SPY5.DE",
+  "name": "SPDR S&P 500",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P 500 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B5M1WJ87",
+  "isin": "IE00B5M1WJ87",
+  "symbol": "SPYW.DE",
+  "name": "SPDR S&P Euro Dividend Aristocrats",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P Euro Dividend Aristocrats UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B9CQXS71",
+  "isin": "IE00B9CQXS71",
+  "symbol": "ZPRG.DE",
+  "name": "SPDR S&P Global Dividend Aristocrats",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P Global Dividend Aristocrats UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM278",
+  "isin": "IE00BWBXM278",
+  "symbol": "ZPDD.DE",
+  "name": "SPDR S&P U.S. Consumer Discretionary Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Consumer Discretionary Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM385",
+  "isin": "IE00BWBXM385",
+  "symbol": "ZPDS.DE",
+  "name": "SPDR S&P U.S. Consumer Staples Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Consumer Staples Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM492",
+  "isin": "IE00BWBXM492",
+  "symbol": "ZPDE.DE",
+  "name": "SPDR S&P U.S. Energy Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Energy Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM500",
+  "isin": "IE00BWBXM500",
+  "symbol": "ZPDF.DE",
+  "name": "SPDR S&P U.S. Financials Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Financials Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM617",
+  "isin": "IE00BWBXM617",
+  "symbol": "ZPDH.DE",
+  "name": "SPDR S&P U.S. Health Care Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Health Care Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM724",
+  "isin": "IE00BWBXM724",
+  "symbol": "ZPDI.DE",
+  "name": "SPDR S&P U.S. Industrials Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Industrials Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM831",
+  "isin": "IE00BWBXM831",
+  "symbol": "ZPDM.DE",
+  "name": "SPDR S&P U.S. Materials Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Materials Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BWBXM948",
+  "isin": "IE00BWBXM948",
+  "symbol": "ZPDT.DE",
+  "name": "SPDR S&P U.S. Technology Select Sector",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P U.S. Technology Select Sector UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B6YX5D40",
+  "isin": "IE00B6YX5D40",
+  "symbol": "SPYD.DE",
+  "name": "SPDR S&P US Dividend Aristocrats",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "SPDR S&P US Dividend Aristocrats UCITS ETF Dis"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU1778762911",
+  "isin": "LU1778762911",
+  "symbol": "639.DE",
+  "name": "Spotify",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Spotify Technology",
+   "Spotify Technology S.A."
+  ],
+  "wikipedia": "Spotify"
+ },
+ {
+  "id": "DE000SPG1003",
+  "isin": "DE000SPG1003",
+  "symbol": "SPG.DE",
+  "name": "Springer Nature",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Springer Nature AG & Co KGaA"
+  ],
+  "wikipedia": "Springer Nature"
+ },
+ {
+  "id": "GB0007908733",
+  "isin": "GB0007908733",
+  "symbol": "SCT.DE",
+  "name": "SSE",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "SSE plc"
+  ],
+  "wikipedia": "SSE plc"
+ },
+ {
+  "id": "DE000STAB1L8",
+  "isin": "DE000STAB1L8",
+  "symbol": "STM.DE",
+  "name": "Stabilus",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Stabilus S.A."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB0004082847",
+  "isin": "GB0004082847",
+  "symbol": "STAN.L",
+  "name": "Standard Chartered",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "Standard Chartered PLC"
+  ],
+  "wikipedia": "Standard Chartered"
+ },
+ {
+  "id": "US8552441094",
+  "isin": "US8552441094",
+  "symbol": "SRB.DE",
+  "name": "Starbucks",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Starbucks Corporation"
+  ],
+  "wikipedia": "Starbucks"
+ },
+ {
+  "id": "NL00150001Q9",
+  "isin": "NL00150001Q9",
+  "symbol": "8TI.DE",
+  "name": "Stellantis",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Stellantis N.V.",
+   "Peugeot",
+   "Chrysler",
+   "Opel"
+  ],
+  "wikipedia": "Stellantis"
+ },
+ {
+  "id": "NL0000226223",
+  "isin": "NL0000226223",
+  "symbol": "SGM.DE",
+  "name": "STMicroelectronics",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "STMicroelectronics N.V."
+  ],
+  "wikipedia": "STMicroelectronics"
+ },
+ {
+  "id": "DE0007274136",
+  "isin": "DE0007274136",
+  "symbol": "STO3.DE",
+  "name": "Sto (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Sto SE & Co. KGaA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000STRA555",
+  "isin": "DE000STRA555",
+  "symbol": "SBS.DE",
+  "name": "Stratec",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Stratec SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US5949724083",
+  "isin": "US5949724083",
+  "symbol": "MSTR",
+  "name": "Strategy (MicroStrategy)",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "MicroStrategy",
+   "Strategy Inc"
+  ],
+  "wikipedia": "MicroStrategy"
+ },
+ {
+  "id": "CH1175448666",
+  "isin": "CH1175448666",
+  "symbol": "STMN.SW",
+  "name": "Straumann",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Straumann Holding AG"
+  ],
+  "wikipedia": "Straumann"
+ },
+ {
+  "id": "US8636671013",
+  "isin": "US8636671013",
+  "symbol": "SYK.DE",
+  "name": "Stryker",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Stryker Corporation"
+  ],
+  "wikipedia": "Stryker Corporation"
+ },
+ {
+  "id": "DE0007493991",
+  "isin": "DE0007493991",
+  "symbol": "SAX.DE",
+  "name": "Ströer",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Ströer SE & Co. KGaA"
+  ],
+  "wikipedia": "Ströer"
+ },
+ {
+  "id": "US86800U1043",
+  "isin": "US86800U1043",
+  "symbol": "SMCI",
+  "name": "Super Micro Computer",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Super Micro Computer, Inc."
+  ],
+  "wikipedia": "Super Micro Computer"
+ },
+ {
+  "id": "DE000A1K0235",
+  "isin": "DE000A1K0235",
+  "symbol": "SMHN.DE",
+  "name": "SUSS MicroTec",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "SUSS MicroTec SE"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "CH0012255151",
+  "isin": "CH0012255151",
+  "symbol": "UHR.SW",
+  "name": "Swatch Group",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "The Swatch Group AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "SE0000242455",
+  "isin": "SE0000242455",
+  "symbol": "SWED-A.ST",
+  "name": "Swedbank",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Swedbank"
+ },
+ {
+  "id": "CH0014852781",
+  "isin": "CH0014852781",
+  "symbol": "SLHN.SW",
+  "name": "Swiss Life",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Swiss Life Holding"
+  ],
+  "wikipedia": "Swiss Life"
+ },
+ {
+  "id": "CH0008038389",
+  "isin": "CH0008038389",
+  "symbol": "SPSN.SW",
+  "name": "Swiss Prime Site",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Swiss Prime Site AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "CH0126881561",
+  "isin": "CH0126881561",
+  "symbol": "SREN.SW",
+  "name": "Swiss Re",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Swiss Re AG",
+   "Swiss Reinsurance Company Ltd"
+  ],
+  "wikipedia": "Swiss Reinsurance Company Ltd"
+ },
+ {
+  "id": "CH0008742519",
+  "isin": "CH0008742519",
+  "symbol": "SCMN.SW",
+  "name": "Swisscom",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Swisscom AG"
+  ],
+  "wikipedia": "Swisscom"
+ },
+ {
+  "id": "DE000SYM9999",
+  "isin": "DE000SYM9999",
+  "symbol": "SY1.DE",
+  "name": "Symrise",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Symrise AG"
+  ],
+  "wikipedia": "Symrise"
+ },
+ {
+  "id": "US8716071076",
+  "isin": "US8716071076",
+  "symbol": "SYP.DE",
+  "name": "Synopsys",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Synopsys, Inc."
+  ],
+  "wikipedia": "Synopsys"
+ },
+ {
+  "id": "DE0007297004",
+  "isin": "DE0007297004",
+  "symbol": "SZU.DE",
+  "name": "Südzucker",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Südzucker AG"
+  ],
+  "wikipedia": "Südzucker"
+ },
+ {
+  "id": "US8725901040",
+  "isin": "US8725901040",
+  "symbol": "TM5.DE",
+  "name": "T-Mobile US",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "T-Mobile US, Inc."
+  ],
+  "wikipedia": "T-Mobile US"
+ },
+ {
+  "id": "DE0008303504",
+  "isin": "DE0008303504",
+  "symbol": "TEG.DE",
+  "name": "TAG Immobilien",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "TAG Immobilien AG",
+   "TAG Tegernsee Immobilien und Beteiligung"
+  ],
+  "wikipedia": "TAG Tegernsee Immobilien und Beteiligung"
+ },
+ {
+  "id": "US8740541094",
+  "isin": "US8740541094",
+  "symbol": "TKE.DE",
+  "name": "Take-Two Interactive",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Take-Two Interactive Software, Inc."
+  ],
+  "wikipedia": "Take-Two Interactive"
+ },
+ {
+  "id": "DE000TLX1005",
+  "isin": "DE000TLX1005",
+  "symbol": "TLX.DE",
+  "name": "Talanx",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Talanx AG"
+  ],
+  "wikipedia": "Talanx AG"
+ },
+ {
+  "id": "US87612E1064",
+  "isin": "US87612E1064",
+  "symbol": "TGT",
+  "name": "Target",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Target Corporation"
+  ],
+  "wikipedia": "Target Corporation"
+ },
+ {
+  "id": "DE000A2YN900",
+  "isin": "DE000A2YN900",
+  "symbol": "TMV.DE",
+  "name": "TeamViewer",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "TeamViewer AG"
+  ],
+  "wikipedia": "TeamViewer"
+ },
+ {
+  "id": "SE0005190238",
+  "isin": "SE0005190238",
+  "symbol": "TEL2-B.ST",
+  "name": "Tele2",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Tele2"
+ },
+ {
+  "id": "IT0005712671",
+  "isin": "IT0005712671",
+  "symbol": "TIT.MI",
+  "name": "Telecom Italia",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Telecom Italia S.p.A."
+  ],
+  "wikipedia": "Telecom Italia"
+ },
+ {
+  "id": "ES0178430E18",
+  "isin": "ES0178430E18",
+  "symbol": "TNE5.DE",
+  "name": "Telefónica",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Telefonica, S.A."
+  ],
+  "wikipedia": "Telefónica"
+ },
+ {
+  "id": "NO0010063308",
+  "isin": "NO0010063308",
+  "symbol": "TEL.OL",
+  "name": "Telenor",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Telenor ASA"
+  ],
+  "wikipedia": "Telenor"
+ },
+ {
+  "id": "SE0000667925",
+  "isin": "SE0000667925",
+  "symbol": "TELIA.ST",
+  "name": "Telia",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [
+   "Telia Company"
+  ],
+  "wikipedia": "Telia Company"
+ },
+ {
+  "id": "LU2598331598",
+  "isin": "LU2598331598",
+  "symbol": "TEN.MI",
+  "name": "Tenaris",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Tenaris S.A."
+  ],
+  "wikipedia": "Tenaris"
+ },
+ {
+  "id": "KYG875721634",
+  "isin": "KYG875721634",
+  "symbol": "0700.HK",
+  "name": "Tencent",
+  "type": "stock",
+  "currency": "HKD",
+  "aliases": [
+   "Tencent Holdings",
+   "WeChat",
+   "Tencent Holdings Limited"
+  ],
+  "wikipedia": "Tencent"
+ },
+ {
+  "id": "IT0003242622",
+  "isin": "IT0003242622",
+  "symbol": "TRN.MI",
+  "name": "Terna",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Terna - Rete Elettrica Nazionale Societa per Azioni"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "GB00BLGZ9862",
+  "isin": "GB00BLGZ9862",
+  "symbol": "TCO0.DE",
+  "name": "Tesco",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Tesco PLC"
+  ],
+  "wikipedia": "Tesco"
+ },
+ {
+  "id": "US88160R1014",
+  "isin": "US88160R1014",
+  "symbol": "TL0.DE",
+  "name": "Tesla",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Tesla Inc"
+  ],
+  "wikipedia": "Tesla, Inc."
+ },
+ {
+  "id": "US8825081040",
+  "isin": "US8825081040",
+  "symbol": "TII.DE",
+  "name": "Texas Instruments",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Texas Instruments Incorporated"
+  ],
+  "wikipedia": "Texas Instruments"
+ },
+ {
+  "id": "FR0000121329",
+  "isin": "FR0000121329",
+  "symbol": "HO.PA",
+  "name": "Thales",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Thales S.A.",
+   "Thales Group"
+  ],
+  "wikipedia": "Thales Group"
+ },
+ {
+  "id": "US8835561023",
+  "isin": "US8835561023",
+  "symbol": "TN8.DE",
+  "name": "Thermo Fisher Scientific",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Thermo Fisher Scientific Inc."
+  ],
+  "wikipedia": "Thermo Fisher Scientific"
+ },
+ {
+  "id": "CA8849038812",
+  "isin": "CA8849038812",
+  "symbol": "TRI",
+  "name": "Thomson Reuters",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Thomson Reuters Corporation"
+  ],
+  "wikipedia": "Thomson Reuters"
+ },
+ {
+  "id": "DE0007500001",
+  "isin": "DE0007500001",
+  "symbol": "TKA.DE",
+  "name": "thyssenkrupp",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "ThyssenKrupp AG"
+  ],
+  "wikipedia": "ThyssenKrupp"
+ },
+ {
+  "id": "DE000NCA0001",
+  "isin": "DE000NCA0001",
+  "symbol": "NCH2.DE",
+  "name": "thyssenkrupp nucera",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Thyssenkrupp Nucera AG & Co KGaa"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000TKMS001",
+  "isin": "DE000TKMS001",
+  "symbol": "TKMS.DE",
+  "name": "TKMS",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "thyssenkrupp Marine Systems",
+   "TKMS AG",
+   "Tkms AG& Co KGaA"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000120271",
+  "isin": "FR0000120271",
+  "symbol": "TOTB.DE",
+  "name": "TotalEnergies",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "TotalEnergies SE"
+  ],
+  "wikipedia": "TotalEnergies"
+ },
+ {
+  "id": "DE000TRAT0N7",
+  "isin": "DE000TRAT0N7",
+  "symbol": "8TRA.DE",
+  "name": "Traton",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Traton SE"
+  ],
+  "wikipedia": "Traton"
+ },
+ {
+  "id": "DK0060636678",
+  "isin": "DK0060636678",
+  "symbol": "TRYG.CO",
+  "name": "Tryg",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Tryg A/S"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US8740391003",
+  "isin": "US8740391003",
+  "symbol": "TSM",
+  "name": "TSMC (ADR)",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "TSMC",
+   "Taiwan Semiconductor",
+   "Taiwan Semiconductor Manufacturing Company Limited"
+  ],
+  "wikipedia": "TSMC"
+ },
+ {
+  "id": "DE000TUAG505",
+  "isin": "DE000TUAG505",
+  "symbol": "TUI1.DE",
+  "name": "TUI",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "TUI AG",
+   "TUI Group"
+  ],
+  "wikipedia": "TUI Group"
+ },
+ {
+  "id": "US9029733048",
+  "isin": "US9029733048",
+  "symbol": "UB5.DE",
+  "name": "U.S. Bancorp",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": "U.S. Bancorp"
+ },
+ {
+  "id": "US90353T1007",
+  "isin": "US90353T1007",
+  "symbol": "UT8.DE",
+  "name": "Uber",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Uber Technologies, Inc."
+  ],
+  "wikipedia": "Uber"
+ },
+ {
+  "id": "CH0244767585",
+  "isin": "CH0244767585",
+  "symbol": "UBSG.SW",
+  "name": "UBS",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "UBS Group AG"
+  ],
+  "wikipedia": "UBS"
+ },
+ {
+  "id": "BE0003739530",
+  "isin": "BE0003739530",
+  "symbol": "UCB.BR",
+  "name": "UCB",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "UCB S.A."
+  ],
+  "wikipedia": "UCB (company)"
+ },
+ {
+  "id": "FR0013326246",
+  "isin": "FR0013326246",
+  "symbol": "URW.PA",
+  "name": "Unibail-Rodamco-Westfield",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Unibail-Rodamco-Westfield SE"
+  ],
+  "wikipedia": "Unibail-Rodamco-Westfield"
+ },
+ {
+  "id": "IT0005239360",
+  "isin": "IT0005239360",
+  "symbol": "CRIN.DE",
+  "name": "UniCredit",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "UniCredit S.p.A."
+  ],
+  "wikipedia": "UniCredit"
+ },
+ {
+  "id": "GB00BVZK7T90",
+  "isin": "GB00BVZK7T90",
+  "symbol": "UNV0.DE",
+  "name": "Unilever",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Unilever PLC"
+  ],
+  "wikipedia": "Unilever"
+ },
+ {
+  "id": "US9078181081",
+  "isin": "US9078181081",
+  "symbol": "UNP.DE",
+  "name": "Union Pacific",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Union Pacific Corporation"
+  ],
+  "wikipedia": "Union Pacific Corporation"
+ },
+ {
+  "id": "IT0004810054",
+  "isin": "IT0004810054",
+  "symbol": "UNI.MI",
+  "name": "Unipol",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Unipol Gruppo S.p.A."
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE0005089031",
+  "isin": "DE0005089031",
+  "symbol": "UTDI.DE",
+  "name": "United Internet",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "United Internet AG"
+  ],
+  "wikipedia": "United Internet"
+ },
+ {
+  "id": "GB00B39J2M42",
+  "isin": "GB00B39J2M42",
+  "symbol": "UU.L",
+  "name": "United Utilities",
+  "type": "stock",
+  "currency": "GBp",
+  "aliases": [
+   "United Utilities Group PLC"
+  ],
+  "wikipedia": "United Utilities"
+ },
+ {
+  "id": "US91324P1021",
+  "isin": "US91324P1021",
+  "symbol": "UNH.DE",
+  "name": "UnitedHealth",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "UnitedHealth Group Incorporated",
+   "UnitedHealth Group"
+  ],
+  "wikipedia": "UnitedHealth Group"
+ },
+ {
+  "id": "NL0015000IY2",
+  "isin": "NL0015000IY2",
+  "symbol": "UMG.AS",
+  "name": "Universal Music Group",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Universal Music Group NV"
+  ],
+  "wikipedia": "Universal Music Group"
+ },
+ {
+  "id": "FI0009005987",
+  "isin": "FI0009005987",
+  "symbol": "RPL.DE",
+  "name": "UPM-Kymmene",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "UPM-Kymmene Oyj",
+   "UPM"
+  ],
+  "wikipedia": "UPM (company)"
+ },
+ {
+  "id": "US9113121068",
+  "isin": "US9113121068",
+  "symbol": "UPAB.DE",
+  "name": "UPS",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "United Parcel Service",
+   "United Parcel Service, Inc."
+  ],
+  "wikipedia": "United Parcel Service"
+ },
+ {
+  "id": "IE000YYE6WK5",
+  "isin": "IE000YYE6WK5",
+  "symbol": "DFEN.DE",
+  "name": "VanEck Defense",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "VanEck Defense UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BQQP9F84",
+  "isin": "IE00BQQP9F84",
+  "symbol": "G2X.DE",
+  "name": "VanEck Gold Miners",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "VanEck Vectors Gold Miners UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BQQP9G91",
+  "isin": "IE00BQQP9G91",
+  "symbol": "G2XJ.DE",
+  "name": "VanEck Junior Gold Miners",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "VanEck Vectors Junior Gold Miners UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "NL0011683594",
+  "isin": "NL0011683594",
+  "symbol": "VDIV.DE",
+  "name": "VanEck Morningstar Developed Markets Dividend Leaders",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "VanEck Vectors Morningstar Developed Markets Dividend Leaders UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BMC38736",
+  "isin": "IE00BMC38736",
+  "symbol": "VVSM.DE",
+  "name": "VanEck Semiconductor",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "VanEck Vectors Semiconductor ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BYWQWR46",
+  "isin": "IE00BYWQWR46",
+  "symbol": "ESP0.DE",
+  "name": "VanEck Video Gaming and eSports",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "VanEck Vectors Video Gaming and eSports UCITS ETF A USD"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BZ163G84",
+  "isin": "IE00BZ163G84",
+  "symbol": "VECP.DE",
+  "name": "Vanguard EUR Corporate Bond (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard EUR Corporate Bond UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BK5BQT80",
+  "isin": "IE00BK5BQT80",
+  "symbol": "VWCE.DE",
+  "name": "Vanguard FTSE All-World (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE All-World UCITS ETF USD Accumulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3RBWM25",
+  "isin": "IE00B3RBWM25",
+  "symbol": "VGWL.DE",
+  "name": "Vanguard FTSE All-World (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE All-World UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B8GKDB10",
+  "isin": "IE00B8GKDB10",
+  "symbol": "VGWD.DE",
+  "name": "Vanguard FTSE All-World High Dividend Yield (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Distributing"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BK5BQX27",
+  "isin": "IE00BK5BQX27",
+  "symbol": "VWCG.DE",
+  "name": "Vanguard FTSE Developed Europe (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE Developed Europe UCITS ETF EUR Accumulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B945VV12",
+  "isin": "IE00B945VV12",
+  "symbol": "VGEU.DE",
+  "name": "Vanguard FTSE Developed Europe (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE Developed Europe UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BKX55T58",
+  "isin": "IE00BKX55T58",
+  "symbol": "VGVE.DE",
+  "name": "Vanguard FTSE Developed World (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BK5BR733",
+  "isin": "IE00BK5BR733",
+  "symbol": "VFEA.DE",
+  "name": "Vanguard FTSE Emerging Markets (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE Emerging Markets UCITS ETF USD Accumulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3VVMM84",
+  "isin": "IE00B3VVMM84",
+  "symbol": "VFEM.DE",
+  "name": "Vanguard FTSE Emerging Markets (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE Emerging Markets UCITS ETF USD Distributing"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BK5BQW10",
+  "isin": "IE00BK5BQW10",
+  "symbol": "VNRA.DE",
+  "name": "Vanguard FTSE North America (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard FTSE North America UCITS ETF USD Accuimulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BG47KH54",
+  "isin": "IE00BG47KH54",
+  "symbol": "VAGF.DE",
+  "name": "Vanguard Global Aggregate Bond EUR Hedged (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard Global Aggregate Bond UCITS ETF EUR Hedged Accumulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BFMXXD54",
+  "isin": "IE00BFMXXD54",
+  "symbol": "VUAA.DE",
+  "name": "Vanguard S&P 500 (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard S&P 500 UCITS ETF USD Accumulation"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00B3XXRP09",
+  "isin": "IE00B3XXRP09",
+  "symbol": "VUSA.DE",
+  "name": "Vanguard S&P 500 (Dist)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Vanguard S&P 500 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "CH0311864901",
+  "isin": "CH0311864901",
+  "symbol": "VACN.SW",
+  "name": "VAT Group",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "VAT Group AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "FR0000124141",
+  "isin": "FR0000124141",
+  "symbol": "VVD.DE",
+  "name": "Veolia",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Veolia Environnement"
+  ],
+  "wikipedia": "Veolia"
+ },
+ {
+  "id": "AT0000746409",
+  "isin": "AT0000746409",
+  "symbol": "OEWA.DE",
+  "name": "Verbund",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Verbund AG"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "US92345Y1064",
+  "isin": "US92345Y1064",
+  "symbol": "VRSK",
+  "name": "Verisk Analytics",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Verisk Analytics, Inc."
+  ],
+  "wikipedia": "Verisk Analytics"
+ },
+ {
+  "id": "US92343V1044",
+  "isin": "US92343V1044",
+  "symbol": "BAC.DE",
+  "name": "Verizon",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Verizon Communications Inc."
+  ],
+  "wikipedia": "Verizon"
+ },
+ {
+  "id": "US92532F1003",
+  "isin": "US92532F1003",
+  "symbol": "VX1.DE",
+  "name": "Vertex Pharmaceuticals",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Vertex Pharmaceuticals Incorporated"
+  ],
+  "wikipedia": "Vertex Pharmaceuticals"
+ },
+ {
+  "id": "DK0061539921",
+  "isin": "DK0061539921",
+  "symbol": "VWSB.DE",
+  "name": "Vestas",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Vestas Wind Systems A/S"
+  ],
+  "wikipedia": "Vestas"
+ },
+ {
+  "id": "FR0000125486",
+  "isin": "FR0000125486",
+  "symbol": "SQU.DE",
+  "name": "Vinci",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Vinci S.A."
+  ],
+  "wikipedia": "Vinci SA"
+ },
+ {
+  "id": "US92826C8394",
+  "isin": "US92826C8394",
+  "symbol": "3V64.DE",
+  "name": "Visa",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Visa Inc"
+  ],
+  "wikipedia": "Visa Inc."
+ },
+ {
+  "id": "GB00BH4HKS39",
+  "isin": "GB00BH4HKS39",
+  "symbol": "VODI.DE",
+  "name": "Vodafone",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Vodafone Group Public Limited Company"
+  ],
+  "wikipedia": "Vodafone"
+ },
+ {
+  "id": "DE0007664005",
+  "isin": "DE0007664005",
+  "symbol": "VOW.DE",
+  "name": "Volkswagen",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Volkswagen AG",
+   "VW-Konzern",
+   "Volkswagen Group"
+  ],
+  "wikipedia": "Volkswagen Group"
+ },
+ {
+  "id": "DE0007664039",
+  "isin": "DE0007664039",
+  "symbol": "VOW3.DE",
+  "name": "Volkswagen (Vz.)",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Volkswagen AG",
+   "VW-Konzern",
+   "Volkswagen Group"
+  ],
+  "wikipedia": "Volkswagen Group"
+ },
+ {
+  "id": "SE0000115446",
+  "isin": "SE0000115446",
+  "symbol": "VOLV-B.ST",
+  "name": "Volvo",
+  "type": "stock",
+  "currency": "SEK",
+  "aliases": [],
+  "wikipedia": "Volvo"
+ },
+ {
+  "id": "DE000A1ML7J1",
+  "isin": "DE000A1ML7J1",
+  "symbol": "VNA.DE",
+  "name": "Vonovia",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Vonovia SE"
+  ],
+  "wikipedia": "Vonovia"
+ },
+ {
+  "id": "DE0007667107",
+  "isin": "DE0007667107",
+  "symbol": "VOS.DE",
+  "name": "Vossloh",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Vossloh AG"
+  ],
+  "wikipedia": "Vossloh AG"
+ },
+ {
+  "id": "DE000WCH8881",
+  "isin": "DE000WCH8881",
+  "symbol": "WCH.DE",
+  "name": "Wacker Chemie",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Wacker Chemie AG"
+  ],
+  "wikipedia": "Wacker Chemie AG"
+ },
+ {
+  "id": "DE000WACK012",
+  "isin": "DE000WACK012",
+  "symbol": "WAC.DE",
+  "name": "Wacker Neuson",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Wacker Neuson SE"
+  ],
+  "wikipedia": "Wacker Neuson"
+ },
+ {
+  "id": "US9311421039",
+  "isin": "US9311421039",
+  "symbol": "WMT.DE",
+  "name": "Walmart",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Walmart Inc."
+  ],
+  "wikipedia": "Walmart"
+ },
+ {
+  "id": "US2546871060",
+  "isin": "US2546871060",
+  "symbol": "WDP.DE",
+  "name": "Walt Disney",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Disney",
+   "Walt Disney Co",
+   "Walt Disney Company",
+   "The Walt Disney Company"
+  ],
+  "wikipedia": "The Walt Disney Company"
+ },
+ {
+  "id": "US9497461015",
+  "isin": "US9497461015",
+  "symbol": "NWT.DE",
+  "name": "Wells Fargo",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Wells Fargo & Company"
+  ],
+  "wikipedia": "Wells Fargo"
+ },
+ {
+  "id": "US9581021055",
+  "isin": "US9581021055",
+  "symbol": "WDC.DE",
+  "name": "Western Digital",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Western Digital Corporation"
+  ],
+  "wikipedia": "Western Digital"
+ },
+ {
+  "id": "IE00BDVPNG13",
+  "isin": "IE00BDVPNG13",
+  "symbol": "WTI2.DE",
+  "name": "WisdomTree Artificial Intelligence (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "WisdomTree Artificial Intelligence UCITS ETF - USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BZ56SW52",
+  "isin": "IE00BZ56SW52",
+  "symbol": "WTEM.DE",
+  "name": "WisdomTree Global Quality Dividend Growth (Acc)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "WisdomTree Global Quality Dividend Growth UCITS ETF - USD Acc"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "JE00B1VS3770",
+  "isin": "JE00B1VS3770",
+  "symbol": "VZLD.DE",
+  "name": "WisdomTree Physical Gold",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "JE00B1VS3333",
+  "isin": "JE00B1VS3333",
+  "symbol": "VZLC.DE",
+  "name": "WisdomTree Physical Silver",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "GB00B15KXV33",
+  "isin": "GB00B15KXV33",
+  "symbol": "OD7F.DE",
+  "name": "WisdomTree WTI Crude Oil",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "NL0000395903",
+  "isin": "NL0000395903",
+  "symbol": "WKL.AS",
+  "name": "Wolters Kluwer",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Wolters Kluwer N.V."
+  ],
+  "wikipedia": "Wolters Kluwer"
+ },
+ {
+  "id": "US98138H1014",
+  "isin": "US98138H1014",
+  "symbol": "WDAY",
+  "name": "Workday",
+  "type": "stock",
+  "currency": "USD",
+  "aliases": [
+   "Workday, Inc."
+  ],
+  "wikipedia": "Workday, Inc."
+ },
+ {
+  "id": "FI0009003727",
+  "isin": "FI0009003727",
+  "symbol": "WRT1V.HE",
+  "name": "Wärtsilä",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Wärtsilä Oyj Abp"
+  ],
+  "wikipedia": "Wärtsilä"
+ },
+ {
+  "id": "DE0008051004",
+  "isin": "DE0008051004",
+  "symbol": "WUW.DE",
+  "name": "Wüstenrot & Württembergische",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Wüstenrot & Württembergische AG"
+  ],
+  "wikipedia": "Wüstenrot & Württembergische"
+ },
+ {
+  "id": "US98389B1008",
+  "isin": "US98389B1008",
+  "symbol": "NRN.DE",
+  "name": "Xcel Energy",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Xcel Energy Inc."
+  ],
+  "wikipedia": "Xcel Energy"
+ },
+ {
+  "id": "DE000A0S9GB0",
+  "isin": "DE000A0S9GB0",
+  "symbol": "4GLD.DE",
+  "name": "Xetra-Gold",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [],
+  "wikipedia": null
+ },
+ {
+  "id": "KYG9830T1067",
+  "isin": "KYG9830T1067",
+  "symbol": "1810.HK",
+  "name": "Xiaomi",
+  "type": "stock",
+  "currency": "HKD",
+  "aliases": [
+   "Xiaomi Corporation"
+  ],
+  "wikipedia": "Xiaomi"
+ },
+ {
+  "id": "IE00BGV5VN51",
+  "isin": "IE00BGV5VN51",
+  "symbol": "XAIX.DE",
+  "name": "Xtrackers Artificial Intelligence & Big Data 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0274211480",
+  "isin": "LU0274211480",
+  "symbol": "DBXD.DE",
+  "name": "Xtrackers DAX 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers DAX UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BG370F43",
+  "isin": "IE00BG370F43",
+  "symbol": "XZEM.DE",
+  "name": "Xtrackers ESG MSCI Emerging Markets 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI Emerging Markets ESG UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BZ02LR44",
+  "isin": "IE00BZ02LR44",
+  "symbol": "XZW0.DE",
+  "name": "Xtrackers ESG MSCI World 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World ESG UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0380865021",
+  "isin": "LU0380865021",
+  "symbol": "XESC.DE",
+  "name": "Xtrackers Euro Stoxx 50 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Euro Stoxx 50 UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BGV5VR99",
+  "isin": "IE00BGV5VR99",
+  "symbol": "XMOV.DE",
+  "name": "Xtrackers Future Mobility 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Future Mobility UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0290358497",
+  "isin": "LU0290358497",
+  "symbol": "XEON.DE",
+  "name": "Xtrackers II EUR Overnight Rate Swap 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers II EUR Overnight Rate Swap UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0514695690",
+  "isin": "LU0514695690",
+  "symbol": "XCS6.DE",
+  "name": "Xtrackers MSCI China 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI China UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BTJRMP35",
+  "isin": "IE00BTJRMP35",
+  "symbol": "XMME.DE",
+  "name": "Xtrackers MSCI Emerging Markets 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI Emerging Markets UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0292107645",
+  "isin": "LU0292107645",
+  "symbol": "XMEM.DE",
+  "name": "Xtrackers MSCI Emerging Markets Swap 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI Emerging Markets Swap UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0274209237",
+  "isin": "LU0274209237",
+  "symbol": "XMEU.DE",
+  "name": "Xtrackers MSCI Europe 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers - MSCI Europe UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BJ0KDR00",
+  "isin": "IE00BJ0KDR00",
+  "symbol": "XD9U.DE",
+  "name": "Xtrackers MSCI USA 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI USA UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BFMNPS42",
+  "isin": "IE00BFMNPS42",
+  "symbol": "XZMU.DE",
+  "name": "Xtrackers MSCI USA ESG 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI USA ESG UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BJ0KDQ92",
+  "isin": "IE00BJ0KDQ92",
+  "symbol": "XDWD.DE",
+  "name": "Xtrackers MSCI World 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BK1PV551",
+  "isin": "IE00BK1PV551",
+  "symbol": "XDWL.DE",
+  "name": "Xtrackers MSCI World 1D",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World UCITS ETF 1D"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HR47",
+  "isin": "IE00BM67HR47",
+  "symbol": "XWTS.DE",
+  "name": "Xtrackers MSCI World Communication Services 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Communication Services UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HP23",
+  "isin": "IE00BM67HP23",
+  "symbol": "XDWC.DE",
+  "name": "Xtrackers MSCI World Consumer Discretionary 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Consumer Discretionary UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HN09",
+  "isin": "IE00BM67HN09",
+  "symbol": "XDWS.DE",
+  "name": "Xtrackers MSCI World Consumer Staples 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Consumer Staples UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HM91",
+  "isin": "IE00BM67HM91",
+  "symbol": "XDW0.DE",
+  "name": "Xtrackers MSCI World Energy 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Energy UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE0006WW1TQ4",
+  "isin": "IE0006WW1TQ4",
+  "symbol": "EXUS.DE",
+  "name": "Xtrackers MSCI World ex USA 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Msci World Ex Usa Ucits Etf"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HL84",
+  "isin": "IE00BM67HL84",
+  "symbol": "XDWF.DE",
+  "name": "Xtrackers MSCI World Financials 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Financials UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HK77",
+  "isin": "IE00BM67HK77",
+  "symbol": "XDWH.DE",
+  "name": "Xtrackers MSCI World Health Care 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Health Care UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BCHWNQ94",
+  "isin": "IE00BCHWNQ94",
+  "symbol": "XDWY.DE",
+  "name": "Xtrackers MSCI World High Dividend Yield 1D",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World High Dividend Yield UCITS ETF 1D"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HV82",
+  "isin": "IE00BM67HV82",
+  "symbol": "XDWI.DE",
+  "name": "Xtrackers MSCI World Industrials 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Industrials UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HT60",
+  "isin": "IE00BM67HT60",
+  "symbol": "XDWT.DE",
+  "name": "Xtrackers MSCI World Information Technology 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Information Technology UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HS53",
+  "isin": "IE00BM67HS53",
+  "symbol": "XDWM.DE",
+  "name": "Xtrackers MSCI World Materials 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Materials UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BL25JN58",
+  "isin": "IE00BL25JN58",
+  "symbol": "XDEB.DE",
+  "name": "Xtrackers MSCI World Minimum Volatility 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Minimum Volatility UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BL25JP72",
+  "isin": "IE00BL25JP72",
+  "symbol": "XDEM.DE",
+  "name": "Xtrackers MSCI World Momentum 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Momentum UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BL25JL35",
+  "isin": "IE00BL25JL35",
+  "symbol": "XDEQ.DE",
+  "name": "Xtrackers MSCI World Quality 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Quality UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0274208692",
+  "isin": "LU0274208692",
+  "symbol": "DBXW.DE",
+  "name": "Xtrackers MSCI World Swap 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Swap UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BM67HQ30",
+  "isin": "IE00BM67HQ30",
+  "symbol": "XDWU.DE",
+  "name": "Xtrackers MSCI World Utilities 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Utilities UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BL25JM42",
+  "isin": "IE00BL25JM42",
+  "symbol": "XDEV.DE",
+  "name": "Xtrackers MSCI World Value 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers MSCI World Value UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BMFKG444",
+  "isin": "IE00BMFKG444",
+  "symbol": "XNAS.DE",
+  "name": "Xtrackers Nasdaq 100 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Nasdaq 100 UCITS ETF"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0839027447",
+  "isin": "LU0839027447",
+  "symbol": "XDJP.DE",
+  "name": "Xtrackers Nikkei 225 1D",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Nikkei 225 UCITS ETF 1D"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "DE000A1E0HR8",
+  "isin": "DE000A1E0HR8",
+  "symbol": "XAD5.DE",
+  "name": "Xtrackers Physical Gold ETC (EUR)",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Physical Gold ETC"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0490618542",
+  "isin": "LU0490618542",
+  "symbol": "D5BM.DE",
+  "name": "Xtrackers S&P 500 Swap 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers S&P 500 Swap UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0328475792",
+  "isin": "LU0328475792",
+  "symbol": "XSX6.DE",
+  "name": "Xtrackers Stoxx Europe 600 1C",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Stoxx Europe 600 UCITS ETF 1C"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "LU0292096186",
+  "isin": "LU0292096186",
+  "symbol": "XGSD.DE",
+  "name": "Xtrackers Stoxx Global Select Dividend 100 Swap 1D",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers Stoxx Global Select Dividend 100 Swap UCITS ETF 1D"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "IE00BDR5HM97",
+  "isin": "IE00BDR5HM97",
+  "symbol": "XUHY.DE",
+  "name": "Xtrackers USD High Yield Corporate Bond",
+  "type": "etf",
+  "currency": "EUR",
+  "aliases": [
+   "Xtrackers USD High Yield Corporate Bond UCITS ETF 1D"
+  ],
+  "wikipedia": null
+ },
+ {
+  "id": "NO0010208051",
+  "isin": "NO0010208051",
+  "symbol": "YAR.OL",
+  "name": "Yara",
+  "type": "stock",
+  "currency": "NOK",
+  "aliases": [
+   "Yara International ASA"
+  ],
+  "wikipedia": "Yara International"
+ },
+ {
+  "id": "DE000ZAL1111",
+  "isin": "DE000ZAL1111",
+  "symbol": "ZAL.DE",
+  "name": "Zalando",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Zalando SE"
+  ],
+  "wikipedia": "Zalando"
+ },
+ {
+  "id": "US98978V1035",
+  "isin": "US98978V1035",
+  "symbol": "ZOE.DE",
+  "name": "Zoetis",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Zoetis Inc."
+  ],
+  "wikipedia": "Zoetis"
+ },
+ {
+  "id": "US98980G1022",
+  "isin": "US98980G1022",
+  "symbol": "0ZC.DE",
+  "name": "Zscaler",
+  "type": "stock",
+  "currency": "EUR",
+  "aliases": [
+   "Zscaler, Inc."
+  ],
+  "wikipedia": "Zscaler"
+ },
+ {
+  "id": "CH0011075394",
+  "isin": "CH0011075394",
+  "symbol": "ZURN.SW",
+  "name": "Zurich Insurance",
+  "type": "stock",
+  "currency": "CHF",
+  "aliases": [
+   "Zurich Insurance Group AG",
+   "Zurich Insurance Group"
+  ],
+  "wikipedia": "Zurich Insurance Group"
+ },
+ {
+  "id": "DK0060094928",
+  "isin": "DK0060094928",
+  "symbol": "ORSTED.CO",
+  "name": "Ørsted",
+  "type": "stock",
+  "currency": "DKK",
+  "aliases": [
+   "Orsted",
+   "Ørsted A/S"
+  ],
+  "wikipedia": null
+ }
+]
